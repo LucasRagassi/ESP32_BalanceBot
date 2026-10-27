@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>BalanceBot V1 | Painel</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">ESP32 · BALANCEBOT V1</p>
+        <h1>BalanceBot</h1>
+      </div>
+      <span id="connection" class="badge offline">Desconectado</span>
+    </header>
+
+    <section class="hero card">
+      <div>
+        <p class="eyebrow">Estado do sistema</p>
+        <h2 id="state">Aguardando telemetria</h2>
+        <p id="fault" class="muted">Motores físicos não são acionados nesta fase.</p>
+      </div>
+      <div class="angle">
+        <span id="angle">--.-</span><small>°</small>
+        <p>Ângulo estimado</p>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card metric"><span>Velocidade do giroscópio</span><strong><span id="gyro">--.-</span> °/s</strong></article>
+      <article class="card metric"><span>Execução do controle</span><strong><span id="execution">--</span> µs</strong></article>
+      <article class="card metric"><span>Jitter</span><strong><span id="jitter">--</span> µs</strong></article>
+      <article class="card metric"><span>Deadlines perdidos</span><strong id="deadlines">--</strong></article>
+    </section>
+
+    <section class="motor-grid">
+      <article class="card motor-card">
+        <p class="eyebrow">Motor esquerdo</p>
+        <h2>Creality 42-34</h2>
+        <p class="muted">TMC2209 A · Perfil e parâmetros independentes</p>
+        <dl>
+          <div><dt>Velocidade simulada</dt><dd><span id="left-speed">0</span> steps/s</dd></div>
+          <div><dt>Erro de passos simulado</dt><dd id="left-error">0</dd></div>
+        </dl>
+        <label>Limite de corrente RMS (A)
+          <input id="left-current" type="number" min="0" max="2" step="0.05" value="0">
+        </label>
+        <label>Velocidade máxima (steps/s)
+          <input id="left-max" type="number" min="1" max="20000" step="10" value="900">
+        </label>
+        <label>Aceleração (steps/s²)
+          <input id="left-accel" type="number" min="1" max="100000" step="50" value="3000">
+        </label>
+        <label>Sentido
+          <select id="left-direction"><option value="1">Normal</option><option value="-1">Invertido</option></select>
+        </label>
+      </article>
+      <article class="card motor-card">
+        <p class="eyebrow">Motor direito</p>
+        <h2>42HB34F08AB</h2>
+        <p class="muted">TMC2209 B · Perfil e parâmetros independentes</p>
+        <dl>
+          <div><dt>Velocidade simulada</dt><dd><span id="right-speed">0</span> steps/s</dd></div>
+          <div><dt>Erro de passos simulado</dt><dd id="right-error">0</dd></div>
+        </dl>
+        <label>Limite de corrente RMS (A)
+          <input id="right-current" type="number" min="0" max="2" step="0.05" value="0">
+        </label>
+        <label>Velocidade máxima (steps/s)
+          <input id="right-max" type="number" min="1" max="20000" step="10" value="1200">
+        </label>
+        <label>Aceleração (steps/s²)
+          <input id="right-accel" type="number" min="1" max="100000" step="50" value="4000">
+        </label>
+        <label>Sentido
+          <select id="right-direction"><option value="1">Normal</option><option value="-1" selected>Invertido</option></select>
+        </label>
+      </article>
+    </section>
+    <section class="card motor-settings">
+      <p class="eyebrow">Configuração independente</p>
+      <p id="spec-warning" class="warning">Corrente nominal, Rsense, microstepping, tensão e limites térmicos ainda precisam ser confirmados. Corrente 0 = não configurada; nenhuma configuração é aplicada a hardware.</p>
+      <div class="actions">
+        <button id="save-motors" class="button secondary" disabled>Salvar perfis</button>
+        <span id="config-status" class="muted">Parâmetros apenas simulados</span>
+      </div>
+    </section>
+
+    <section class="card controls">
+      <div>
+        <p class="eyebrow">Referência remota</p>
+        <h2>Movimento</h2>
+        <p class="muted">A desconexão zera a referência. As respostas STEP são apenas simuladas; nenhum TMC2209 é acionado.</p>
+      </div>
+      <label>Velocidade <input id="velocity" type="range" min="-1" max="1" step="0.05" value="0"><output id="velocity-value">0.00</output></label>
+      <label>Direção <input id="turn" type="range" min="-1" max="1" step="0.05" value="0"><output id="turn-value">0.00</output></label>
+      <div class="actions">
+        <button id="arm" class="button secondary" disabled>Iniciar simulação*</button>
+        <button id="disarm" class="button danger" disabled>Desarmar</button>
+      </div>
+      <p class="footnote">* Requer intertravamento fechado (GPIO 33 em nível baixo). O controle PID de 200 Hz só dirige modelos simulados.</p>
+    </section>
+
+    <footer>Wi-Fi local · Telemetria a 10 Hz · PID de equilíbrio a 200 Hz · Hardware desabilitado</footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
