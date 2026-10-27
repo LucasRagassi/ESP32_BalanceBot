@@ -9,7 +9,8 @@ enum class RobotState : uint8_t {
     Calibrating,
     Ready,
     Balancing,
-    Fault
+    Fault,
+    Demo
 };
 
 enum class FaultCode : uint8_t {
@@ -31,6 +32,8 @@ struct MotionCommand {
 
 struct TelemetrySnapshot {
     uint32_t timestampMs = 0;
+    uint32_t controlHeartbeatCount = 0;
+    bool controlHeartbeatSeen = false;
     RobotState state = RobotState::Disarmed;
     FaultCode fault = FaultCode::None;
     float angleDeg = 0.0F;
@@ -57,6 +60,7 @@ struct TelemetrySnapshot {
     uint32_t missedDeadlines = 0;
     bool remoteConnected = false;
     bool remoteCommandExpired = false;
+    bool imuAvailable = false;
 };
 
 struct ImuReading {

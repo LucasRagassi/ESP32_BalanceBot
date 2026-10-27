@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="referrer" content="no-referrer">
+  <title>BalanceBot | Configuração de rede</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/diagnostics.css">
+  <link rel="stylesheet" href="/network.css">
+  <script src="/network.js" defer></script>
+</head>
+<body>
+  <main class="shell diagnostics network">
+    <header class="topbar">
+      <div><p class="eyebrow">BALANCEBOT · AP + STA</p><h1>Configuração de rede</h1></div>
+      <nav><a href="/">Painel</a> · <a href="/diagnostics">Diagnóstico</a></nav>
+    </header>
+    <p class="card">Use um roteador com Wi-Fi <strong>2,4 GHz</strong>. O ESP32 clássico não conecta a uma rede exclusiva de 5 GHz. O AP <strong>BalanceBot-Setup · 192.168.4.1</strong> permanece disponível. Mudanças de canal e varreduras podem interromper brevemente clientes AP. Motores físicos continuam desabilitados.</p>
+    <p class="card">Configuração temporariamente sem autenticação adicional. Qualquer dispositivo com acesso ao AP ou à LAN pode alterar esta rede. Use somente em rede confiável. Isso não autoriza motores.</p>
+    <p id="network-message" role="status" aria-live="polite">Consultando estado da rede…</p>
+    <p id="network-poll-status" class="muted">Consultas a cada 3 s; não alteram os campos em edição.</p>
+    <noscript><p class="card">Ative JavaScript para configurar a rede. A API de diagnóstico permanece em /health.</p></noscript>
+    <div id="network-values" class="diagnostic-grid is-stale">
+      <section class="card"><h2>Access point de recuperação</h2><dl>
+        <div><dt>Estado</dt><dd id="net-ap-ready">—</dd></div>
+        <div><dt>SSID</dt><dd id="net-ap-ssid">—</dd></div>
+        <div><dt>IP</dt><dd id="net-ap-ip">—</dd></div>
+        <div><dt>Gateway / máscara</dt><dd id="net-ap-subnet">—</dd></div>
+        <div><dt>Canal real</dt><dd id="net-ap-channel">—</dd></div>
+        <div><dt>Clientes associados</dt><dd id="net-ap-clients">—</dd></div>
+      </dl></section>
+      <section class="card"><h2>Conexão ao roteador (STA)</h2><dl>
+        <div><dt>Estado</dt><dd id="net-state">—</dd></div>
+        <div><dt>Conectada</dt><dd id="net-connected">—</dd></div>
+        <div><dt>SSID STA (privado)</dt><dd id="net-ssid">—</dd></div>
+        <div><dt>Configuração na NVS</dt><dd id="net-saved">—</dd></div>
+        <div><dt>IP</dt><dd id="net-ip">—</dd></div>
+        <div><dt>Gateway</dt><dd id="net-gateway">—</dd></div>
+        <div><dt>Canal / RSSI</dt><dd id="net-signal">—</dd></div>
+        <div><dt>Último erro / motivo</dt><dd id="net-error">—</dd></div>
+        <div><dt>Nova tentativa em</dt><dd id="net-retry">—</dd></div>
+      </dl><p id="sta-access" class="muted">O IP STA aparecerá após obter endereço do roteador.</p></section>
+    </div>
+    <section class="card network-section" aria-labelledby="scan-title">
+      <h2 id="scan-title">Redes disponíveis em 2,4 GHz</h2>
+      <button id="scan" class="button secondary" type="button" disabled>Buscar redes</button>
+      <p id="scan-status" role="status">Varredura somente ao tocar em Buscar redes; até 16 resultados. Aguarde ao menos 15 s entre tentativas.</p>
+      <ul id="networks" class="network-list"></ul>
+      <p id="network-selection" class="muted">Nenhuma rede selecionada. Você também pode digitar o SSID manualmente.</p>
+      <p class="muted">Aguarde ao menos 15 s entre buscas. SSID oculto não pode ser descoberto pelo nome. Digite o SSID exato abaixo. A lista pode repetir o mesmo SSID em canais diferentes. Use rede aberta ou WPA/WPA2 Personal; redes corporativas/captive portal não são provisionadas por este formulário.</p>
+    </section>
+    <section class="card network-section" aria-labelledby="credentials-title">
+      <h2 id="credentials-title">Conectar e salvar automaticamente</h2>
+      <form id="credentials-form">
+        <label>SSID (até 32 bytes)<input id="sta-ssid" required maxlength="32" autocomplete="off" spellcheck="false"></label>
+        <label>Senha STA (mantida só nesta página)<input id="sta-password" type="password" maxlength="64" autocomplete="off"></label>
+        <label class="checkbox"><input id="open-network" type="checkbox">Autorizar rede aberta, sem senha</label>
+        <button id="test" class="button secondary" type="submit" disabled>Conectar e salvar</button>
+      </form>
+      <p class="muted">Ao conectar e receber IPv4, máscara e gateway válidos via DHCP, o ESP32 grava e verifica a NVS automaticamente. Não é necessária Internet nem confirmação posterior. Falhas ou cancelamento antes da gravação restauram a configuração anterior. Mudanças de canal podem desconectar clientes AP: reconecte ao BalanceBot-Setup e consulte o resultado. Fechar a página não cancela uma operação iniciada.</p>
+      <p id="net-result" role="status" aria-live="polite">Nenhuma operação neste boot.</p>
+      <div class="actions">
+        <button id="cancel" class="button danger" type="button" disabled>Cancelar e restaurar</button>
+      </div>
+    </section>
+    <footer>Sem upload automático · Servidores HTTP/WS únicos nas duas interfaces · <a href="/health">API JSON</a></footer>
+  </main>
+</body>
+</html>

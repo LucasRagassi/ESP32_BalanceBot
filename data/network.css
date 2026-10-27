@@ -1,0 +1,5 @@
+.network-section{margin-top:16px;margin-bottom:16px}.network form{display:flex;flex-wrap:wrap;gap:14px;align-items:end}.network label{display:grid;gap:7px;flex:1 1 240px;color:var(--muted)}
+.network input:not([type="checkbox"]){width:100%;min-width:0;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:11px;font:inherit}.network .checkbox{display:flex;align-items:center;gap:10px;flex-basis:100%}.network input[type="checkbox"]{width:20px;height:20px}
+.network-list{display:grid;gap:8px;list-style:none;padding:0}.network-list button{width:100%;text-align:left;background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:12px;overflow-wrap:anywhere;font:inherit;cursor:pointer}.network-list button:disabled{opacity:.6;cursor:default}
+.network #network-message{overflow-wrap:anywhere;min-height:2em}.network input:disabled{opacity:.5}.network #sta-access{overflow-wrap:anywhere}
+@media(max-width:700px){.network form{align-items:stretch;flex-direction:column}.network label{flex:initial}.network form button{width:100%}.network .actions{flex-wrap:wrap}}

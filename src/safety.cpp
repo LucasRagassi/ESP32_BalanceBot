@@ -24,6 +24,14 @@ bool SafetyStateMachine::finishCalibration(bool sensorsHealthy) {
     return true;
 }
 
+void SafetyStateMachine::enterDemo(FaultCode reason) {
+    if (state_ == RobotState::Disarmed || state_ == RobotState::Calibrating ||
+        state_ == RobotState::Ready) {
+        state_ = RobotState::Demo;
+        fault_ = reason;
+    }
+}
+
 bool SafetyStateMachine::requestBalance(bool interlockClosed, float angleDeg) {
     if (state_ != RobotState::Ready) {
         return false;
@@ -41,7 +49,7 @@ bool SafetyStateMachine::requestBalance(bool interlockClosed, float angleDeg) {
 }
 
 void SafetyStateMachine::disarm() {
-    if (state_ != RobotState::Fault) {
+    if (state_ != RobotState::Fault && state_ != RobotState::Demo) {
         state_ = RobotState::Disarmed;
         fault_ = FaultCode::None;
     }

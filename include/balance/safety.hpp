@@ -8,6 +8,7 @@ class SafetyStateMachine {
 public:
     bool beginCalibration();
     bool finishCalibration(bool sensorsHealthy);
+    void enterDemo(FaultCode reason);
     bool requestBalance(bool interlockClosed, float angleDeg);
     void disarm();
     void latchFault(FaultCode fault);

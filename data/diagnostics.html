@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <title>BalanceBot | Diagnóstico</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/diagnostics.css">
+  <script src="/diagnostics.js" defer></script>
+</head>
+<body>
+  <main class="shell diagnostics">
+    <header class="topbar">
+      <div><p class="eyebrow">BALANCEBOT · DIAGNÓSTICO</p><h1>Saúde do sistema</h1></div>
+      <nav><a href="/">Voltar ao painel</a> · <a href="/network">Configurar rede</a></nav>
+    </header>
+    <section class="card diagnostic-summary" aria-labelledby="summary-title">
+      <div>
+        <h2 id="summary-title">Consulta de diagnóstico</h2>
+        <p id="update-status" role="status" aria-live="polite">Aguardando primeira leitura…</p>
+        <p id="last-update" class="muted">Nenhuma leitura recebida.</p>
+      </div>
+      <button id="refresh" class="button secondary" type="button">Atualizar agora</button>
+    </section>
+    <noscript><p class="card">Ative JavaScript para atualizar os indicadores ou consulte a <a href="/health">API JSON /health</a>.</p></noscript>
+    <div id="diagnostic-values" class="diagnostic-grid" aria-label="Indicadores do último diagnóstico">
+      <section class="card" aria-labelledby="operation-title">
+        <h2 id="operation-title">Operação e segurança</h2>
+        <dl>
+          <div><dt>Modo</dt><dd id="mode">Aguardando</dd></div>
+          <div><dt>Estado</dt><dd id="robot-state">—</dd></div>
+          <div><dt>MPU6050</dt><dd id="imu">Aguardando</dd></div>
+          <div><dt>Motores físicos</dt><dd id="motors">Aguardando</dd></div>
+          <div><dt>Falha reportada</dt><dd id="fault">—</dd></div>
+        </dl>
+        <p class="muted">O modo DEMO mantém a interface disponível sem a MPU6050 e recusa armamento. Esta página apenas consulta dados.</p>
+      </section>
+      <section class="card" aria-labelledby="network-title">
+        <h2 id="network-title">Wi-Fi e serviços</h2>
+        <dl>
+          <div><dt>Access point</dt><dd id="wifi">Aguardando</dd></div>
+          <div><dt>Configuração AP</dt><dd id="ap-config">Aguardando</dd></div>
+          <div><dt>SSID</dt><dd id="ssid">—</dd></div>
+          <div><dt>IP / gateway</dt><dd id="address">—</dd></div>
+          <div><dt>Máscara</dt><dd id="netmask">—</dd></div>
+          <div><dt>Clientes associados</dt><dd id="clients">—</dd></div>
+          <div><dt>Canal real AP</dt><dd id="ap-channel">—</dd></div>
+          <div><dt>Modo do driver</dt><dd id="ap-driver-mode">—</dd></div>
+          <div><dt>Último evento AP</dt><dd id="ap-last-event">—</dd></div>
+          <div><dt>Eventos AP_START / STOP</dt><dd id="ap-events">—</dd></div>
+          <div><dt>BSSID AP</dt><dd id="ap-bssid">—</dd></div>
+          <div><dt>Driver mode / config rc</dt><dd id="ap-driver-rc">—</dd></div>
+          <div><dt>Scan / tentativas</dt><dd id="ap-scans">—</dd></div>
+          <div><dt>Conexão STA</dt><dd id="sta-connected">Aguardando</dd></div>
+          <div><dt>Estado STA</dt><dd id="sta-state">—</dd></div>
+          <div><dt>SSID STA</dt><dd id="sta-ssid">—</dd></div>
+          <div><dt>IP / gateway STA</dt><dd id="sta-address">—</dd></div>
+          <div><dt>Canal / RSSI STA</dt><dd id="sta-signal">—</dd></div>
+          <div><dt>Erro STA / motivo</dt><dd id="sta-error">—</dd></div>
+          <div><dt>HTTP</dt><dd id="http">Aguardando</dd></div>
+          <div><dt>Resposta /health</dt><dd id="http-response">—</dd></div>
+          <div><dt>WebSocket</dt><dd id="websocket">Aguardando</dd></div>
+          <div><dt>Clientes WebSocket</dt><dd id="ws-clients">—</dd></div>
+        </dl>
+        <p class="muted">AP mostra eventos e consistência do driver; IP e APIs não comprovam beacons recebidos pelo Android. HTTP/WS mostram escuta TCP local. Esta página não ocupa o controlador WebSocket.</p>
+      </section>
+      <section class="card" aria-labelledby="storage-title">
+        <h2 id="storage-title">LittleFS e painel</h2>
+        <dl>
+          <div><dt>LittleFS</dt><dd id="filesystem">Aguardando</dd></div>
+          <div><dt>index.html</dt><dd id="index-file">Aguardando</dd></div>
+          <div><dt>app.js</dt><dd id="script-file">Aguardando</dd></div>
+          <div><dt>style.css</dt><dd id="style-file">Aguardando</dd></div>
+        </dl>
+        <p class="muted">Disponibilidade dos arquivos do painel verificada pelo firmware.</p>
+      </section>
+      <section class="card" aria-labelledby="runtime-title">
+        <h2 id="runtime-title">FreeRTOS e memória</h2>
+        <dl>
+          <div><dt>Uptime</dt><dd id="uptime">—</dd></div>
+          <div><dt>Heap livre</dt><dd id="heap">—</dd></div>
+          <div><dt>Menor heap livre</dt><dd id="min-heap">—</dd></div>
+          <div><dt>Tarefa de controle</dt><dd id="task">Aguardando</dd></div>
+          <div><dt>Heartbeat</dt><dd id="heartbeat">Aguardando</dd></div>
+          <div><dt>Contador de ciclos</dt><dd id="heartbeat-count">—</dd></div>
+          <div><dt>Idade do heartbeat</dt><dd id="heartbeat-age">—</dd></div>
+          <div><dt>Razão do reset</dt><dd id="reset">—</dd></div>
+        </dl>
+      </section>
+      <section class="card build-card" aria-labelledby="build-title">
+        <h2 id="build-title">Firmware e build</h2>
+        <dl>
+          <div><dt>Versão</dt><dd id="version">—</dd></div>
+          <div><dt>Commit</dt><dd id="commit">—</dd></div>
+          <div><dt>Árvore de trabalho</dt><dd id="tree">—</dd></div>
+          <div><dt>Build UTC</dt><dd id="build">—</dd></div>
+          <div><dt>SHA-256 das fontes</dt><dd id="source-hash">—</dd></div>
+        </dl>
+      </section>
+    </div>
+    <footer>Atualização a cada 3 s após a resposta · Pausada com a página oculta · <a href="/health">API JSON /health</a></footer>
+  </main>
+</body>
+</html>

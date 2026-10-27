@@ -1,5 +1,5 @@
 (() => {
-  const labels = ["DESARMADO", "CALIBRANDO", "PRONTO", "EQUILIBRANDO", "FALHA"];
+  const labels = ["DESARMADO", "CALIBRANDO", "PRONTO", "EQUILIBRANDO", "FALHA", "DEMO (IMU ausente)"];
   const faultLabels = ["Nenhuma", "Sensor indisponível", "Leitura inválida", "Atraso de controle", "Inclinação excessiva", "Intertravamento aberto", "Passos perdidos (simulação)"];
   const connection = document.querySelector("#connection");
   const socketUrl = `ws://${location.hostname}:81/`;
@@ -9,6 +9,7 @@
   function connect() {
     socket = new WebSocket(socketUrl);
     socket.onopen = () => {
+      resetMotionInputs();
       connection.textContent = "Conectado";
       connection.className = "badge online";
       document.querySelector("#arm").disabled = false;
@@ -17,6 +18,7 @@
       sendMotion();
     };
     socket.onclose = () => {
+      resetMotionInputs();
       connection.textContent = "Desconectado";
       connection.className = "badge offline";
       document.querySelector("#arm").disabled = true;
@@ -30,9 +32,11 @@
       try { item = JSON.parse(data); } catch { return; }
       if (item.type !== "telemetry") return;
       document.querySelector("#state").textContent = labels[item.state] || "Desconhecido";
+      document.querySelector("#arm").disabled = item.state === 5 || !item.imu_available;
       document.querySelector("#save-motors").disabled = item.state === 3;
       const remote = item.remote_expired ? " · Comando remoto expirado; referência zerada" : "";
-      document.querySelector("#fault").textContent = `Falha: ${faultLabels[item.fault] || "Desconhecida"}${remote} · Motores físicos desabilitados`;
+      const demo = !item.imu_available ? " · Sem MPU6050: modo DEMO, motores desabilitados" : "";
+      document.querySelector("#fault").textContent = `Falha: ${faultLabels[item.fault] || "Desconhecida"}${demo}${remote} · Motores físicos desabilitados`;
       document.querySelector("#angle").textContent = Number(item.angle).toFixed(1);
       document.querySelector("#gyro").textContent = Number(item.gyro).toFixed(1);
       document.querySelector("#execution").textContent = Number(item.execution_us).toFixed(0);
@@ -58,6 +62,12 @@
 
   function send(value) {
     if (socket?.readyState === WebSocket.OPEN) socket.send(JSON.stringify(value));
+  }
+  function resetMotionInputs() {
+    for (const id of ["velocity", "turn"]) {
+      document.getElementById(id).value = "0";
+      document.getElementById(`${id}-value`).value = "0.00";
+    }
   }
   function sendMotion() {
     send({ type: "motion", velocity: Number(document.querySelector("#velocity").value), turn: Number(document.querySelector("#turn").value) });
