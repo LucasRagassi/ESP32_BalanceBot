@@ -3,3 +3,10 @@
 .piolibdeps/
 .vscode/
 *.log
+
+# KiCad - arquivos temporários e histórico local
+hardware/pcb/.history/
+*.lck
+*-backups/
+*.kicad_prl
+*-rescue.kicad_sch
