@@ -10,3 +10,4 @@ hardware/pcb/.history/
 *-backups/
 *.kicad_prl
 *-rescue.kicad_sch
+hardware/pcb/ERC*.rpt
