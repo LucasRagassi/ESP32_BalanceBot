@@ -11,3 +11,6 @@ hardware/pcb/.history/
 *.kicad_prl
 *-rescue.kicad_sch
 hardware/pcb/ERC*.rpt
+
+# Backups e arquivos auxiliares do KiCad
+*.bak
