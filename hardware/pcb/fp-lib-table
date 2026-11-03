@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib
+    (name "BalanceBot")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/../libraries/footprints/BalanceBot.pretty")
+    (options "")
+    (descr "Footprints personalizados do ESP32 BalanceBot")
+  )
+)

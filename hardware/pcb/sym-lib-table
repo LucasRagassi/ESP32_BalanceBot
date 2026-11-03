@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BalanceBot_MOSFET") (type "KiCad") (uri "${KIPRJMOD}/../libraries/symbols/CSD18540Q5B.kicad_sym") (options "") (descr ""))
+	(lib (name "BalanceBot_BMS") (type "KiCad") (uri "${KIPRJMOD}/../libraries/symbols/BQ76905RGRR.kicad_sym") (options "") (descr ""))
+)
