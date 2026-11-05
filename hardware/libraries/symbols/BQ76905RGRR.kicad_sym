@@ -147,7 +147,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 0 0)
 				(length 7.62)
 				(name "VC3A"
@@ -165,7 +165,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "VC3B"
@@ -183,7 +183,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "VC2"
@@ -201,7 +201,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "VC1"
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -10.16 0)
 				(length 7.62)
 				(name "VC0"
@@ -237,7 +237,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -12.7 0)
 				(length 7.62)
 				(name "SRP"
@@ -255,7 +255,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -15.24 0)
 				(length 7.62)
 				(name "SRN"
@@ -273,7 +273,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -17.78 0)
 				(length 7.62)
 				(name "TS"
@@ -291,7 +291,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 0 -20.32 0)
 				(length 7.62)
 				(name "DSG"
@@ -309,7 +309,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 0 -22.86 0)
 				(length 7.62)
 				(name "CHG"
@@ -327,7 +327,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 45.72 -25.4 180)
 				(length 7.62)
 				(name "VSS"
@@ -381,7 +381,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin open_collector line
 				(at 45.72 -17.78 180)
 				(length 7.62)
 				(name "ALERT"
@@ -399,7 +399,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 45.72 -15.24 180)
 				(length 7.62)
 				(name "REGOUT"
@@ -417,7 +417,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 45.72 -12.7 180)
 				(length 7.62)
 				(name "REGSRC"
@@ -453,10 +453,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 45.72 -7.62 180)
 				(length 7.62)
-				(name "V5"
+				(name "VC5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -471,7 +471,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 45.72 -5.08 180)
 				(length 7.62)
 				(name "VC4A"
@@ -489,7 +489,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 45.72 -2.54 180)
 				(length 7.62)
 				(name "VC4B"
@@ -507,10 +507,10 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 45.72 0 180)
 				(length 7.62)
-				(name "GND"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -526,6 +526,174 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "BAS40W"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS40W"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAS40W.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode Schottky"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BAS40W_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "BAS40W_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		(pin no_connect line (at 0 -2.54 90) (length 0) (hide yes)
+  (name "NC" (effects (font (size 1 1)))) (number "2" (effects (font (size 1 1)))))
+ )
 		(embedded_fonts no)
 	)
 )
