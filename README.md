@@ -1,6 +1,6 @@
 # ESP32 BalanceBot V1
 
-Base segura para o BalanceBot de aproximadamente 30 cm, com ESP32 DevKit/WROOM-32 a confirmar, MPU6050, um motor de passo Creality 42-34 no lado esquerdo e um 42HB34F08AB no lado direito, cada um com um TMC2209. Estrutura impressa em 3D e PCB KiCad são requisitos do projeto; consulte [CAD_REQUIREMENTS.md](./CAD_REQUIREMENTS.md) e [PCB_REQUIREMENTS.md](./PCB_REQUIREMENTS.md).
+Base segura para o BalanceBot de aproximadamente 30 cm, com ESP32 DevKit/WROOM-32 a confirmar, MPU6050, dois motores de passo Creality 42-34 BJ42D15-26V12, cada um com um TMC2209 independente. Estrutura impressa em 3D e PCB KiCad são requisitos do projeto; consulte [CAD_REQUIREMENTS.md](./CAD_REQUIREMENTS.md) e [PCB_REQUIREMENTS.md](./PCB_REQUIREMENTS.md).
 
 **Fase atual: simulação e arquitetura; nenhuma saída STEP/DIR ou driver físico é inicializado ou habilitado.** Valores elétricos dos motores e módulos permanecem pendentes de datasheet/medição. `esp32dev` é só o alvo genérico para compilar e não comprova qual DevKit está conectado.
 

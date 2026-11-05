@@ -17752,4 +17752,340 @@
 	(no_connect (at 290.83 109.22) (uuid "af0527ab-cef9-4ef6-b1b3-ac847c0ae36f"))
 	(text "Fase 2: ILIM_HIZ em GND; CE desabilitado com REGN ativo." (at 250.19 154.94 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "82f32796-14f1-4703-b04b-e787a59deb4d"))
 	(text "Carga USB e VM dos motores pendentes. NAO ENERGIZAR." (at 250.19 160.02 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "17f6c342-a774-42de-a448-950672910ac9"))
+
+	(symbol (lib_id "Device:C") (at 92.71 58.42 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c780a019-5cb6-4bf8-a197-59ba5c97d48c")
+		(property "Reference" "C35" (at 95.25 57.15 0) (effects (font (size 1 1)) (justify left)))
+		(property "Value" "100nF" (at 95.25 59.69 0) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "" (at 92.71 58.42 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(pin "1" (uuid "1c309d69-092c-4c2f-89c5-9df7f8c8b391"))
+		(pin "2" (uuid "60a3f12b-2ce3-404a-b389-530b077d64d3"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "C35") (unit 1))))
+	)
+	(wire (pts (xy 92.71 54.61) (xy 92.71 49.53)) (stroke (width 0) (type default)) (uuid "3770e27a-cb10-407d-994e-225ed7998b72"))
+	(wire (pts (xy 92.71 62.23) (xy 92.71 66.04)) (stroke (width 0) (type default)) (uuid "1c3c4f65-799b-4649-8372-2b665d37c5b0"))
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f0b289f-df95-4fb4-bd87-9faeab5905cf")
+		(property "Reference" "#PWR023"
+			(at 92.71 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "772f7f7b-b8e8-4079-99c0-1c0f9883a33f")
+		)
+		(instances
+			(project "BalanceBot"
+				(path "/45906b3a-9ead-42a6-b076-ec5a0673d815"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0f8fc5c-f2e7-4d7f-af3e-cfe8f4849324")
+		(property "Reference" "#PWR025"
+			(at 92.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 92.71 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 92.71 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab6b7daa-bf11-480f-816f-c1f10b26d0cf")
+		)
+		(instances
+			(project "BalanceBot"
+				(path "/45906b3a-9ead-42a6-b076-ec5a0673d815"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol (lib_id "Device:C") (at 110.49 58.42 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "50d2d248-8122-433b-9836-0ca1b302c53a")
+		(property "Reference" "C36" (at 113.03 57.15 0) (effects (font (size 1 1)) (justify left)))
+		(property "Value" "22uF" (at 113.03 59.69 0) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "" (at 110.49 58.42 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(pin "1" (uuid "56bcc4c3-75da-445a-af48-e40e300ace32"))
+		(pin "2" (uuid "49dc513d-bb62-49aa-823e-68112e2a2ee2"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "C36") (unit 1))))
+	)
+	(wire (pts (xy 110.49 54.61) (xy 110.49 49.53)) (stroke (width 0) (type default)) (uuid "ad5f83b5-60f4-4b9a-9bc3-9e17067c03cb"))
+	(wire (pts (xy 110.49 62.23) (xy 110.49 66.04)) (stroke (width 0) (type default)) (uuid "e1e8a64e-a16a-4004-add0-4f2aa7302016"))
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dacd7cbc-899b-49e4-926f-3a60c5ea064b")
+		(property "Reference" "#PWR024"
+			(at 110.49 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1896dfa4-625e-489a-93b5-926c334d17ad")
+		)
+		(instances
+			(project "BalanceBot"
+				(path "/45906b3a-9ead-42a6-b076-ec5a0673d815"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75c4e5fc-412e-4a24-815e-0ba231afd4c7")
+		(property "Reference" "#PWR026"
+			(at 110.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44cfd317-cc2a-4b5f-8339-a19ad686c865")
+		)
+		(instances
+			(project "BalanceBot"
+				(path "/45906b3a-9ead-42a6-b076-ec5a0673d815"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Desacoplamento junto a U1" (at 86.36 42.545 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "2ea3ad41-cf42-4097-9a27-6523fa9375d4"))
+	(text "Fase 3: 2x Creality BJ42D15-26V12; 1x TMC2209 por eixo." (at 250.19 169.545 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "1800ec6b-e045-4bfb-8c3b-c0a0dbc6169b"))
+	(text "VM, R16, corte e absorcao de frenagem pendentes." (at 250.19 174.625 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "b0b71ffc-bee1-4af3-9bdf-a222e711c489"))
 )

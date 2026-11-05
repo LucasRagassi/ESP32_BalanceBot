@@ -7,7 +7,7 @@ Este documento define entradas e verificações para o modelo CAD do BalanceBot 
 - Altura nominal do robô: **300 mm**, a confirmar se inclui rodas, para-choques ou antena.
 - Projetar chassi modular com placa base, suporte de ESP32, dois alojamentos de driver, IMU, bateria, conectores e tampa de serviço. Manter a placa IMU rigidamente ligada ao chassi, com eixos marcados e orientação documentada.
 - Reservar o centro de gravidade baixo e próximo ao eixo das rodas; registrar massa e posição de bateria, motores, eletrônica e estrutura após montagem.
-- Modelar os dois NEMA 17 pelos desenhos dimensionais dos modelos comprados (Creality 42-34 e 42HB34F08AB). Não assumir que os dois compartilham profundidade, eixo, padrão de montagem, comprimento de cabo ou torque.
+- Modelar os dois NEMA 17 pelo desenho dimensional do Creality 42-34 BJ42D15-26V12. Conferir as dimensões, o eixo, a furação e o chicote das duas unidades.
 - Usar interfaces/rasgos ajustáveis para distância entre eixos e montagem do motor até validar motor, roda, pneu e geometria de equilíbrio.
 - Prever rodas coaxiais; alinhamento, paralelismo, cambagem, folga e concentricidade precisam ser medidos. Registrar diâmetro efetivo e razão mecânica no projeto.
 

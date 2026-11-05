@@ -4,7 +4,7 @@
 
 - ESP32/PlatformIO + Arduino/FreeRTOS, AP Wi-Fi, painel LittleFS e WebSocket.
 - MPU6050, PID a 200 Hz, instrumentação de deadlines/jitter.
-- Perfis independentes para Creality 42-34 e 42HB34F08AB com dois TMC2209 previstos.
+- Perfis independentes para dois Creality 42-34 BJ42D15-26V12, com um TMC2209 por eixo.
 - Rampas de velocidade/aceleração, backend RMT isolado e mocks nativos de steppers/perda de passos.
 - Nenhum GPIO STEP/DIR/ENN iniciado e nenhum pulso/motor físico.
 

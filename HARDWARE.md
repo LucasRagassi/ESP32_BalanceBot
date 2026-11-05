@@ -6,8 +6,7 @@
 |---|---|---|
 | MCU | ESP32 DevKit com módulo ESP32-WROOM-32 | confirmar marcação, revisão e esquema físicos; PlatformIO usa `esp32dev` genérico |
 | IMU | MPU6050 | orientação, endereço e pull-ups devem ser conferidos no módulo |
-| Motor esquerdo | Creality 42-34, NEMA 17 | datasheet, corrente de fase, resistência/indutância e pinagem pendentes |
-| Motor direito | 42HB34F08AB, NEMA 17 | datasheet, corrente de fase, resistência/indutância e pinagem pendentes |
+| Motores esquerdo e direito | 2 × Creality 42-34 BJ42D15-26V12, NEMA 17 | Desenho Keli rev. A identifica 0,84 A DC por fase. Confirmar lotes, chicotes e comportamento térmico e dinâmico conforme relatório da Fase 3. |
 | Drivers | 2 × TMC2209 | módulo, Rsense, dissipação, UART e endereços pendentes |
 | Estrutura | Impressa em 3D, cerca de 300 mm | medidas finais e material conforme [CAD_REQUIREMENTS.md](./CAD_REQUIREMENTS.md) |
 | PCB | Personalizada em KiCad | requisitos de interface e segurança em [PCB_REQUIREMENTS.md](./PCB_REQUIREMENTS.md) |

@@ -8,7 +8,7 @@ Documento de requisitos, não um esquemático liberado para fabricação. Placa,
 
 - ESP32 DevKit/WROOM-32 removível, com acesso a EN/reset, USB e serial de depuração.
 - MPU6050 em I2C 3,3 V (SDA GPIO21, SCL GPIO22), conector polarizado, terra e pull-ups dimensionados após verificar os resistores já existentes no módulo IMU.
-- Dois sockets/conectores TMC2209 identificados A/esquerdo (Creality 42-34) e B/direito (42HB34F08AB); identificar claramente VM, GND, VIO, UART, EN, STEP, DIR e pares A/B do motor.
+- Dois sockets/conectores TMC2209 identificados A/esquerdo e B/direito (ambos Creality 42-34 BJ42D15-26V12); identificar claramente VM, GND, VIO, UART, EN, STEP, DIR e pares A/B do motor.
 - STEP/DIR planejados: esquerdo GPIO25/26; direito GPIO27/14. Conferir o DevKit e multiplexação de GPIO14 (JTAG) antes de fechar layout.
 - UART TMC com endereços distintos selecionados por MS1/MS2 ou método confirmado para os módulos reais. Definir topologia de UART (barramento/daisy-chain), resistores e pinos ESP32 após escolha do DevKit.
 - Intertravamento lógico GPIO33 com pull-up e contato normalmente aberto para GND, além de entrada de status do corte físico, se disponível.
