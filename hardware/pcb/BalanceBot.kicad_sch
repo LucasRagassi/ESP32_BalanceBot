@@ -8669,16 +8669,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 101.6) (xy 316.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1b4fb7-6b08-48ad-a31d-76f71e5236e9")
-	)
-	(wire
-		(pts
 			(xy 346.71 100.33) (xy 346.71 105.41)
 		)
 		(stroke
@@ -9517,16 +9507,6 @@
 		)
 		(uuid "139abfec-866c-4729-9b48-ea8c9006f4df")
 	)
-	(label "PACK-"
-		(at 431.8 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13f103b2-c4d5-4907-a757-582a0d44e96e")
-	)
 	(label "I2C_SDA"
 		(at 285.75 96.52 180)
 		(effects
@@ -9577,7 +9557,7 @@
 		)
 		(uuid "20a43a50-45c8-48d9-94a8-935f8969f249")
 	)
-	(label "BAT_2S_PROT"
+	(label "B+"
 		(at 346.71 127 0)
 		(effects
 			(font
@@ -9617,7 +9597,7 @@
 		)
 		(uuid "3419fc62-2f05-494f-94b4-7103c8a0213c")
 	)
-	(label "BAT_2S_PROT"
+	(label "B+"
 		(at 316.23 111.76 0)
 		(effects
 			(font
@@ -17464,8 +17444,8 @@
 	(wire (pts (xy 519.43 135.89) (xy 519.43 138.43)) (stroke (width 0) (type default)) (uuid "7e9368ae-b2b9-4059-84bb-4b94dee256cb"))
 	(label "B-" (at 519.43 138.43 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "8e212a64-0545-4ded-a97e-e84ba065aeb4"))
 	(text "J3: referencia B-; use interface de bancada isolada do GND do robo." (at 405.13 168.91 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "059c1e27-a74f-4149-9524-7746c68f37c6"))
-	(text "J4: NTC 10k externo no pack. Wake por TS e integracao pendentes." (at 405.13 173.99 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "807084db-3e4c-4605-9c14-919929360727"))
-	(text "R16 TBD; PACK- separado de GND. Prototipo em revisao." (at 405.13 179.07 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "296734b3-8a4c-4b7b-8a34-1b29e4285594"))
+	(text "J4: NTC externo no pack. Wake por TS pendente." (at 405.13 173.99 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "807084db-3e4c-4605-9c14-919929360727"))
+	(text "R16 TBD; PACK- = GND; B- isolado do GND." (at 405.13 179.07 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "296734b3-8a4c-4b7b-8a34-1b29e4285594"))
 	(symbol (lib_id "power:PWR_FLAG") (at 405.13 137.16 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "c05e6a32-7920-4b71-b9c3-9643ee6216b3")
 		(property "Reference" "#FLG01" (at 407.67 135.89 0) (hide yes) (effects (font (size 1 1)) (justify left)))
 		(property "Value" "PWR_FLAG" (at 407.67 138.43 0) (effects (font (size 1 1)) (justify left)))
@@ -17490,4 +17470,286 @@
 		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "#FLG03") (unit 1))))
 	)
 	(label "B-" (at 405.13 162.56 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "9217cc2e-d5c4-40e4-9ace-dd2f956a60cf"))
+
+	(symbol
+		(lib_id "power:GND")
+		(at 431.8 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fab0a526-e8ee-4268-8351-bc74476d8f63")
+		(property "Reference" "#PWR020"
+			(at 431.8 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 431.8 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 431.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 431.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 431.8 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "adaab19d-82e6-4ba3-a17b-18b9e0aef058")
+		)
+		(instances
+			(project "BalanceBot"
+				(path "/45906b3a-9ead-42a6-b076-ec5a0673d815"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "PACK- = GND" (at 435.61 114.3 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ce695fef-cc20-4eee-bbf7-1c4ae7d5b1bb"))
+	(symbol (lib_id "Device:R") (at 326.39 121.92 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "7845ab74-a77d-44a3-9a87-cdbfad1e20ac")
+		(property "Reference" "R27" (at 326.39 124.46 90) (effects (font (size 1 1))))
+		(property "Value" "100R" (at 326.39 126.365 90) (effects (font (size 1 1))))
+		(property "Footprint" "" (at 326.39 121.92 90) (hide yes) (effects (font (size 1 1))))
+		(pin "1" (uuid "da24ddd8-4ec4-4b65-971d-10edf4d2c097"))
+		(pin "2" (uuid "6953c4ae-922c-4627-8757-d0a7a2ec8799"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "R27") (unit 1))))
+	)
+	(wire (pts (xy 311.15 121.92) (xy 322.58 121.92)) (stroke (width 0) (type default)) (uuid "4c1be545-6f88-462b-80aa-c2c1a60faa91"))
+	(wire (pts (xy 330.2 121.92) (xy 337.82 121.92)) (stroke (width 0) (type default)) (uuid "44768045-298c-42f9-b46f-820165586437"))
+	(label "B+" (at 337.82 121.92 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "59443f77-36f7-4d89-8b1d-a0b58d786912"))
+	(symbol (lib_id "Device:C") (at 334.01 116.84 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c5387ad7-a069-43c2-8901-0783998fc173")
+		(property "Reference" "C34" (at 334.01 112.395 90) (effects (font (size 1 1))))
+		(property "Value" "1nF 50V" (at 334.01 114.3 90) (effects (font (size 1 1))))
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 334.01 116.84 90) (hide yes) (effects (font (size 1 1))))
+		(pin "1" (uuid "28038a77-7d36-4421-811f-b2d135f42b6d"))
+		(pin "2" (uuid "9586ef1c-bb69-4ff3-8c1c-5bca47fbf95a"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "C34") (unit 1))))
+	)
+	(wire (pts (xy 311.15 116.84) (xy 330.2 116.84)) (stroke (width 0) (type default)) (uuid "403b4009-cae9-4687-84f0-0bb0e540d634"))
+	(wire (pts (xy 337.82 116.84) (xy 345.44 116.84)) (stroke (width 0) (type default)) (uuid "a29cd14f-af00-473d-bd5b-e60b7df37b98"))
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dca05eb9-5a7e-4919-9aad-f5ddefded3a8")
+		(property "Reference" "#PWR021"
+			(at 345.44 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95666a46-b3b2-4b5e-9078-316d087e0d3d")
+		)
+		(instances
+			(project "BalanceBot"
+				(path "/45906b3a-9ead-42a6-b076-ec5a0673d815"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire (pts (xy 290.83 114.3) (xy 288.29 114.3)) (stroke (width 0) (type default)) (uuid "a1a52765-d9b3-4651-b2dc-2b28f4a9ac91"))
+	(wire (pts (xy 288.29 114.3) (xy 288.29 111.76)) (stroke (width 0) (type default)) (uuid "4f803862-0278-41cc-8b32-3cbc93840bc4"))
+	(wire (pts (xy 288.29 111.76) (xy 270.51 111.76)) (stroke (width 0) (type default)) (uuid "e41df2e1-0cc4-4409-b56c-9f26e5f50935"))
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9f96b13-18b0-40c2-8059-2c5431f62584")
+		(property "Reference" "#PWR022"
+			(at 270.51 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2725cd0d-b197-4496-949d-9b9dd4a2218e")
+		)
+		(instances
+			(project "BalanceBot"
+				(path "/45906b3a-9ead-42a6-b076-ec5a0673d815"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire (pts (xy 290.83 104.14) (xy 275.59 104.14)) (stroke (width 0) (type default)) (uuid "e719da04-73d3-48a1-ba27-238f93223a21"))
+	(label "CHG_CE_N" (at 275.59 104.14 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "6fe379ec-5f3a-4f42-977e-e9ecf212982e"))
+	(wire (pts (xy 311.15 101.6) (xy 313.69 101.6)) (stroke (width 0) (type default)) (uuid "b83d1b83-60df-4d5a-8a78-f8bd8d82bad9"))
+	(wire (pts (xy 313.69 101.6) (xy 316.23 101.6)) (stroke (width 0) (type default)) (uuid "9624f646-f2e7-47f4-84c0-38513cd1307f"))
+	(wire (pts (xy 313.69 101.6) (xy 313.69 104.14)) (stroke (width 0) (type default)) (uuid "14d231a7-ea35-4574-b659-0feff13146e5"))
+	(label "REGN" (at 313.69 104.14 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "11bee352-4e45-45e3-942b-5729d7ded8f4"))
+	(junction (at 313.69 101.6) (diameter 0) (color 0 0 0 0) (uuid "990bcf9c-975f-4245-b0da-5e6dd63d4033"))
+	(symbol (lib_id "Device:R") (at 273.05 147.32 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "d994b157-fd6e-416f-b105-78d50223a68b")
+		(property "Reference" "R28" (at 273.05 142.875 90) (effects (font (size 1 1))))
+		(property "Value" "10k" (at 273.05 144.78 90) (effects (font (size 1 1))))
+		(property "Footprint" "" (at 273.05 147.32 90) (hide yes) (effects (font (size 1 1))))
+		(pin "1" (uuid "019ac7c9-2612-4c0d-b46d-7d32accce599"))
+		(pin "2" (uuid "8a7e96e4-02dc-4aa3-9ff5-535f2d09ec7d"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "R28") (unit 1))))
+	)
+	(wire (pts (xy 269.24 147.32) (xy 254 147.32)) (stroke (width 0) (type default)) (uuid "80146fbe-fa89-47ee-8518-56b320a01ffb"))
+	(label "REGN" (at 254 147.32 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "be1cfbcc-d32d-4a44-bce6-f0793fa81659"))
+	(wire (pts (xy 276.86 147.32) (xy 285.75 147.32)) (stroke (width 0) (type default)) (uuid "b893f4fd-0e9f-4ac3-be53-cbce6d5b97ba"))
+	(label "CHG_CE_N" (at 285.75 147.32 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "259f9dc3-0cc7-4b1c-b4a0-7d5ea5271bcc"))
+	(no_connect (at 290.83 109.22) (uuid "af0527ab-cef9-4ef6-b1b3-ac847c0ae36f"))
+	(text "Fase 2: ILIM_HIZ em GND; CE desabilitado com REGN ativo." (at 250.19 154.94 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "82f32796-14f1-4703-b04b-e787a59deb4d"))
+	(text "Carga USB e VM dos motores pendentes. NAO ENERGIZAR." (at 250.19 160.02 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "17f6c342-a774-42de-a448-950672910ac9"))
 )
