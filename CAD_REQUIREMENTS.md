@@ -36,4 +36,4 @@ Este documento define entradas e verificações para o modelo CAD do BalanceBot 
 
 ## Pendências antes do CAD de fabricação
 
-Desenhos oficiais dos motores, rodas e eixos; drivers e dissipadores reais; dimensões da PCB; bateria e suporte; definição do que conta nos 300 mm; massa máxima; torque/velocidade; seleção de filamento e processo de impressão.
+Desenhos oficiais dos motores, rodas e eixos; drivers e dissipadores reais; dimensões da PCB; dimensões e suporte do pack 2S1P com duas Murata US18650VTC6; definição do que conta nos 300 mm; massa máxima; torque/velocidade; seleção de filamento e processo de impressão.

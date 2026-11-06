@@ -9,6 +9,7 @@
 | Motores esquerdo e direito | 2 × Creality 42-34 BJ42D15-26V12, NEMA 17 | Desenho Keli rev. A identifica 0,84 A DC por fase. Confirmar lotes, chicotes e comportamento térmico e dinâmico conforme relatório da Fase 3. |
 | Drivers | 2 × TMC2209 | módulo, Rsense, dissipação, UART e endereços pendentes |
 | Estrutura | Impressa em 3D, cerca de 300 mm | medidas finais e material conforme [CAD_REQUIREMENTS.md](./CAD_REQUIREMENTS.md) |
+| Bateria | 2 × Murata US18650VTC6 em 2S1P | Modelo e topologia definidos. Validar procedência, montagem, proteção, corrente e temperatura do pack. |
 | PCB | Personalizada em KiCad | requisitos de interface e segurança em [PCB_REQUIREMENTS.md](./PCB_REQUIREMENTS.md) |
 
 **Não tratar nenhum valor provisório de corrente/velocidade do firmware como rating de motor.** Corrente de fase, corrente RMS, Vsense/Rsense, alimentação, microstepping, térmica e pinagem dependem dos componentes reais.

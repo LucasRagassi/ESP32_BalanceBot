@@ -11,7 +11,8 @@
 ## Fase seguinte — fechar requisitos físicos
 
 - Confirmar DevKit/WROOM/revisão; reunir datasheets e medidas dos dois motores e módulos TMC2209 (incluindo Rsense).
-- Definir bateria, rodas, razão mecânica, velocidade/torque requeridos, microstep, corrente RMS e limites térmicos.
+- Pack definido com duas células Murata US18650VTC6 em 2S1P. Validar as condições de uso da Murata, procedência, montagem, chicote, corrente real e temperatura antes de fechar os parâmetros de carga, BMS e proteção.
+- Definir rodas, razão mecânica, velocidade/torque requeridos, microstep, corrente RMS e limites térmicos.
 - Fechar pinagem/UART, revisão PCB KiCad, corte independente e pulls de ENN.
 - Finalizar CAD para 300 mm com peças reais, massa, centro de gravidade, tolerâncias e dissipação.
 - Revisar ERC/DRC, fabricação/assemblagem e análise de risco antes de potência.

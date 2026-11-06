@@ -19,6 +19,7 @@ Documento de requisitos, não um esquemático liberado para fabricação. Placa,
 
 - Separar plano/rota de VM dos motores, retorno de alta corrente e alimentação lógica. Controlar loops de comutação e manter trilhas de sensor/IMU e I2C afastadas de STEP, motor e VM.
 - Reservar capacitor de bulk próximo a cada driver, cerâmicos de bypass e desacoplamento local, calculados conforme datasheet TMC2209 e módulo escolhido.
+- Usar pack de duas células Murata US18650VTC6 em 2S1P. Manter os limites de carga, descarga e temperatura em aberto até confrontar a documentação Murata com as condições e medições do conjunto.
 - Prever entrada de bateria com fusível substituível, proteção de polaridade/transientes, medição e pontos de teste. Dimensionar cobre, conectores, trilhas e térmica pela corrente contínua/pico real, não pela corrente RMS configurada apenas no software.
 - Cada driver precisa de ventilação/dissipação e acesso térmico. Validar temperatura em bancada; considerar sensor de temperatura e fault/DIAG por driver.
 - Planejar retorno de corrente e terra em estrela/zonas, reguladores com margem de picos do ESP32, filtro da IMU e acesso a medições de VM, 3V3, GND e UART.
@@ -36,4 +37,4 @@ Documento de requisitos, não um esquemático liberado para fabricação. Placa,
 
 ## Itens bloqueadores de fabricação
 
-Confirmar revisão do DevKit e sua pinagem; datasheets/rotulagem dos dois motores; corrente/fase, resistência/indutância e pares de bobinas; módulos TMC2209 e Rsense reais; tensão/faixa de bateria; wheel/gear ratio; corrente de stall, conectores, fusível, dispositivo de corte e dissipação.
+Confirmar revisão do DevKit e sua pinagem; datasheets/rotulagem dos dois motores; corrente/fase, resistência/indutância e pares de bobinas; módulos TMC2209 e Rsense reais; janela de operação e limites de proteção do pack 2S1P; wheel/gear ratio; corrente de stall, conectores, fusível, dispositivo de corte e dissipação.

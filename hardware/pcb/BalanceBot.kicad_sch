@@ -11082,7 +11082,7 @@
 		)
 		(uuid "119ba349-2023-469d-b322-432a654fe0e6")
 	)
-	(label "USBC_D-"
+	(label "USBC_D+"
 		(at 132.08 97.79 180)
 		(effects
 			(font
@@ -11402,7 +11402,7 @@
 		)
 		(uuid "aab56181-f197-42b6-95c2-481bb01aaea9")
 	)
-	(label "USBC_D+"
+	(label "USBC_D-"
 		(at 132.08 95.25 180)
 		(effects
 			(font
