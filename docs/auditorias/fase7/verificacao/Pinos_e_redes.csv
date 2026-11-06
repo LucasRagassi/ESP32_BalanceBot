@@ -1,0 +1,635 @@
+﻿Projeto;Referência;Pino;Função no símbolo;Tipo elétrico;Rede
+Principal;C3;1;;passive;+3V3
+Principal;C35;1;;passive;+3V3
+Principal;C36;1;;passive;+3V3
+Principal;C39;1;;passive;+3V3
+Principal;C45;1;;passive;+3V3
+Principal;C49;1;;passive;+3V3
+Principal;C50;1;;passive;+3V3
+Principal;L1;2;2_2;passive;+3V3
+Principal;R3;2;;passive;+3V3
+Principal;R32;1;;passive;+3V3
+Principal;R38;1;;passive;+3V3
+Principal;R4;2;;passive;+3V3
+Principal;R48;1;;passive;+3V3
+Principal;R7;1;;passive;+3V3
+Principal;U1;2;VDD_2;power_in;+3V3
+Principal;U2;6;VOS_6;input;+3V3
+Principal;U6;15;VCC_IO_15;power_in;+3V3
+Principal;U7;15;VCC_IO_15;power_in;+3V3
+Principal;U7;9;MS1/AD0_9;input;+3V3
+Principal;U8;5;VCC_5;power_in;+3V3
+Principal;U9;5;SENSE_5;input;+3V3
+Principal;U9;6;VDD_6;power_in;+3V3
+Principal;J10;1;Pin_1_1;passive;/ARM_SENSE
+Principal;R47;2;;passive;/ARM_SENSE
+Principal;C24;2;;passive;/B+
+Principal;C25;2;;passive;/B+
+Principal;F1;1;;passive;/B+
+Principal;J2;3;Pin_3_3;passive;/B+
+Principal;R13;2;;passive;/B+
+Principal;R23;2;;passive;/B+
+Principal;R24;2;;passive;/B+
+Principal;R27;2;;passive;/B+
+Principal;U4;22;BAT_22;power_out;/B+
+Principal;U4;23;BAT_23;passive;/B+
+Principal;C28;2;;passive;/B-
+Principal;C30;2;;passive;/B-
+Principal;C31;2;;passive;/B-
+Principal;C32;2;;passive;/B-
+Principal;C33;2;;passive;/B-
+Principal;J2;1;Pin_1_1;passive;/B-
+Principal;J3;1;Pin_1_1;passive;/B-
+Principal;J4;2;Pin_2_2;passive;/B-
+Principal;R15;2;;passive;/B-
+Principal;R16;1;;passive;/B-
+Principal;R18;1;;passive;/B-
+Principal;U5;11;VSS_11;power_in;/B-
+Principal;U5;21;EP_21;power_in;/B-
+Principal;J2;2;Pin_2_2;passive;/BM
+Principal;R14;2;;passive;/BM
+Principal;C30;1;;passive;/BMS_BAT
+Principal;D1;3;K_3;passive;/BMS_BAT
+Principal;U5;17;BAT_17;power_in;/BMS_BAT
+Principal;R20;1;;passive;/BMS_CHG_DRV
+Principal;U5;10;CHG_10;output;/BMS_CHG_DRV
+Principal;Q3;5;Drain_5;passive;/BMS_DRAIN_COMMON
+Principal;Q3;6;Drain_6;passive;/BMS_DRAIN_COMMON
+Principal;Q3;7;Drain_7;passive;/BMS_DRAIN_COMMON
+Principal;Q3;8;Drain_8;passive;/BMS_DRAIN_COMMON
+Principal;Q3;9;Drain_9;passive;/BMS_DRAIN_COMMON
+Principal;Q4;5;Drain_5;passive;/BMS_DRAIN_COMMON
+Principal;Q4;6;Drain_6;passive;/BMS_DRAIN_COMMON
+Principal;Q4;7;Drain_7;passive;/BMS_DRAIN_COMMON
+Principal;Q4;8;Drain_8;passive;/BMS_DRAIN_COMMON
+Principal;Q4;9;Drain_9;passive;/BMS_DRAIN_COMMON
+Principal;R19;1;;passive;/BMS_DSG_DRV
+Principal;U5;9;DSG_9;output;/BMS_DSG_DRV
+Principal;C32;1;;passive;/BMS_REGOUT
+Principal;R25;1;;passive;/BMS_REGOUT
+Principal;R26;1;;passive;/BMS_REGOUT
+Principal;U5;15;REGOUT_15;power_out;/BMS_REGOUT
+Principal;C31;1;;passive;/BMS_REGSRC
+Principal;D2;3;K_3;passive;/BMS_REGSRC
+Principal;U5;16;REGSRC_16;power_in;/BMS_REGSRC
+Principal;J3;2;Pin_2_2;passive;/BMS_SCL
+Principal;R25;2;;passive;/BMS_SCL
+Principal;U5;12;SCL_12;bidirectional;/BMS_SCL
+Principal;J3;3;Pin_3_3;passive;/BMS_SDA
+Principal;R26;2;;passive;/BMS_SDA
+Principal;U5;13;SDA_13;bidirectional;/BMS_SDA
+Principal;C29;1;;passive;/BMS_SRN
+Principal;R17;2;;passive;/BMS_SRN
+Principal;U5;7;SRN_7;input;/BMS_SRN
+Principal;C29;2;;passive;/BMS_SRP
+Principal;R18;2;;passive;/BMS_SRP
+Principal;U5;6;SRP_6;input;/BMS_SRP
+Principal;C33;1;;passive;/BMS_TS
+Principal;J4;1;Pin_1_1;passive;/BMS_TS
+Principal;U5;8;TS_8;bidirectional;/BMS_TS
+Principal;C27;2;;passive;/CELL0_SENSE
+Principal;C28;1;;passive;/CELL0_SENSE
+Principal;R15;1;;passive;/CELL0_SENSE
+Principal;U5;5;VC0_5;input;/CELL0_SENSE
+Principal;C26;2;;passive;/CELL1_SENSE
+Principal;C27;1;;passive;/CELL1_SENSE
+Principal;R14;1;;passive;/CELL1_SENSE
+Principal;U5;1;VC3A_1;input;/CELL1_SENSE
+Principal;U5;19;VC4A_19;input;/CELL1_SENSE
+Principal;U5;2;VC3B_2;input;/CELL1_SENSE
+Principal;U5;20;VC4B_20;input;/CELL1_SENSE
+Principal;U5;3;VC2_3;input;/CELL1_SENSE
+Principal;U5;4;VC1_4;input;/CELL1_SENSE
+Principal;C26;1;;passive;/CELL2_SENSE
+Principal;R13;1;;passive;/CELL2_SENSE
+Principal;U5;18;VC5_18;input;/CELL2_SENSE
+Principal;R28;2;;passive;/CHG_CE_N
+Principal;U4;13;~{CE}_13;input;/CHG_CE_N
+Principal;C4;2;;passive;/CP2102_3V3
+Principal;C5;1;;passive;/CP2102_3V3
+Principal;R8;1;;passive;/CP2102_3V3
+Principal;U3;6;VDD_6;power_in;/CP2102_3V3
+Principal;Q2;2;E_2;passive;/CP2102_DTR
+Principal;R9;2;;passive;/CP2102_DTR
+Principal;U3;28;~{DTR}_28;output;/CP2102_DTR
+Principal;Q1;2;E_2;passive;/CP2102_RTS
+Principal;R10;1;;passive;/CP2102_RTS
+Principal;U3;24;~{RTS}_24;output;/CP2102_RTS
+Principal;R43;1;;passive;/ENN_LOGIC
+Principal;U8;4;;output;/ENN_LOGIC
+Principal;C1;2;;passive;/ESP32_EN
+Principal;Q1;3;C_3;passive;/ESP32_EN
+Principal;R3;1;;passive;/ESP32_EN
+Principal;SW1;2;2_2;passive;/ESP32_EN
+Principal;U1;3;EN_3;input;/ESP32_EN
+Principal;U9;3;~{MR}_3;input;/ESP32_EN
+Principal;Q2;3;C_3;passive;/GPIO0
+Principal;R4;1;;passive;/GPIO0
+Principal;SW2;1;1_1;passive;/GPIO0
+Principal;U1;25;IO0_25;bidirectional;/GPIO0
+Principal;U4;14;SCL_14;input;/I2C_SCL
+Principal;U4;15;SDA_15;bidirectional;/I2C_SDA
+Principal;J8;1;Pin_1_1;passive;/IMU_OK
+Principal;R41;1;;passive;/IMU_OK
+Principal;U8;3;;input;/IMU_OK
+Principal;R44;1;;passive;/M_ARM_GPIO
+Principal;U1;37;IO23_37;bidirectional;/M_ARM_GPIO
+Principal;R44;2;;passive;/M_ARM_OK
+Principal;R45;1;;passive;/M_ARM_OK
+Principal;R47;1;;passive;/M_ARM_OK
+Principal;U8;1;;input;/M_ARM_OK
+Principal;U9;1;~{RESET}_1;output;/M_ARM_OK
+Principal;C40;1;;passive;/M_A_5VOUT
+Principal;R33;1;;passive;/M_A_5VOUT
+Principal;U6;8;5VOUT_8;power_out;/M_A_5VOUT
+Principal;J5;1;Pin_1_1;passive;/M_A_A1
+Principal;U6;24;OA1_24;output;/M_A_A1
+Principal;J5;2;Pin_2_2;passive;/M_A_A2
+Principal;U6;21;OA2_21;output;/M_A_A2
+Principal;J5;3;Pin_3_3;passive;/M_A_B1
+Principal;U6;26;OB1_26;output;/M_A_B1
+Principal;J5;4;Pin_4_4;passive;/M_A_B2
+Principal;U6;1;OB2_1;output;/M_A_B2
+Principal;R29;1;;passive;/M_A_BRA
+Principal;U6;23;BRA_23;input;/M_A_BRA
+Principal;R30;1;;passive;/M_A_BRB
+Principal;U6;27;BRB_27;input;/M_A_BRB
+Principal;C41;2;;passive;/M_A_CPI
+Principal;U6;5;CPI_5;input;/M_A_CPI
+Principal;C41;1;;passive;/M_A_CPO
+Principal;U6;4;CPO_4;input;/M_A_CPO
+Principal;U1;11;IO26_11;bidirectional;/M_A_DIR
+Principal;U6;19;DIR_19;input;/M_A_DIR
+Principal;R31;1;;passive;/M_A_STEP
+Principal;U1;10;IO25_10;bidirectional;/M_A_STEP
+Principal;U6;16;STEP_16;input;/M_A_STEP
+Principal;C42;1;;passive;/M_A_VCP
+Principal;U6;6;VCP_6;output;/M_A_VCP
+Principal;R33;2;;passive;/M_A_VREF
+Principal;R34;1;;passive;/M_A_VREF
+Principal;U6;17;VREF_17;passive;/M_A_VREF
+Principal;C46;1;;passive;/M_B_5VOUT
+Principal;R39;1;;passive;/M_B_5VOUT
+Principal;U7;8;5VOUT_8;power_out;/M_B_5VOUT
+Principal;J6;1;Pin_1_1;passive;/M_B_A1
+Principal;U7;24;OA1_24;output;/M_B_A1
+Principal;J6;2;Pin_2_2;passive;/M_B_A2
+Principal;U7;21;OA2_21;output;/M_B_A2
+Principal;J6;3;Pin_3_3;passive;/M_B_B1
+Principal;U7;26;OB1_26;output;/M_B_B1
+Principal;J6;4;Pin_4_4;passive;/M_B_B2
+Principal;U7;1;OB2_1;output;/M_B_B2
+Principal;R35;1;;passive;/M_B_BRA
+Principal;U7;23;BRA_23;input;/M_B_BRA
+Principal;R36;1;;passive;/M_B_BRB
+Principal;U7;27;BRB_27;input;/M_B_BRB
+Principal;C47;2;;passive;/M_B_CPI
+Principal;U7;5;CPI_5;input;/M_B_CPI
+Principal;C47;1;;passive;/M_B_CPO
+Principal;U7;4;CPO_4;input;/M_B_CPO
+Principal;U1;13;IO14_13;bidirectional;/M_B_DIR
+Principal;U7;19;DIR_19;input;/M_B_DIR
+Principal;R37;1;;passive;/M_B_STEP
+Principal;U1;12;IO27_12;bidirectional;/M_B_STEP
+Principal;U7;16;STEP_16;input;/M_B_STEP
+Principal;C48;1;;passive;/M_B_VCP
+Principal;U7;6;VCP_6;output;/M_B_VCP
+Principal;R39;2;;passive;/M_B_VREF
+Principal;R40;1;;passive;/M_B_VREF
+Principal;U7;17;VREF_17;passive;/M_B_VREF
+Principal;R32;2;;passive;/M_ENN
+Principal;R38;2;;passive;/M_ENN
+Principal;R43;2;;passive;/M_ENN
+Principal;U6;2;~{EN}_2;input;/M_ENN
+Principal;U7;2;~{EN}_2;input;/M_ENN
+Principal;J8;2;Pin_2_2;passive;/PWR_OK
+Principal;R42;1;;passive;/PWR_OK
+Principal;U8;6;;input;/PWR_OK
+Principal;C8;1;;passive;/REGN
+Principal;R28;1;;passive;/REGN
+Principal;U4;5;REGN_5;power_out;/REGN
+Principal;U1;34;RXD0/IO3_34;bidirectional;/RXD0/GPIO3
+Principal;U3;26;TXD_26;output;/RXD0/GPIO3
+Principal;Q4;1;Source_1;passive;/SHUNT_OUT
+Principal;Q4;2;Source_2;passive;/SHUNT_OUT
+Principal;Q4;3;Source_3;passive;/SHUNT_OUT
+Principal;R16;2;;passive;/SHUNT_OUT
+Principal;R17;1;;passive;/SHUNT_OUT
+Principal;R22;2;;passive;/SHUNT_OUT
+Principal;C18;2;;passive;/SYS_PWR
+Principal;C19;2;;passive;/SYS_PWR
+Principal;C2;1;;passive;/SYS_PWR
+Principal;C20;2;;passive;/SYS_PWR
+Principal;C21;2;;passive;/SYS_PWR
+Principal;C22;2;;passive;/SYS_PWR
+Principal;C23;2;;passive;/SYS_PWR
+Principal;U2;2;VIN_2;power_in;/SYS_PWR
+Principal;U2;3;EN_3;input;/SYS_PWR
+Principal;U4;25;SYS_25;power_out;/SYS_PWR
+Principal;R46;1;;passive;/TMC_TX
+Principal;U1;30;IO18_30;bidirectional;/TMC_TX
+Principal;R46;2;;passive;/TMC_UART
+Principal;U1;31;IO19_31;bidirectional;/TMC_UART
+Principal;U6;14;~{PD}/UART_14;bidirectional;/TMC_UART
+Principal;U7;14;~{PD}/UART_14;bidirectional;/TMC_UART
+Principal;U1;35;TXD0/IO1_35;bidirectional;/TXD0/GPIO1
+Principal;U3;25;RXD_25;input;/TXD0/GPIO1
+Principal;J1;A6;D+_A6;bidirectional;/USBC_D+
+Principal;J1;B6;D+_B6;bidirectional;/USBC_D+
+Principal;U3;5;D-_5;bidirectional;/USBC_D+
+Principal;J1;A7;D-_A7;bidirectional;/USBC_D-
+Principal;J1;B7;D-_B7;bidirectional;/USBC_D-
+Principal;U3;4;D+_4;bidirectional;/USBC_D-
+Principal;C12;2;;passive;/USB_5V
+Principal;C13;2;;passive;/USB_5V
+Principal;C6;2;;passive;/USB_5V
+Principal;C7;1;;passive;/USB_5V
+Principal;C9;2;;passive;/USB_5V
+Principal;J1;A4;VBUS_A4;passive;/USB_5V
+Principal;J1;A9;VBUS_A9;passive;/USB_5V
+Principal;J1;B4;VBUS_B4;passive;/USB_5V
+Principal;J1;B9;VBUS_B9;passive;/USB_5V
+Principal;R5;1;;passive;/USB_5V
+Principal;U3;7;VREGIN_7;power_in;/USB_5V
+Principal;U4;2;VBUS_2;power_in;/USB_5V
+Principal;U4;3;VBUS_3;passive;/USB_5V
+Principal;U4;8;VAC2_8;input;/USB_5V
+Principal;U4;9;VAC1_9;input;/USB_5V
+Principal;J10;2;Pin_2_2;passive;/VIO_SENSE
+Principal;R48;2;;passive;/VIO_SENSE
+Principal;F1;2;;passive;/VM_FUSED
+Principal;J7;1;Pin_1_1;passive;/VM_FUSED
+Principal;C37;1;;passive;/VM_MOTOR
+Principal;C38;1;;passive;/VM_MOTOR
+Principal;C42;2;;passive;/VM_MOTOR
+Principal;C43;1;;passive;/VM_MOTOR
+Principal;C44;1;;passive;/VM_MOTOR
+Principal;C48;2;;passive;/VM_MOTOR
+Principal;D3;2;A2_2;passive;/VM_MOTOR
+Principal;J7;3;Pin_3_3;passive;/VM_MOTOR
+Principal;J9;1;Pin_1_1;passive;/VM_MOTOR
+Principal;U6;22;VS_22;power_in;/VM_MOTOR
+Principal;U6;28;VS_28;passive;/VM_MOTOR
+Principal;U7;22;VS_22;power_in;/VM_MOTOR
+Principal;U7;28;VS_28;passive;/VM_MOTOR
+Principal;J1;SH;SHIELD_SH;passive;Earth
+Principal;C1;1;;passive;GND
+Principal;C12;1;;passive;GND
+Principal;C13;1;;passive;GND
+Principal;C14;1;;passive;GND
+Principal;C15;1;;passive;GND
+Principal;C16;1;;passive;GND
+Principal;C17;1;;passive;GND
+Principal;C18;1;;passive;GND
+Principal;C19;1;;passive;GND
+Principal;C2;2;;passive;GND
+Principal;C20;1;;passive;GND
+Principal;C21;1;;passive;GND
+Principal;C22;1;;passive;GND
+Principal;C23;1;;passive;GND
+Principal;C24;1;;passive;GND
+Principal;C25;1;;passive;GND
+Principal;C3;2;;passive;GND
+Principal;C34;2;;passive;GND
+Principal;C35;2;;passive;GND
+Principal;C36;2;;passive;GND
+Principal;C37;2;;passive;GND
+Principal;C38;2;;passive;GND
+Principal;C39;2;;passive;GND
+Principal;C4;1;;passive;GND
+Principal;C40;2;;passive;GND
+Principal;C43;2;;passive;GND
+Principal;C44;2;;passive;GND
+Principal;C45;2;;passive;GND
+Principal;C46;2;;passive;GND
+Principal;C49;2;;passive;GND
+Principal;C5;2;;passive;GND
+Principal;C50;2;;passive;GND
+Principal;C6;1;;passive;GND
+Principal;C7;2;;passive;GND
+Principal;C8;2;;passive;GND
+Principal;C9;1;;passive;GND
+Principal;D3;1;A1_1;passive;GND
+Principal;J1;A1;GND_A1;passive;GND
+Principal;J1;A12;GND_A12;passive;GND
+Principal;J1;B1;GND_B1;passive;GND
+Principal;J1;B12;GND_B12;passive;GND
+Principal;J10;3;Pin_3_3;passive;GND
+Principal;J7;4;Pin_4_4;passive;GND
+Principal;J8;3;Pin_3_3;passive;GND
+Principal;J9;2;Pin_2_2;passive;GND
+Principal;Q3;1;Source_1;passive;GND
+Principal;Q3;2;Source_2;passive;GND
+Principal;Q3;3;Source_3;passive;GND
+Principal;R1;2;;passive;GND
+Principal;R11;2;;passive;GND
+Principal;R12;2;;passive;GND
+Principal;R2;2;;passive;GND
+Principal;R21;2;;passive;GND
+Principal;R29;2;;passive;GND
+Principal;R30;2;;passive;GND
+Principal;R31;2;;passive;GND
+Principal;R34;2;;passive;GND
+Principal;R35;2;;passive;GND
+Principal;R36;2;;passive;GND
+Principal;R37;2;;passive;GND
+Principal;R40;2;;passive;GND
+Principal;R41;2;;passive;GND
+Principal;R42;2;;passive;GND
+Principal;R45;2;;passive;GND
+Principal;R6;2;;passive;GND
+Principal;SW1;1;1_1;passive;GND
+Principal;SW2;2;2_2;passive;GND
+Principal;U1;1;GND_1;power_in;GND
+Principal;U1;15;GND_15;power_in;GND
+Principal;U1;38;GND_38;power_in;GND
+Principal;U1;39;GND_39;power_in;GND
+Principal;U2;1;PGND_1;power_in;GND
+Principal;U2;4;AGND_4;power_in;GND
+Principal;U3;29;GND_29;passive;GND
+Principal;U3;3;GND_3;power_in;GND
+Principal;U4;10;ACDRV2_10;passive;GND
+Principal;U4;11;ACDRV1_11;passive;GND
+Principal;U4;17;ILIM_HIZ_17;input;GND
+Principal;U4;27;GND_27;power_in;GND
+Principal;U6;10;MS2/AD1_10;input;GND
+Principal;U6;13;CLK_13;input;GND
+Principal;U6;18;GND_18;passive;GND
+Principal;U6;20;STDBY_20;input;GND
+Principal;U6;25;NC_25;passive;GND
+Principal;U6;29;GND_29;passive;GND
+Principal;U6;3;GND_3;power_in;GND
+Principal;U6;7;SPREAD_7;input;GND
+Principal;U6;9;MS1/AD0_9;input;GND
+Principal;U7;10;MS2/AD1_10;input;GND
+Principal;U7;13;CLK_13;input;GND
+Principal;U7;18;GND_18;passive;GND
+Principal;U7;20;STDBY_20;input;GND
+Principal;U7;25;NC_25;passive;GND
+Principal;U7;29;GND_29;passive;GND
+Principal;U7;3;GND_3;power_in;GND
+Principal;U7;7;SPREAD_7;input;GND
+Principal;U8;2;GND_2;power_in;GND
+Principal;U9;2;GND_2;power_in;GND
+Principal;D1;1;A_1;passive;Net-(D1-A)
+Principal;R23;1;;passive;Net-(D1-A)
+Principal;D2;1;A_1;passive;Net-(D2-A)
+Principal;R24;1;;passive;Net-(D2-A)
+Principal;J1;A5;CC1_A5;bidirectional;Net-(J1-CC1)
+Principal;R1;1;;passive;Net-(J1-CC1)
+Principal;J1;B5;CC2_B5;bidirectional;Net-(J1-CC2)
+Principal;R2;1;;passive;Net-(J1-CC2)
+Principal;Q1;1;B_1;input;Net-(Q1-B)
+Principal;R9;1;;passive;Net-(Q1-B)
+Principal;Q2;1;B_1;input;Net-(Q2-B)
+Principal;R10;2;;passive;Net-(Q2-B)
+Principal;Q3;4;Gate_4;input;Net-(Q3-Gate)
+Principal;R20;2;;passive;Net-(Q3-Gate)
+Principal;R21;1;;passive;Net-(Q3-Gate)
+Principal;Q4;4;Gate_4;input;Net-(Q4-Gate)
+Principal;R19;2;;passive;Net-(Q4-Gate)
+Principal;R22;1;;passive;Net-(Q4-Gate)
+Principal;R11;1;;passive;Net-(U2-FB)
+Principal;R7;2;;passive;Net-(U2-FB)
+Principal;U2;5;FB_5;input;Net-(U2-FB)
+Principal;L1;1;1_1;passive;Net-(U2-SW)
+Principal;U2;7;SW_7;output;Net-(U2-SW)
+Principal;R5;2;;passive;Net-(U3-VBUS)
+Principal;R6;1;;passive;Net-(U3-VBUS)
+Principal;U3;8;VBUS_8;input;Net-(U3-VBUS)
+Principal;R8;2;;passive;Net-(U3-~{RST})
+Principal;U3;9;~{RST}_9;input;Net-(U3-~{RST})
+Principal;R27;1;;passive;Net-(U4-BATP)
+Principal;U4;18;BATP_18;input;Net-(U4-BATP)
+Principal;C10;1;;passive;Net-(U4-BTST1)
+Principal;U4;4;BTST1_4;passive;Net-(U4-BTST1)
+Principal;C11;1;;passive;Net-(U4-BTST2)
+Principal;U4;19;BTST2_19;passive;Net-(U4-BTST2)
+Principal;C14;2;;passive;Net-(U4-PMID)
+Principal;C15;2;;passive;Net-(U4-PMID)
+Principal;C16;2;;passive;Net-(U4-PMID)
+Principal;C17;2;;passive;Net-(U4-PMID)
+Principal;U4;29;PMID_29;power_out;Net-(U4-PMID)
+Principal;R12;1;;passive;Net-(U4-PROG)
+Principal;U4;20;PROG_20;input;Net-(U4-PROG)
+Principal;C34;1;;passive;Net-(U4-SDRV)
+Principal;U4;24;SDRV_24;output;Net-(U4-SDRV)
+Principal;C10;2;;passive;Net-(U4-SW1)
+Principal;L2;1;1_1;passive;Net-(U4-SW1)
+Principal;U4;28;SW1_28;power_out;Net-(U4-SW1)
+Principal;C11;2;;passive;Net-(U4-SW2)
+Principal;L2;2;2_2;passive;Net-(U4-SW2)
+Principal;U4;26;SW2_26;power_out;Net-(U4-SW2)
+Principal;D1;2;NC_2;no_connect;unconnected-(D1-NC-Pad2)
+Principal;D2;2;NC_2;no_connect;unconnected-(D2-NC-Pad2)
+Principal;J1;A8;SBU1_A8;bidirectional+no_connect;unconnected-(J1-SBU1-PadA8)
+Principal;J1;B8;SBU2_B8;bidirectional+no_connect;unconnected-(J1-SBU2-PadB8)
+Principal;J7;2;Pin_2_2;passive+no_connect;unconnected-(J7-Pin_2-Pad2)
+Principal;U1;24;IO2_24;bidirectional;unconnected-(U1-IO2-Pad24)
+Principal;U1;26;IO4_26;bidirectional;unconnected-(U1-IO4-Pad26)
+Principal;U1;29;IO5_29;bidirectional;unconnected-(U1-IO5-Pad29)
+Principal;U1;14;IO12_14;bidirectional;unconnected-(U1-IO12-Pad14)
+Principal;U1;16;IO13_16;bidirectional;unconnected-(U1-IO13-Pad16)
+Principal;U1;23;IO15_23;bidirectional;unconnected-(U1-IO15-Pad23)
+Principal;U1;27;IO16_27;bidirectional;unconnected-(U1-IO16-Pad27)
+Principal;U1;28;IO17_28;bidirectional;unconnected-(U1-IO17-Pad28)
+Principal;U1;33;IO21_33;bidirectional;unconnected-(U1-IO21-Pad33)
+Principal;U1;36;IO22_36;bidirectional;unconnected-(U1-IO22-Pad36)
+Principal;U1;8;IO32_8;bidirectional;unconnected-(U1-IO32-Pad8)
+Principal;U1;9;IO33_9;bidirectional;unconnected-(U1-IO33-Pad9)
+Principal;U1;6;IO34_6;input;unconnected-(U1-IO34-Pad6)
+Principal;U1;7;IO35_7;input;unconnected-(U1-IO35-Pad7)
+Principal;U1;17;NC_17;no_connect;unconnected-(U1-NC-Pad17)
+Principal;U1;18;NC_18;no_connect;unconnected-(U1-NC-Pad18)
+Principal;U1;19;NC_19;no_connect;unconnected-(U1-NC-Pad19)
+Principal;U1;20;NC_20;no_connect;unconnected-(U1-NC-Pad20)
+Principal;U1;21;NC_21;no_connect;unconnected-(U1-NC-Pad21)
+Principal;U1;22;NC_22;no_connect;unconnected-(U1-NC-Pad22)
+Principal;U1;32;NC_32;no_connect;unconnected-(U1-NC-Pad32)
+Principal;U1;5;SENSOR_VN_5;input;unconnected-(U1-SENSOR_VN-Pad5)
+Principal;U1;4;SENSOR_VP_4;input;unconnected-(U1-SENSOR_VP-Pad4)
+Principal;U2;8;PG_8;open_collector+no_connect;unconnected-(U2-PG-Pad8)
+Principal;U3;15;CHR0_15;output;unconnected-(U3-CHR0-Pad15)
+Principal;U3;14;CHR1_14;output;unconnected-(U3-CHR1-Pad14)
+Principal;U3;13;CHREN_13;output;unconnected-(U3-CHREN-Pad13)
+Principal;U3;22;GPIO.4_22;bidirectional;unconnected-(U3-GPIO.4-Pad22)
+Principal;U3;21;GPIO.5_21;bidirectional;unconnected-(U3-GPIO.5-Pad21)
+Principal;U3;20;GPIO.6_20;bidirectional;unconnected-(U3-GPIO.6-Pad20)
+Principal;U3;10;NC_10;no_connect;unconnected-(U3-NC-Pad10)
+Principal;U3;17;RS485/GPIO.2_17;bidirectional;unconnected-(U3-RS485/GPIO.2-Pad17)
+Principal;U3;12;SUSPEND_12;output;unconnected-(U3-SUSPEND-Pad12)
+Principal;U3;23;~{CTS}_23;input;unconnected-(U3-~{CTS}-Pad23)
+Principal;U3;1;~{DCD}_1;input;unconnected-(U3-~{DCD}-Pad1)
+Principal;U3;27;~{DSR}_27;input;unconnected-(U3-~{DSR}-Pad27)
+Principal;U3;2;~{RI}/CLK_2;bidirectional;unconnected-(U3-~{RI}/CLK-Pad2)
+Principal;U3;18;~{RXT}/GPIO.1_18;bidirectional;unconnected-(U3-~{RXT}/GPIO.1-Pad18)
+Principal;U3;11;~{SUSPEND}_11;output;unconnected-(U3-~{SUSPEND}-Pad11)
+Principal;U3;19;~{TXT}/GPIO.0_19;bidirectional;unconnected-(U3-~{TXT}/GPIO.0-Pad19)
+Principal;U3;16;~{WAKEUP}/GPIO.3_16;bidirectional;unconnected-(U3-~{WAKEUP}/GPIO.3-Pad16)
+Principal;U4;6;D+_6;bidirectional;unconnected-(U4-D+-Pad6)
+Principal;U4;7;D-_7;bidirectional;unconnected-(U4-D--Pad7)
+Principal;U4;1;STAT_1;open_collector;unconnected-(U4-STAT-Pad1)
+Principal;U4;16;TS_16;input;unconnected-(U4-TS-Pad16)
+Principal;U4;21;~{INT}_21;open_collector;unconnected-(U4-~{INT}-Pad21)
+Principal;U4;12;~{QON}_12;input+no_connect;unconnected-(U4-~{QON}-Pad12)
+Principal;U5;14;ALERT_14;open_collector+no_connect;unconnected-(U5-ALERT-Pad14)
+Principal;U6;11;DIAG_11;output+no_connect;unconnected-(U6-DIAG-Pad11)
+Principal;U6;12;INDEX_12;output+no_connect;unconnected-(U6-INDEX-Pad12)
+Principal;U7;11;DIAG_11;output+no_connect;unconnected-(U7-DIAG-Pad11)
+Principal;U7;12;INDEX_12;output+no_connect;unconnected-(U7-INDEX-Pad12)
+Principal;U9;4;CT_4;input+no_connect;unconnected-(U9-CT-Pad4)
+Módulo VM;C101;1;;passive;/3V3_AUX
+Módulo VM;C102;1;;passive;/3V3_AUX
+Módulo VM;J105;5;Pin_5_5;passive;/3V3_AUX
+Módulo VM;J109;1;Pin_1_1;passive;/3V3_AUX
+Módulo VM;R106;1;;passive;/3V3_AUX
+Módulo VM;R110;1;;passive;/3V3_AUX
+Módulo VM;U102;5;VDD_5;power_in;/3V3_AUX
+Módulo VM;U103;5;VDD_5;power_in;/3V3_AUX
+Módulo VM;J105;3;Pin_3_3;passive;/24_ISO
+Módulo VM;U101;13;Contato_NA_A_COM_13;passive;/24_ISO
+Módulo VM;U101;23;Contato_NA_B_COM_23;passive;/24_ISO
+Módulo VM;U101;A1;24_V_A1;passive;/24_ISO
+Módulo VM;J104;1;Pin_1_1;passive;/ARM_SENSE
+Módulo VM;J109;5;Pin_5_5;passive;/ARM_SENSE
+Módulo VM;J107;2;Pin_2_2;passive;/CH_A_OK
+Módulo VM;J110;1;Pin_1_1;passive;/CH_A_OK
+Módulo VM;SW102;1;1_1;passive;/CH_A_OK
+Módulo VM;U101;S12;Entrada_A_S12;passive;/CH_A_OK
+Módulo VM;J107;4;Pin_4_4;passive;/CH_B_OK
+Módulo VM;U101;S22;Entrada_B_S22;passive;/CH_B_OK
+Módulo VM;D102;1;A1_1;passive;/COIL_K1
+Módulo VM;K101;1;Bobina_+_1;passive;/COIL_K1
+Módulo VM;U101;14;Contato_NA_A_OUT_14;passive;/COIL_K1
+Módulo VM;D103;1;A1_1;passive;/COIL_K2
+Módulo VM;K102;1;Bobina_+_1;passive;/COIL_K2
+Módulo VM;U101;24;Contato_NA_B_OUT_24;passive;/COIL_K2
+Módulo VM;R114;1;;passive;/DUMP_CTRL
+Módulo VM;R115;2;;passive;/DUMP_CTRL
+Módulo VM;R116;1;;passive;/DUMP_CTRL
+Módulo VM;U104;4;OUT_4;open_collector;/DUMP_CTRL
+Módulo VM;Q101;2;D_2;passive;/DUMP_DRAIN
+Módulo VM;R118;2;;passive;/DUMP_DRAIN
+Módulo VM;D104;1;K_1;passive;/DUMP_GATE
+Módulo VM;Q101;1;G_1;input;/DUMP_GATE
+Módulo VM;R116;2;;passive;/DUMP_GATE
+Módulo VM;R117;1;;passive;/DUMP_GATE
+Módulo VM;J109;12;Pin_12_12;passive;/DUMP_READY_ISO
+Módulo VM;J111;5;Pin_5_5;passive;/DUMP_READY_ISO
+Módulo VM;R111;2;;passive;/DUMP_REF
+Módulo VM;U104;3;IN-_3;input;/DUMP_REF
+Módulo VM;U105;1;K_1;passive;/DUMP_REF
+Módulo VM;C103;2;;passive;/DUMP_RTN
+Módulo VM;D104;2;A_2;passive;/DUMP_RTN
+Módulo VM;J103;2;Pin_2_2;passive;/DUMP_RTN
+Módulo VM;Q101;3;S_3;passive;/DUMP_RTN
+Módulo VM;R113;2;;passive;/DUMP_RTN
+Módulo VM;R117;2;;passive;/DUMP_RTN
+Módulo VM;R119;2;;passive;/DUMP_RTN
+Módulo VM;U104;2;V-_2;power_in;/DUMP_RTN
+Módulo VM;U105;2;A_2;passive;/DUMP_RTN
+Módulo VM;U105;3;A_ou_NC_3;passive;/DUMP_RTN
+Módulo VM;R112;2;;passive;/DUMP_SENSE
+Módulo VM;R113;1;;passive;/DUMP_SENSE
+Módulo VM;R114;2;;passive;/DUMP_SENSE
+Módulo VM;U104;1;IN+_1;input;/DUMP_SENSE
+Módulo VM;K101;6;Espelho_NC_OUT_6;passive;/EDM_K1
+Módulo VM;K102;5;Espelho_NC_COM_5;passive;/EDM_K1
+Módulo VM;J106;1;Pin_1_1;passive;/ESTOP_A_IN
+Módulo VM;SW101;1;1_1;passive;/ESTOP_A_IN
+Módulo VM;U101;S11;Fonte_canal_A_S11;passive;/ESTOP_A_IN
+Módulo VM;J106;2;Pin_2_2;passive;/ESTOP_A_OUT
+Módulo VM;J107;1;Pin_1_1;passive;/ESTOP_A_OUT
+Módulo VM;SW101;2;2_2;passive;/ESTOP_A_OUT
+Módulo VM;J106;3;Pin_3_3;passive;/ESTOP_B_IN
+Módulo VM;SW101;3;3_3;passive;/ESTOP_B_IN
+Módulo VM;U101;S21;Fonte_canal_B_S21;passive;/ESTOP_B_IN
+Módulo VM;J106;4;Pin_4_4;passive;/ESTOP_B_OUT
+Módulo VM;J107;3;Pin_3_3;passive;/ESTOP_B_OUT
+Módulo VM;SW101;4;4_4;passive;/ESTOP_B_OUT
+Módulo VM;J109;11;Pin_11_11;passive;/FRAME_USED
+Módulo VM;J111;4;Pin_4_4;passive;/FRAME_USED
+Módulo VM;J109;8;Pin_8_8;passive;/IMU_DRDY
+Módulo VM;J111;1;Pin_1_1;passive;/IMU_DRDY
+Módulo VM;J102;1;Pin_1_1;passive;/IMU_OK
+Módulo VM;R101;2;;passive;/IMU_OK
+Módulo VM;J109;6;Pin_6_6;passive;/IMU_OK_SRC
+Módulo VM;R101;1;;passive;/IMU_OK_SRC
+Módulo VM;J109;9;Pin_9_9;passive;/IMU_SCL_TAP
+Módulo VM;J111;2;Pin_2_2;passive;/IMU_SCL_TAP
+Módulo VM;J109;10;Pin_10_10;passive;/IMU_SDA_TAP
+Módulo VM;J111;3;Pin_3_3;passive;/IMU_SDA_TAP
+Módulo VM;C101;2;;passive;/PACK_RTN
+Módulo VM;C102;2;;passive;/PACK_RTN
+Módulo VM;J101;4;Pin_4_4;passive;/PACK_RTN
+Módulo VM;J102;3;Pin_3_3;passive;/PACK_RTN
+Módulo VM;J104;3;Pin_3_3;passive;/PACK_RTN
+Módulo VM;J105;2;Pin_2_2;passive;/PACK_RTN
+Módulo VM;J105;6;Pin_6_6;passive;/PACK_RTN
+Módulo VM;J109;2;Pin_2_2;passive;/PACK_RTN
+Módulo VM;J111;6;Pin_6_6;passive;/PACK_RTN
+Módulo VM;R105;2;;passive;/PACK_RTN
+Módulo VM;R109;2;;passive;/PACK_RTN
+Módulo VM;U102;2;GND_2;power_in;/PACK_RTN
+Módulo VM;U103;2;GND_2;power_in;/PACK_RTN
+Módulo VM;J102;2;Pin_2_2;passive;/PWR_OK
+Módulo VM;R102;2;;passive;/PWR_OK
+Módulo VM;J109;7;Pin_7_7;passive;/PWR_OK_SRC
+Módulo VM;R102;1;;passive;/PWR_OK_SRC
+Módulo VM;J110;2;Pin_2_2;passive;/RESET_SW
+Módulo VM;K101;5;Espelho_NC_COM_5;passive;/RESET_SW
+Módulo VM;SW102;2;2_2;passive;/RESET_SW
+Módulo VM;D102;2;A2_2;passive;/RET_24_ISO
+Módulo VM;D103;2;A2_2;passive;/RET_24_ISO
+Módulo VM;J105;4;Pin_4_4;passive;/RET_24_ISO
+Módulo VM;K101;2;Bobina_-_2;passive;/RET_24_ISO
+Módulo VM;K102;2;Bobina_-_2;passive;/RET_24_ISO
+Módulo VM;U101;A2;0_V_A2;passive;/RET_24_ISO
+Módulo VM;K102;6;Espelho_NC_OUT_6;passive;/START_FB
+Módulo VM;U101;S34;Partida_/_EDM_S34;passive;/START_FB
+Módulo VM;R104;2;;passive;/VIO_OV
+Módulo VM;R105;1;;passive;/VIO_OV
+Módulo VM;U102;4;INB-_OV_4;input;/VIO_OV
+Módulo VM;J104;2;Pin_2_2;passive;/VIO_SENSE
+Módulo VM;R103;1;;passive;/VIO_SENSE
+Módulo VM;R103;2;;passive;/VIO_UV
+Módulo VM;R104;1;;passive;/VIO_UV
+Módulo VM;U102;3;INA+_UV_3;input;/VIO_UV
+Módulo VM;J109;3;Pin_3_3;passive;/VIO_WINDOW
+Módulo VM;R106;2;;passive;/VIO_WINDOW
+Módulo VM;U102;1;OUTA_1;open_collector;/VIO_WINDOW
+Módulo VM;U102;6;OUTB_6;open_collector;/VIO_WINDOW
+Módulo VM;C103;1;;passive;/VM_DUMP
+Módulo VM;J103;1;Pin_1_1;passive;/VM_DUMP
+Módulo VM;R111;1;;passive;/VM_DUMP
+Módulo VM;R112;1;;passive;/VM_DUMP
+Módulo VM;R115;1;;passive;/VM_DUMP
+Módulo VM;R118;1;;passive;/VM_DUMP
+Módulo VM;R119;1;;passive;/VM_DUMP
+Módulo VM;U104;5;V+_5;power_in;/VM_DUMP
+Módulo VM;J101;1;Pin_1_1;passive;/VM_FUSED
+Módulo VM;J105;1;Pin_1_1;passive;/VM_FUSED
+Módulo VM;K101;3;Potencia_NA_COM_3;passive;/VM_FUSED
+Módulo VM;K101;4;Potencia_NA_OUT_4;passive;/VM_K1
+Módulo VM;K102;3;Potencia_NA_COM_3;passive;/VM_K1
+Módulo VM;D101;2;A_2;passive;/VM_K2
+Módulo VM;K102;4;Potencia_NA_OUT_4;passive;/VM_K2
+Módulo VM;D101;1;K_1;passive;/VM_OUT
+Módulo VM;J101;3;Pin_3_3;passive;/VM_OUT
+Módulo VM;R107;1;;passive;/VM_OUT
+Módulo VM;R108;2;;passive;/VM_OV
+Módulo VM;R109;1;;passive;/VM_OV
+Módulo VM;U103;4;INB-_OV_4;input;/VM_OV
+Módulo VM;R107;2;;passive;/VM_UV
+Módulo VM;R108;1;;passive;/VM_UV
+Módulo VM;U103;3;INA+_UV_3;input;/VM_UV
+Módulo VM;J109;4;Pin_4_4;passive;/VM_WINDOW
+Módulo VM;R110;2;;passive;/VM_WINDOW
+Módulo VM;U103;1;OUTA_1;open_collector;/VM_WINDOW
+Módulo VM;U103;6;OUTB_6;open_collector;/VM_WINDOW
+Módulo VM;J101;2;Pin_2_2;passive+no_connect;unconnected-(J101-Pin_2-Pad2)
+Módulo VM;U101;33;Contato_NA_aux_COM_33;passive+no_connect;unconnected-(U101-Contato_NA_aux_COM-Pad33)
+Módulo VM;U101;34;Contato_NA_aux_OUT_34;passive+no_connect;unconnected-(U101-Contato_NA_aux_OUT-Pad34)
+Módulo VM;U101;41;Contato_NC_aux_COM_41;passive+no_connect;unconnected-(U101-Contato_NC_aux_COM-Pad41)
+Módulo VM;U101;42;Contato_NC_aux_OUT_42;passive+no_connect;unconnected-(U101-Contato_NC_aux_OUT-Pad42)
+Módulo VM;U101;Y32;Status_semicondutor_Y32;passive+no_connect;unconnected-(U101-Status_semicondutor-PadY32)

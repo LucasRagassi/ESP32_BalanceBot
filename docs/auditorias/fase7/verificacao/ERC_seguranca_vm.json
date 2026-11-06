@@ -1,0 +1,97 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-05T21:09:50",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/234da21c-125b-4140-995c-c339f39eb913",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U102 Pin 2 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 207.01,
+                                "y": 252.73
+                            },
+                            "uuid": "80552363-f0ea-49d6-a815-0bd54504bd24"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U104 Pin 2 [V-, Power input, Line]",
+                            "pos": {
+                                "x": 220.98,
+                                "y": 354.33
+                            },
+                            "uuid": "76f6cbfb-3209-4186-b945-7bda02d6eeac"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U102 Pin 5 [VDD, Power input, Line]",
+                            "pos": {
+                                "x": 242.57,
+                                "y": 252.73
+                            },
+                            "uuid": "c4e2d8fa-8de4-4549-80b5-e2e1247f61cf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U104 Pin 5 [V+, Power input, Line]",
+                            "pos": {
+                                "x": 256.54,
+                                "y": 351.79
+                            },
+                            "uuid": "66af0aed-0965-4325-bd82-afca3ab16cc7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        }
+    ],
+    "source": "BalanceBot_Seguranca_VM.kicad_sch"
+}
