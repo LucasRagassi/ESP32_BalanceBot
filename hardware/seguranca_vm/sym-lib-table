@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "BalanceBot_Safety") (type "KiCad") (uri "${KIPRJMOD}/BalanceBot_Safety.kicad_sym") (options "") (descr "Modulo externo DNP")))
