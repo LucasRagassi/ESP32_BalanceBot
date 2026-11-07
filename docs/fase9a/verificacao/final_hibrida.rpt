@@ -1,0 +1,18 @@
+ERC report (2026-11-07T08:27:36, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(152.40 mm, 101.60 mm): Symbol U201 Pin 10 [VS, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(152.40 mm, 109.22 mm): Symbol U201 Pin 7 [GND, Power input, Line]
+
+ ** ERC messages: 2  Errors 2  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

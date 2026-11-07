@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/10b2961dc697/fase9/base/hardware/seguranca_vm/BalanceBot_Seguranca_VM.kicad_sch</source>
+    <date>2026-11-07T08:16:36</date>
+    <tool>Eeschema 10.0.8-10.0.8~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BalanceBot - modulo externo de seguranca VM</title>
+        <company/>
+        <rev>0.6 DNP</rev>
+        <date/>
+        <source>BalanceBot_Seguranca_VM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C101">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c218493-6a24-4499-bae4-403c5db82add</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C102">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2a27b95-f3f8-47d7-948b-d498e7e3aad3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C103">
+      <value>100nF / tensao TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67d2c885-47df-40f5-8a99-3e0fb672380e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D101">
+      <value>Schottky reverso TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af387658-c68d-4130-8c7f-773deebd9538</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D102">
+      <value>TVS bobina TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6938eccf-7c0e-4bf9-a453-c5d21d17ebe9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D103">
+      <value>TVS bobina TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae8a902e-09c0-452a-b901-ee2c7676b594</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D104">
+      <value>Zener VGS TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8965975f-29a1-49f8-8650-b7e88053bf28</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J101">
+      <value>CHICOTE J7</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e5fc892-6866-4a96-96b4-6dc6db4a0701</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J102">
+      <value>CHICOTE J8</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d9e2766-07cf-445c-8ba6-48df4d0ac05a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J103">
+      <value>CHICOTE J9</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a19440a-76f3-4c03-a00c-216d533463bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J104">
+      <value>CHICOTE J10</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64bdaa5f-5e36-4594-996e-69232042d6d9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J105">
+      <value>FONTE AUXILIAR EXTERNA</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0ffc466-35c4-443a-8bc7-d50fff76973d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J106">
+      <value>E-STOP NC CH1 + CH2</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cc9cc5b-844c-48c7-b499-bd1989114488</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J107">
+      <value>PERMISSOES SECAS NA</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40855c0c-f385-4567-85fc-0eaa1fcc2a85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J109">
+      <value>LOGICA EXTERNA</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x12" description="Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01460c16-f729-43d7-9cbc-cf4ebd35f1f4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J110">
+      <value>BOTAO REARME NA</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29527870-7d86-406a-9383-9fa997fb89c1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J111">
+      <value>AQUISICAO / DUMP STATUS</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddbec47b-cf99-4235-9d03-cc1660957e9d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="K101">
+      <value>K1 TBD NA + espelho NC</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Safety" part="Contator_NA_Espelho_NC" description=""/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f3845b1-92ff-4058-bd32-6455e2110273</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="K102">
+      <value>K2 TBD NA + espelho NC</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Safety" part="Contator_NA_Espelho_NC" description=""/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a8cfaa0-c582-48f7-a6cf-cfa2a5858d97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q101">
+      <value>NMOS dissipador TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3772623c-0d90-47a4-8bf8-851f54e10867</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R101">
+      <value>1k provis.</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83d5bd88-3876-4fbc-986d-152b1bbcc0b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R102">
+      <value>1k provis.</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0413e24d-1df3-4a1f-95d3-ad7c16f6adbf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R103">
+      <value>limiar TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eaa2ff45-a1fb-49c3-96d3-259e225eb133</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R104">
+      <value>limiar TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c75cd2c-a5b8-4d78-98d1-1fd6ea60e46a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R105">
+      <value>limiar TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd0a616e-0678-4332-a44b-a2fe3c32bf3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R106">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b75ca94-7238-40e2-bc5c-a3ccd0ee583a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R107">
+      <value>limiar TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ee9c1e3-89a4-4b8e-a0ea-7104bab1ed5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R108">
+      <value>limiar TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abeb5e3e-dba7-42c1-ab31-6a90238e5b31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R109">
+      <value>limiar TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df7fe5ef-87b3-4d32-af9d-69966530eee6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R110">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2c7192b-576c-462a-94a6-ae9087de864a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R111">
+      <value>22k provis.</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32d83fb5-3571-462f-b0d0-dfddd7062fc7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R112">
+      <value>limiar TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8b008bd-d6e9-4d3f-a830-e8f34819274c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R113">
+      <value>limiar TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>513326b9-2b51-492e-a4b3-a8c7d07a18bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R114">
+      <value>histerese TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc0eaa5d-e48f-4e7b-93c4-362f76d0727a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R115">
+      <value>pull-up TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ff5d1ce-3248-4fe6-942f-0a20d54f5d63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R116">
+      <value>gate TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01e416d8-be52-4299-8d3f-e7569d80571d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R117">
+      <value>100k provis.</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>578326de-f5e0-43a3-8b75-559c9755a28a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R118">
+      <value>pulso TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>994cd49e-5bd5-4144-98cd-643bded523d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R119">
+      <value>descarga TBD</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>584509fa-da15-427c-ae10-a698a0f94467</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW101">
+      <value>E-STOP 2NC externo</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push_Open_Dual" description="Push button switch, normally closed, generic, four pins"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="exclude_from_pos_files"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="switch normally-closed pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40d8e2b8-355a-4561-af95-12fd6dc1e380</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW102">
+      <value>Rearme NA externo</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="exclude_from_pos_files"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f532a475-961c-4ea2-89f0-5a19e78e466a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U101">
+      <value>PNOZ s4 24V / candidato</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Safety" part="PNOZ_s4_750104" description=""/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d32699f4-60e8-4d9a-acf1-eef8c89c5c30</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A2"/>
+            <pin num="S11"/>
+            <pin num="S12"/>
+            <pin num="S21"/>
+            <pin num="S22"/>
+            <pin num="S34"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="41"/>
+            <pin num="42"/>
+            <pin num="Y32"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U102">
+      <value>TPS3700DDC / DNP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Safety" part="TPS3700_DDC" description=""/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e859c154-6e4b-4f36-a622-e52531c79aef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U103">
+      <value>TPS3700DDC / DNP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Safety" part="TPS3700_DDC" description=""/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>378e036b-8b91-47ad-9450-a4a2c1490dd0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U104">
+      <value>TLV1701DBV / DNP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Safety" part="TLV1701_DBV" description=""/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>184c14fc-c63b-4071-8b56-2c411ef65281</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U105">
+      <value>LM4040-N 2.5V / DNP</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Safety" part="LM4040_N_2V5_SOT23" description=""/>
+      <property name="Sheetname" value="BalanceBot_Seguranca_VM"/>
+      <property name="Sheetfile" value="BalanceBot_Seguranca_VM.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>653bb0eb-1d55-41f4-8962-18c2c71e4bd0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BalanceBot_Safety" part="Contator_NA_Espelho_NC">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">Contator_NA_Espelho_NC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Bobina_+" type="passive"/>
+        <pin num="2" name="Bobina_-" type="passive"/>
+        <pin num="3" name="Potencia_NA_COM" type="passive"/>
+        <pin num="4" name="Potencia_NA_OUT" type="passive"/>
+        <pin num="5" name="Espelho_NC_COM" type="passive"/>
+        <pin num="6" name="Espelho_NC_OUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BalanceBot_Safety" part="LM4040_N_2V5_SOT23">
+      <docs>https://www.ti.com/lit/ds/symlink/lm4040-n.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4040_N_2V5_SOT23</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lm4040-n.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="A_ou_NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BalanceBot_Safety" part="PNOZ_s4_750104">
+      <docs>https://www.pilz.com/download/open/PNOZ_s4_Operat_Man_21396-EN-18.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PNOZ_s4_750104</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.pilz.com/download/open/PNOZ_s4_Operat_Man_21396-EN-18.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="13" name="Contato_NA_A_COM" type="passive"/>
+        <pin num="14" name="Contato_NA_A_OUT" type="passive"/>
+        <pin num="23" name="Contato_NA_B_COM" type="passive"/>
+        <pin num="24" name="Contato_NA_B_OUT" type="passive"/>
+        <pin num="33" name="Contato_NA_aux_COM" type="passive"/>
+        <pin num="34" name="Contato_NA_aux_OUT" type="passive"/>
+        <pin num="41" name="Contato_NC_aux_COM" type="passive"/>
+        <pin num="42" name="Contato_NC_aux_OUT" type="passive"/>
+        <pin num="A1" name="24_V" type="passive"/>
+        <pin num="A2" name="0_V" type="passive"/>
+        <pin num="S11" name="Fonte_canal_A" type="passive"/>
+        <pin num="S12" name="Entrada_A" type="passive"/>
+        <pin num="S21" name="Fonte_canal_B" type="passive"/>
+        <pin num="S22" name="Entrada_B" type="passive"/>
+        <pin num="S34" name="Partida_/_EDM" type="passive"/>
+        <pin num="Y32" name="Status_semicondutor" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BalanceBot_Safety" part="TLV1701_DBV">
+      <docs>https://www.ti.com/lit/ds/symlink/tlv1701.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV1701_DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv1701.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="input"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="OUT" type="open_collector"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BalanceBot_Safety" part="TPS3700_DDC">
+      <docs>https://www.ti.com/lit/ds/symlink/tps3700.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3700_DDC</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3700.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="INA+_UV" type="input"/>
+        <pin num="4" name="INB-_OV" type="input"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="OUTB" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x12">
+      <description>Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Bidirectional transient-voltage-suppression diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Zener diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_Open_Dual">
+      <description>Push button switch, normally closed, generic, four pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_Open_Dual</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, normally closed, generic, four pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">N-MOSFET transistor, gate/drain/source</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BalanceBot_Safety">
+      <uri>${KIPRJMOD}/BalanceBot_Safety.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3_AUX" class="Default">
+      <node ref="C101" pin="1" pintype="passive"/>
+      <node ref="C102" pin="1" pintype="passive"/>
+      <node ref="J105" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J109" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R106" pin="1" pintype="passive"/>
+      <node ref="R110" pin="1" pintype="passive"/>
+      <node ref="U102" pin="5" pinfunction="VDD_5" pintype="power_in"/>
+      <node ref="U103" pin="5" pinfunction="VDD_5" pintype="power_in"/>
+    </net>
+    <net code="2" name="/24_ISO" class="Default">
+      <node ref="J105" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U101" pin="13" pinfunction="Contato_NA_A_COM_13" pintype="passive"/>
+      <node ref="U101" pin="23" pinfunction="Contato_NA_B_COM_23" pintype="passive"/>
+      <node ref="U101" pin="A1" pinfunction="24_V_A1" pintype="passive"/>
+    </net>
+    <net code="3" name="/ARM_SENSE" class="Default">
+      <node ref="J104" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J109" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    </net>
+    <net code="4" name="/CH_A_OK" class="Default">
+      <node ref="J107" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J110" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="SW102" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U101" pin="S12" pinfunction="Entrada_A_S12" pintype="passive"/>
+    </net>
+    <net code="5" name="/CH_B_OK" class="Default">
+      <node ref="J107" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U101" pin="S22" pinfunction="Entrada_B_S22" pintype="passive"/>
+    </net>
+    <net code="6" name="/COIL_K1" class="Default">
+      <node ref="D102" pin="1" pinfunction="A1_1" pintype="passive"/>
+      <node ref="K101" pin="1" pinfunction="Bobina_+_1" pintype="passive"/>
+      <node ref="U101" pin="14" pinfunction="Contato_NA_A_OUT_14" pintype="passive"/>
+    </net>
+    <net code="7" name="/COIL_K2" class="Default">
+      <node ref="D103" pin="1" pinfunction="A1_1" pintype="passive"/>
+      <node ref="K102" pin="1" pinfunction="Bobina_+_1" pintype="passive"/>
+      <node ref="U101" pin="24" pinfunction="Contato_NA_B_OUT_24" pintype="passive"/>
+    </net>
+    <net code="8" name="/DUMP_CTRL" class="Default">
+      <node ref="R114" pin="1" pintype="passive"/>
+      <node ref="R115" pin="2" pintype="passive"/>
+      <node ref="R116" pin="1" pintype="passive"/>
+      <node ref="U104" pin="4" pinfunction="OUT_4" pintype="open_collector"/>
+    </net>
+    <net code="9" name="/DUMP_DRAIN" class="Default">
+      <node ref="Q101" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="R118" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/DUMP_GATE" class="Default">
+      <node ref="D104" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="Q101" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R116" pin="2" pintype="passive"/>
+      <node ref="R117" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/DUMP_READY_ISO" class="Default">
+      <node ref="J109" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="J111" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    </net>
+    <net code="12" name="/DUMP_REF" class="Default">
+      <node ref="R111" pin="2" pintype="passive"/>
+      <node ref="U104" pin="3" pinfunction="IN-_3" pintype="input"/>
+      <node ref="U105" pin="1" pinfunction="K_1" pintype="passive"/>
+    </net>
+    <net code="13" name="/DUMP_RTN" class="Default">
+      <node ref="C103" pin="2" pintype="passive"/>
+      <node ref="D104" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q101" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="R113" pin="2" pintype="passive"/>
+      <node ref="R117" pin="2" pintype="passive"/>
+      <node ref="R119" pin="2" pintype="passive"/>
+      <node ref="U104" pin="2" pinfunction="V-_2" pintype="power_in"/>
+      <node ref="U105" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="U105" pin="3" pinfunction="A_ou_NC_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/DUMP_SENSE" class="Default">
+      <node ref="R112" pin="2" pintype="passive"/>
+      <node ref="R113" pin="1" pintype="passive"/>
+      <node ref="R114" pin="2" pintype="passive"/>
+      <node ref="U104" pin="1" pinfunction="IN+_1" pintype="input"/>
+    </net>
+    <net code="15" name="/EDM_K1" class="Default">
+      <node ref="K101" pin="6" pinfunction="Espelho_NC_OUT_6" pintype="passive"/>
+      <node ref="K102" pin="5" pinfunction="Espelho_NC_COM_5" pintype="passive"/>
+    </net>
+    <net code="16" name="/ESTOP_A_IN" class="Default">
+      <node ref="J106" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="SW101" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U101" pin="S11" pinfunction="Fonte_canal_A_S11" pintype="passive"/>
+    </net>
+    <net code="17" name="/ESTOP_A_OUT" class="Default">
+      <node ref="J106" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J107" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="18" name="/ESTOP_B_IN" class="Default">
+      <node ref="J106" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="SW101" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U101" pin="S21" pinfunction="Fonte_canal_B_S21" pintype="passive"/>
+    </net>
+    <net code="19" name="/ESTOP_B_OUT" class="Default">
+      <node ref="J106" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J107" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="SW101" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="20" name="/FRAME_USED" class="Default">
+      <node ref="J109" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="J111" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="21" name="/IMU_DRDY" class="Default">
+      <node ref="J109" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J111" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="22" name="/IMU_OK" class="Default">
+      <node ref="J102" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="/IMU_OK_SRC" class="Default">
+      <node ref="J109" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/IMU_SCL_TAP" class="Default">
+      <node ref="J109" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J111" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="25" name="/IMU_SDA_TAP" class="Default">
+      <node ref="J109" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="J111" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="26" name="/PACK_RTN" class="Default">
+      <node ref="C101" pin="2" pintype="passive"/>
+      <node ref="C102" pin="2" pintype="passive"/>
+      <node ref="J101" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J102" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J104" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J105" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J105" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J109" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J111" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R105" pin="2" pintype="passive"/>
+      <node ref="R109" pin="2" pintype="passive"/>
+      <node ref="U102" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U103" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="27" name="/PWR_OK" class="Default">
+      <node ref="J102" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="/PWR_OK_SRC" class="Default">
+      <node ref="J109" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="/RESET_SW" class="Default">
+      <node ref="J110" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="K101" pin="5" pinfunction="Espelho_NC_COM_5" pintype="passive"/>
+      <node ref="SW102" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="30" name="/RET_24_ISO" class="Default">
+      <node ref="D102" pin="2" pinfunction="A2_2" pintype="passive"/>
+      <node ref="D103" pin="2" pinfunction="A2_2" pintype="passive"/>
+      <node ref="J105" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="K101" pin="2" pinfunction="Bobina_-_2" pintype="passive"/>
+      <node ref="K102" pin="2" pinfunction="Bobina_-_2" pintype="passive"/>
+      <node ref="U101" pin="A2" pinfunction="0_V_A2" pintype="passive"/>
+    </net>
+    <net code="31" name="/START_FB" class="Default">
+      <node ref="K102" pin="6" pinfunction="Espelho_NC_OUT_6" pintype="passive"/>
+      <node ref="U101" pin="S34" pinfunction="Partida_/_EDM_S34" pintype="passive"/>
+    </net>
+    <net code="32" name="/VIO_OV" class="Default">
+      <node ref="R104" pin="2" pintype="passive"/>
+      <node ref="R105" pin="1" pintype="passive"/>
+      <node ref="U102" pin="4" pinfunction="INB-_OV_4" pintype="input"/>
+    </net>
+    <net code="33" name="/VIO_SENSE" class="Default">
+      <node ref="J104" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="/VIO_UV" class="Default">
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+      <node ref="U102" pin="3" pinfunction="INA+_UV_3" pintype="input"/>
+    </net>
+    <net code="35" name="/VIO_WINDOW" class="Default">
+      <node ref="J109" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R106" pin="2" pintype="passive"/>
+      <node ref="U102" pin="1" pinfunction="OUTA_1" pintype="open_collector"/>
+      <node ref="U102" pin="6" pinfunction="OUTB_6" pintype="open_collector"/>
+    </net>
+    <net code="36" name="/VM_DUMP" class="Default">
+      <node ref="C103" pin="1" pintype="passive"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R111" pin="1" pintype="passive"/>
+      <node ref="R112" pin="1" pintype="passive"/>
+      <node ref="R115" pin="1" pintype="passive"/>
+      <node ref="R118" pin="1" pintype="passive"/>
+      <node ref="R119" pin="1" pintype="passive"/>
+      <node ref="U104" pin="5" pinfunction="V+_5" pintype="power_in"/>
+    </net>
+    <net code="37" name="/VM_FUSED" class="Default">
+      <node ref="J101" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J105" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="K101" pin="3" pinfunction="Potencia_NA_COM_3" pintype="passive"/>
+    </net>
+    <net code="38" name="/VM_K1" class="Default">
+      <node ref="K101" pin="4" pinfunction="Potencia_NA_OUT_4" pintype="passive"/>
+      <node ref="K102" pin="3" pinfunction="Potencia_NA_COM_3" pintype="passive"/>
+    </net>
+    <net code="39" name="/VM_K2" class="Default">
+      <node ref="D101" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="K102" pin="4" pinfunction="Potencia_NA_OUT_4" pintype="passive"/>
+    </net>
+    <net code="40" name="/VM_OUT" class="Default">
+      <node ref="D101" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J101" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R107" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="/VM_OV" class="Default">
+      <node ref="R108" pin="2" pintype="passive"/>
+      <node ref="R109" pin="1" pintype="passive"/>
+      <node ref="U103" pin="4" pinfunction="INB-_OV_4" pintype="input"/>
+    </net>
+    <net code="42" name="/VM_UV" class="Default">
+      <node ref="R107" pin="2" pintype="passive"/>
+      <node ref="R108" pin="1" pintype="passive"/>
+      <node ref="U103" pin="3" pinfunction="INA+_UV_3" pintype="input"/>
+    </net>
+    <net code="43" name="/VM_WINDOW" class="Default">
+      <node ref="J109" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R110" pin="2" pintype="passive"/>
+      <node ref="U103" pin="1" pinfunction="OUTA_1" pintype="open_collector"/>
+      <node ref="U103" pin="6" pinfunction="OUTB_6" pintype="open_collector"/>
+    </net>
+    <net code="44" name="unconnected-(J101-Pin_2-Pad2)" class="Default">
+      <node ref="J101" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U101-Contato_NA_aux_COM-Pad33)" class="Default">
+      <node ref="U101" pin="33" pinfunction="Contato_NA_aux_COM_33" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U101-Contato_NA_aux_OUT-Pad34)" class="Default">
+      <node ref="U101" pin="34" pinfunction="Contato_NA_aux_OUT_34" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U101-Contato_NC_aux_COM-Pad41)" class="Default">
+      <node ref="U101" pin="41" pinfunction="Contato_NC_aux_COM_41" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U101-Contato_NC_aux_OUT-Pad42)" class="Default">
+      <node ref="U101" pin="42" pinfunction="Contato_NC_aux_OUT_42" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U101-Status_semicondutor-PadY32)" class="Default">
+      <node ref="U101" pin="Y32" pinfunction="Status_semicondutor_Y32" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
