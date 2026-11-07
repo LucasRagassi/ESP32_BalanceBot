@@ -8411,6 +8411,252 @@
 		)
 		(embedded_fonts no)
 	)
+
+		(symbol "Connector_Generic:Conn_01x05"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x05_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	)
 	(junction
 		(at 335.28 66.04)
@@ -20447,4 +20693,82 @@
 	(wire (pts (xy 384.81 389.89) (xy 389.89 389.89)) (stroke (width 0) (type default)) (uuid "0ce92cff-ab49-4250-9ff0-203b58110d1d"))
 	(label "VIO_SENSE" (at 389.89 389.89 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "0ed9c179-c1c3-43ec-890f-903d57d0fe64"))
 	(text "J10: entradas externas de alta impedancia, sem backfeed." (at 264.16 397.51 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "4d29d32a-2c1b-4300-a3cc-4d9f50e641b8"))
+
+	(symbol (lib_id "Connector_Generic:Conn_01x05") (at 223.52 52.07 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "bd7abbdd-60f6-493f-9952-77796f1f6716")
+		(property "Reference" "J11" (at 226.06 50.8 0) (effects (font (size 1 1)) (justify left)))
+		(property "Value" "IMU_3V3_GH" (at 226.06 53.34 0) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal" (at 223.52 52.07 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(pin "1" (uuid "b62c853e-d678-4241-b8f2-ff6b302709e5"))
+		(pin "2" (uuid "e95888d3-77a3-458b-93a0-2576d473201f"))
+		(pin "3" (uuid "afd71699-0bdd-45f2-b2a9-e481c614ed23"))
+		(pin "4" (uuid "3697f89d-5284-491a-873a-060bc9127072"))
+		(pin "5" (uuid "3ad800e2-8683-41de-ba4f-eb96b861127f"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "J11") (unit 1))))
+	)
+	(wire (pts (xy 218.44 46.99) (xy 209.55 46.99)) (stroke (width 0) (type default)) (uuid "1d70d04d-7946-4597-b581-17f26860168a"))
+	(symbol (lib_id "power:+3V3") (at 209.55 46.99 0) (unit 1) (body_style 1) (in_bom yes) (on_board yes) (dnp no) (uuid "341deb49-7594-4acb-8070-c7a412eae663") (property "Reference" "#PWR601" (at 209.55 46.99 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "+3V3" (at 209.55 43.18 0) (effects (font (size 1 1)))) (pin "1" (uuid "ede3f27a-f5f7-448d-9bd7-51d449bfe58c")) (instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "#PWR601") (unit 1)))))
+	(wire (pts (xy 218.44 49.53) (xy 193.04 49.53)) (stroke (width 0) (type default)) (uuid "e5bbbe4a-7401-4f5a-a5ab-b3e05a6efc60"))
+	(symbol (lib_id "power:GND") (at 193.04 49.53 0) (unit 1) (body_style 1) (in_bom yes) (on_board yes) (dnp no) (uuid "27a63708-eeba-4525-89ff-de6b475137d1") (property "Reference" "#PWR602" (at 193.04 49.53 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "GND" (at 193.04 53.34 0) (effects (font (size 1 1)))) (pin "1" (uuid "23d79702-2f6a-4a28-a217-5ecbd0ce1998")) (instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "#PWR602") (unit 1)))))
+	(wire (pts (xy 218.44 52.07) (xy 212.09 52.07)) (stroke (width 0) (type default)) (uuid "b77088c1-f328-4337-a4d9-3a42fdea95c8"))
+	(label "IMU_SDA" (at 212.09 52.07 0) (effects (font (size 1 1)) (justify right bottom)) (uuid "3869357a-e761-4127-892f-bd5ee75f1504"))
+	(wire (pts (xy 218.44 54.61) (xy 212.09 54.61)) (stroke (width 0) (type default)) (uuid "7b4fce0d-bfcb-4d54-a23b-a7b4f71037ec"))
+	(label "IMU_SCL" (at 212.09 54.61 0) (effects (font (size 1 1)) (justify right bottom)) (uuid "912ef9ec-1fe4-40b3-94a5-7448be4a3f00"))
+	(wire (pts (xy 218.44 57.15) (xy 212.09 57.15)) (stroke (width 0) (type default)) (uuid "24ba74f4-9861-4f03-afa1-0f76917e9f2e"))
+	(label "IMU_DRDY" (at 212.09 57.15 0) (effects (font (size 1 1)) (justify right bottom)) (uuid "8826af48-6b6c-4780-af1e-cdca87ee751b"))
+	(wire (pts (xy 72.39 90.17) (xy 74.93 90.17)) (stroke (width 0) (type default)) (uuid "c3773db0-58b5-4f69-b432-24a8cd2bb9ed"))
+	(label "IMU_DRDY" (at 74.93 90.17 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "9285397f-9121-446d-9ff6-fe74f95202f7"))
+	(wire (pts (xy 72.39 69.85) (xy 74.93 69.85)) (stroke (width 0) (type default)) (uuid "ff7775f8-e2d1-4ba4-bd09-ec2b5ab4f5c9"))
+	(label "IMU_SDA" (at 74.93 69.85 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "0879e3ba-446f-40ad-a8cf-d6003d8bfde6"))
+	(wire (pts (xy 72.39 72.39) (xy 74.93 72.39)) (stroke (width 0) (type default)) (uuid "22f4bed1-ad30-41fe-91e1-7341f4a0b60d"))
+	(label "IMU_SCL" (at 74.93 72.39 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "5fd916e3-1cde-4a6f-be93-3f93aeba8788"))
+	(symbol (lib_id "Device:R") (at 195.58 69.85 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp yes) (uuid "6ee2bb4e-a189-47bc-acdb-318219122209")
+		(property "Reference" "R49" (at 198.12 68.58 0) (effects (font (size 1 1)) (justify left)))
+		(property "Value" "2.2k 1% DNP" (at 198.12 71.12 0) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 195.58 69.85 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(pin "1" (uuid "c057784d-1fad-4b05-a54c-639c793d5af9"))
+		(pin "2" (uuid "fe63fa8d-7a93-47f6-8a4d-cd8003671e2f"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "R49") (unit 1))))
+	)
+	(wire (pts (xy 195.58 66.04) (xy 195.58 63.5)) (stroke (width 0) (type default)) (uuid "1b1bffeb-6505-4a1c-9f75-13fa26ec14cf"))
+	(symbol (lib_id "power:+3V3") (at 195.58 63.5 0) (unit 1) (body_style 1) (in_bom yes) (on_board yes) (dnp no) (uuid "a4c6e54b-6320-48b4-9308-8a8f29667335") (property "Reference" "#PWR603" (at 195.58 63.5 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "+3V3" (at 195.58 59.69 0) (effects (font (size 1 1)))) (pin "1" (uuid "b2e2e2fd-1c74-4eec-90b8-e342c9288e64")) (instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "#PWR603") (unit 1)))))
+	(wire (pts (xy 195.58 73.66) (xy 195.58 76.2)) (stroke (width 0) (type default)) (uuid "a3df5bee-2e14-4c7c-94c2-a7ee0336ab98"))
+	(label "IMU_SDA" (at 195.58 76.2 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "476db739-7d2b-4b38-a871-da623aeb6153"))
+	(symbol (lib_id "Device:R") (at 215.9 69.85 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp yes) (uuid "feff6f0f-01dd-4ac7-bcf9-6bbfb47490e3")
+		(property "Reference" "R50" (at 218.44 68.58 0) (effects (font (size 1 1)) (justify left)))
+		(property "Value" "2.2k 1% DNP" (at 218.44 71.12 0) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 215.9 69.85 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(pin "1" (uuid "0cc85988-e02f-41bb-bd6e-2d273c9f55fe"))
+		(pin "2" (uuid "f486e094-b2b0-4b54-b008-82942dc70261"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "R50") (unit 1))))
+	)
+	(wire (pts (xy 215.9 66.04) (xy 215.9 63.5)) (stroke (width 0) (type default)) (uuid "695c5718-dbe3-4ec3-b126-092c3f211b41"))
+	(symbol (lib_id "power:+3V3") (at 215.9 63.5 0) (unit 1) (body_style 1) (in_bom yes) (on_board yes) (dnp no) (uuid "62ce14d7-ce8e-484a-bbf3-d1677b44b95a") (property "Reference" "#PWR604" (at 215.9 63.5 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "+3V3" (at 215.9 59.69 0) (effects (font (size 1 1)))) (pin "1" (uuid "0b019cf4-68d1-4b88-97c7-838078298669")) (instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "#PWR604") (unit 1)))))
+	(wire (pts (xy 215.9 73.66) (xy 215.9 76.2)) (stroke (width 0) (type default)) (uuid "27e97c2e-7265-47c7-b4a6-9adfe8216649"))
+	(label "IMU_SCL" (at 215.9 76.2 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "68430e67-609e-423c-8dda-7c76b890f7af"))
+	(symbol (lib_id "Device:R") (at 236.22 69.85 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "57eda4a0-5712-4c8f-bb96-aae0522ae5e1")
+		(property "Reference" "R51" (at 238.76 68.58 0) (effects (font (size 1 1)) (justify left)))
+		(property "Value" "100k" (at 238.76 71.12 0) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 236.22 69.85 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(pin "1" (uuid "7046cf14-1af0-4ece-804a-584088642248"))
+		(pin "2" (uuid "c297bf52-023a-4b90-b188-899e9d3b5c22"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "R51") (unit 1))))
+	)
+	(wire (pts (xy 236.22 66.04) (xy 236.22 63.5)) (stroke (width 0) (type default)) (uuid "0d39759c-6365-4ab4-95ef-900fcd21a34a"))
+	(label "IMU_DRDY" (at 236.22 63.5 0) (effects (font (size 1 1)) (justify left bottom)) (uuid "7d483ffe-3f06-4b59-adfd-7adbc2a75244"))
+	(wire (pts (xy 236.22 73.66) (xy 236.22 76.2)) (stroke (width 0) (type default)) (uuid "e6858e1e-2a2d-4257-b92c-6a87583d6f21"))
+	(symbol (lib_id "power:GND") (at 236.22 76.2 0) (unit 1) (body_style 1) (in_bom yes) (on_board yes) (dnp no) (uuid "cd6e63cf-4572-48d9-b2e4-c0caf9194846") (property "Reference" "#PWR605" (at 236.22 76.2 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "GND" (at 236.22 80.01 0) (effects (font (size 1 1)))) (pin "1" (uuid "43ba6731-bc55-4d27-9aeb-b297cb4a7b8b")) (instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "#PWR605") (unit 1)))))
+	(symbol (lib_id "Device:C") (at 219.71 93.98 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "2001cc14-d017-4b43-9445-ce8e4872cca8")
+		(property "Reference" "C51" (at 222.25 92.71 0) (effects (font (size 1 1)) (justify left)))
+		(property "Value" "100nF" (at 222.25 95.25 0) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 219.71 93.98 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(pin "1" (uuid "d2059d65-f7f2-481e-87ba-6ca7564ff501"))
+		(pin "2" (uuid "d629363b-c1df-4fab-bec4-41dbae20fc68"))
+		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "C51") (unit 1))))
+	)
+	(wire (pts (xy 219.71 90.17) (xy 219.71 87.63)) (stroke (width 0) (type default)) (uuid "b759f34e-795e-435a-a78f-602b1e7f70c6"))
+	(symbol (lib_id "power:+3V3") (at 219.71 87.63 0) (unit 1) (body_style 1) (in_bom yes) (on_board yes) (dnp no) (uuid "690bdbf2-e18d-46c1-a64b-ba250e7762e3") (property "Reference" "#PWR606" (at 219.71 87.63 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "+3V3" (at 219.71 83.82 0) (effects (font (size 1 1)))) (pin "1" (uuid "29ed795a-24e8-44ce-b909-93192fbb29b4")) (instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "#PWR606") (unit 1)))))
+	(wire (pts (xy 219.71 97.79) (xy 219.71 100.33)) (stroke (width 0) (type default)) (uuid "a460097e-29f6-45ed-ab87-58bf08c6eaab"))
+	(symbol (lib_id "power:GND") (at 219.71 100.33 0) (unit 1) (body_style 1) (in_bom yes) (on_board yes) (dnp no) (uuid "53f4c238-c4db-4deb-87bf-4019306f2a12") (property "Reference" "#PWR607" (at 219.71 100.33 0) (hide yes) (effects (font (size 1 1)))) (property "Value" "GND" (at 219.71 104.14 0) (effects (font (size 1 1)))) (pin "1" (uuid "926e9841-06bf-490b-92d8-7ebc57201229")) (instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "#PWR607") (unit 1)))))
+	(text "IMU externa 3V3 | GPIO21/22/34 | AD0 baixo no sensor" (at 195.58 36.83 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "47dc1537-127e-4d0c-bd3a-9038911a5b0d"))
+	(text "R49/R50 DNP: validar pull-ups totais do chicote." (at 195.58 111.76 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "d9bc4d4e-add7-4d75-96ae-bddeb831767b"))
 )

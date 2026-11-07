@@ -18,7 +18,8 @@
 
 | Sinal | GPIO | Observação |
 |---|---:|---|
-| MPU6050 SDA/SCL | 21 / 22 | I2C 3,3 V; confirmar pull-ups integrados e evitar pull-up a 5 V |
+| MPU6050 SDA/SCL | 21 / 22 | J11.3/.4 em 3,3 V; R49/R50 DNP até validar pull-ups e chicote |
+| MPU6050 DRDY | 34 | J11.5; entrada reservada ao contrato de supervisão da Fase 8, ainda sem uso no firmware |
 | STEP/DIR esquerdo | 25 / 26 | Reservado; RMT canal 0 pretendido; não configurado pelo app |
 | STEP/DIR direito | 27 / 14 | Reservado; RMT canal 1 pretendido; GPIO14 também é JTAG; não configurado pelo app |
 | Intertravamento | 33 | Firmware usa pull-up interno, fechado = nível baixo; somente entrada de lógica, não é E-stop |
