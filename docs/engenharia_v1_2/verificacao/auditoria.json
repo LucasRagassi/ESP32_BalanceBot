@@ -1,0 +1,332 @@
+{
+  "pcb": {
+    "antes": {
+      "erc": {
+        "error": 44
+      },
+      "drc": {
+        "invalid_outline": 1,
+        "drill_out_of_range": 12,
+        "hole_clearance": 4,
+        "silk_overlap": 9,
+        "silk_over_copper": 13
+      },
+      "geometry": 39,
+      "opens": 185,
+      "parity": 66,
+      "assigned": 73,
+      "missing": 66,
+      "net_complete": 14,
+      "net_partial": 0,
+      "net_unrouted": 86,
+      "segments": 239,
+      "vias": 0,
+      "dnp": [
+        "D3",
+        "F1",
+        "J12",
+        "J13",
+        "J14",
+        "J9",
+        "R16",
+        "R43",
+        "R49",
+        "R50",
+        "R52"
+      ]
+    },
+    "depois": {
+      "erc": {
+        "error": 15
+      },
+      "drc": {
+        "invalid_outline": 1,
+        "drill_out_of_range": 12,
+        "hole_clearance": 4
+      },
+      "geometry": 17,
+      "opens": 153,
+      "parity": 58,
+      "assigned": 81,
+      "missing": 58,
+      "net_complete": 31,
+      "net_partial": 5,
+      "net_unrouted": 64,
+      "segments": 671,
+      "vias": 16,
+      "dnp": [
+        "D3",
+        "F1",
+        "J12",
+        "J13",
+        "J14",
+        "J9",
+        "R16",
+        "R43",
+        "R49",
+        "R50",
+        "R52"
+      ]
+    },
+    "novas_redes_completas": [
+      "/CP2102_DTR",
+      "/CP2102_RTS",
+      "/ENN_LOGIC",
+      "/ESP32_EN",
+      "/GPIO0",
+      "/M_ARM_GPIO",
+      "/M_ARM_OK",
+      "/M_ENN",
+      "/RXD0/GPIO3",
+      "/TMC_TX",
+      "/TMC_UART",
+      "Net-(J1-CC1)",
+      "Net-(J1-CC2)",
+      "Net-(Q1-B)",
+      "Net-(Q2-B)",
+      "Net-(U3-VBUS)",
+      "Net-(U3-~{RST})"
+    ],
+    "redes_perdidas": [],
+    "novos_footprints": [
+      "C49",
+      "C50",
+      "C6",
+      "R1",
+      "R2",
+      "R5",
+      "R6",
+      "R8"
+    ],
+    "alterados_footprints": [],
+    "novas_redes_com_cobre": [
+      "+3V3",
+      "/CP2102_3V3",
+      "/CP2102_DTR",
+      "/CP2102_RTS",
+      "/ENN_LOGIC",
+      "/ESP32_EN",
+      "/GPIO0",
+      "/IMU_OK",
+      "/M_ARM_GPIO",
+      "/M_ARM_OK",
+      "/M_A_VREF",
+      "/M_B_VREF",
+      "/M_ENN",
+      "/RXD0/GPIO3",
+      "/TMC_TX",
+      "/TMC_UART",
+      "/USB_5V",
+      "GND",
+      "Net-(J1-CC1)",
+      "Net-(J1-CC2)",
+      "Net-(Q1-B)",
+      "Net-(Q2-B)",
+      "Net-(U3-VBUS)",
+      "Net-(U3-~{RST})"
+    ]
+  },
+  "seguranca_hibrida": {
+    "antes": {
+      "erc": {
+        "error": 4
+      },
+      "drc": {
+        "invalid_outline": 1,
+        "clearance": 22
+      },
+      "geometry": 23,
+      "opens": 212,
+      "parity": 8,
+      "assigned": 97,
+      "missing": 8,
+      "net_complete": 9,
+      "net_partial": 2,
+      "net_unrouted": 43,
+      "segments": 183,
+      "vias": 0,
+      "dnp": [
+        "C204",
+        "C209",
+        "C210",
+        "C211",
+        "D201",
+        "J204",
+        "J205",
+        "J206",
+        "J207",
+        "K201",
+        "Q201",
+        "Q202",
+        "Q203",
+        "Q204",
+        "Q205",
+        "R204",
+        "R205",
+        "R223",
+        "R224",
+        "R225",
+        "R226",
+        "R227",
+        "R228",
+        "U201",
+        "U217",
+        "U218"
+      ]
+    },
+    "depois": {
+      "erc": {
+        "error": 4
+      },
+      "drc": {
+        "invalid_outline": 1
+      },
+      "geometry": 1,
+      "opens": 183,
+      "parity": 8,
+      "assigned": 97,
+      "missing": 8,
+      "net_complete": 15,
+      "net_partial": 11,
+      "net_unrouted": 28,
+      "segments": 439,
+      "vias": 10,
+      "dnp": [
+        "C204",
+        "C209",
+        "C210",
+        "C211",
+        "D201",
+        "J204",
+        "J205",
+        "J206",
+        "J207",
+        "K201",
+        "Q201",
+        "Q202",
+        "Q203",
+        "Q204",
+        "Q205",
+        "R204",
+        "R205",
+        "R223",
+        "R224",
+        "R225",
+        "R226",
+        "R227",
+        "R228",
+        "U201",
+        "U217",
+        "U218"
+      ]
+    },
+    "novas_redes_completas": [
+      "/COIL_SENSE",
+      "/QUAL_BUF",
+      "/QUAL_WDI",
+      "/REF_OV",
+      "/REF_UV",
+      "/VM_RESID_S"
+    ],
+    "redes_perdidas": [],
+    "novos_footprints": [],
+    "alterados_footprints": [
+      "U207",
+      "U210",
+      "U211",
+      "U217"
+    ],
+    "novas_redes_com_cobre": [
+      "/ARM_LATCH",
+      "/COIL_SENSE",
+      "/FAULT_N",
+      "/PACK_RTN",
+      "/PRECHECK_OK",
+      "/QUAL_BUF",
+      "/QUAL_WDI",
+      "/REF_OV",
+      "/REF_UV",
+      "/SAFE_3V3",
+      "/VM_K_SENSE",
+      "/VM_OV_S",
+      "/VM_PRESENT",
+      "/VM_RESID_S",
+      "/VM_UV_S"
+    ]
+  },
+  "aux_qualificador": {
+    "antes": {
+      "erc": {
+        "error": 2,
+        "warning": 1
+      },
+      "drc": {},
+      "geometry": 0,
+      "opens": 31,
+      "parity": 0,
+      "assigned": 30,
+      "missing": 0,
+      "net_complete": 13,
+      "net_partial": 2,
+      "net_unrouted": 8,
+      "segments": 304,
+      "vias": 9,
+      "dnp": [
+        "J301",
+        "J302",
+        "J303",
+        "U304"
+      ]
+    },
+    "depois": {
+      "erc": {
+        "error": 2,
+        "warning": 1
+      },
+      "drc": {},
+      "geometry": 0,
+      "opens": 0,
+      "parity": 0,
+      "assigned": 30,
+      "missing": 0,
+      "net_complete": 23,
+      "net_partial": 0,
+      "net_unrouted": 0,
+      "segments": 515,
+      "vias": 38,
+      "dnp": [
+        "J301",
+        "J302",
+        "J303",
+        "U304"
+      ]
+    },
+    "novas_redes_completas": [
+      "/AUX_5V",
+      "/HOST_DRDY",
+      "/HOST_FRAME_TX",
+      "/HOST_SCL",
+      "/HOST_SDA",
+      "/OBS_DRDY",
+      "/PACK_RTN",
+      "/QUAL_3V3",
+      "/TAP_DRDY",
+      "/TAP_FRAME_TX"
+    ],
+    "redes_perdidas": [],
+    "novos_footprints": [],
+    "alterados_footprints": [],
+    "novas_redes_com_cobre": [
+      "/AUX_5V",
+      "/HOST_DRDY",
+      "/HOST_FRAME_TX",
+      "/HOST_SCL",
+      "/HOST_SDA",
+      "/OBS_DRDY",
+      "/PACK_RTN",
+      "/QUAL_3V3",
+      "/TAP_DRDY",
+      "/TAP_FRAME_TX"
+    ]
+  }
+}

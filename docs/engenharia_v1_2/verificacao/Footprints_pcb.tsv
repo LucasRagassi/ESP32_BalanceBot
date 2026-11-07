@@ -1,0 +1,67 @@
+Ref	Valor	DNP	Fabricante	MPN	Footprint	Decisão
+C6	100nF	Não	Murata	GRM188R71H104KA93D	Capacitor_SMD:C_0603_1608Metric	Atribuído após conferir duas terminações sem polaridade e land pattern
+C7	4,7uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C8	4,7uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C9	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C10	47nF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C11	47nF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C12	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C13	100nF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C14	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C15	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C16	100nF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C17	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C18	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C19	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C20	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C21	100nF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C22	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C23	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C24	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C25	10uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C26	220nF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C27	220nF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C28	220nF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C30	1uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C31	2.2uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C32	2.2uF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C33	470pF	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C37	100uF low ESR	Não				Candidato v1.1. Fechar Ceff, ESR, ripple, energia, tensão e montagem
+C40	2.2uF 6.3V+	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C43	100uF low ESR	Não				Candidato v1.1. Fechar Ceff, ESR, ripple, energia, tensão e montagem
+C46	2.2uF 6.3V+	Não				Fixar MPN, capacitância efetiva, tensão/ripple, pacote e montagem no respectivo nó
+C49	100nF	Não	Murata	GRM188R71H104KA93D	Capacitor_SMD:C_0603_1608Metric	Atribuído após conferir duas terminações sem polaridade e land pattern
+C50	100nF	Não	Murata	GRM188R71H104KA93D	Capacitor_SMD:C_0603_1608Metric	Atribuído após conferir duas terminações sem polaridade e land pattern
+F1	FUSIVEL TBD DNP	Sim				Dimensionar corte/fusível/regeneração e selecionar peça
+J2	Conn_01x03	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J3	BMS_I2C	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J4	NTC_103AT-2	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J5	MOTOR_A	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J6	MOTOR_B	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J7	CORTE_VM_4P	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J8	SUPERVISAO	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J9	DISSIPADOR_VM	Sim				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J10	MONITOR_ARM_VIO	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J12	NTC 103AT-2	Sim				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J13	I2C SERVICO U4	Sim				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+L1	2,2uH	Não				Fechar corrente, saturação, perdas, tolerância e footprint
+L2	1uH	Não				Fechar corrente, saturação, perdas, tolerância e footprint
+R1	5,1 kΩ	Não	Vishay	CRCW06035K10FKEA	Resistor_SMD:R_0603_1608Metric	Atribuído após conferir duas terminações sem polaridade e land pattern
+R2	5,1 kΩ	Não	Vishay	CRCW06035K10FKEA	Resistor_SMD:R_0603_1608Metric	Atribuído após conferir duas terminações sem polaridade e land pattern
+R5	22.1K	Não	Vishay	CRCW060322K1FKEA	Resistor_SMD:R_0603_1608Metric	Atribuído após conferir duas terminações sem polaridade e land pattern
+R6	47,5K	Não	Vishay	CRCW060347K5FKEA	Resistor_SMD:R_0603_1608Metric	Atribuído após conferir duas terminações sem polaridade e land pattern
+R8	1K	Não	Vishay	CRCW06031K00FKEA	Resistor_SMD:R_0603_1608Metric	Atribuído após conferir duas terminações sem polaridade e land pattern
+R12	6,04K	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R13	100R	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R14	100R	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R15	100R	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R19	100R	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R20	100R	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R21	10M	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R22	10M	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R23	100R	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R24	10R	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R25	10k	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R26	10k	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R27	100R	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó
+R28	10k	Não				Fixar MPN, tolerância, potência/tensão de trabalho e pacote para o nó

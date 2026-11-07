@@ -1,0 +1,24 @@
+Rede	Antes	Depois	Pinos da netlist
+/AUX_5V	parcial	completa	C303.1 D301.2 J302.1 L301.2 R301.1 R311.1 U301.6
+/AUX_FB	completa	completa	R301.2 R302.1 U301.5
+/AUX_SENSE	completa	completa	R311.2 R312.1 U303.5
+/AUX_SW	completa	completa	L301.1 U301.7
+/HOST_DRDY	aberta sem trilha/zona	completa	J301.3 R305.1
+/HOST_FRAME_TX	aberta sem trilha/zona	completa	J301.4 R306.1
+/HOST_SCL	aberta sem trilha/zona	completa	J301.1 R303.1
+/HOST_SDA	aberta sem trilha/zona	completa	J301.2 R304.1
+/OBS_DRDY	aberta sem trilha/zona	completa	U302.8 U304.6
+/OBS_SCL	completa	completa	U302.3 U304.4
+/OBS_SDA	completa	completa	U302.6 U304.5
+/OBS_UART	completa	completa	U302.11 U304.2
+/PACK_FUSED_AUX	completa	completa	C301.1 C302.1 J303.1 U301.2 U301.3
+/PACK_RTN	parcial	completa	C301.2 C302.2 C303.2 C304.2 C305.2 C306.2 J301.5 J302.4 J303.2 R302.2 R307.2 R308.2 R309.2 R310.2 R312.2 R314.2 R315.2 U301.1 U301.4 U302.1 U302.10 U302.13 U302.4 U302.7 U303.2 U304.13 U304.18 U304.23 U304.28 U304.3 U304.38 U304.8
+/PICO_VSYS	completa	completa	C304.1 D301.1 U304.39
+/QUAL_3V3	aberta sem trilha/zona	completa	C305.1 C306.1 U302.14 U303.3 U303.6 U304.36
+/QUAL_READY	completa	completa	J302.2 R313.2 R314.1 U303.1
+/QUAL_WDI	completa	completa	J302.3 R315.1 U304.22
+/READY_RAW	completa	completa	R313.1 U304.21
+/TAP_DRDY	aberta sem trilha/zona	completa	R305.2 R309.1 U302.9
+/TAP_FRAME_TX	aberta sem trilha/zona	completa	R306.2 R310.1 U302.12
+/TAP_SCL	completa	completa	R303.2 R307.1 U302.2
+/TAP_SDA	completa	completa	R304.2 R308.1 U302.5

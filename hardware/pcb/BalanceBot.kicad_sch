@@ -9285,6 +9285,32 @@
 		(color 0 0 0 0)
 		(uuid "fd57fb22-48da-4355-887d-d0de197cdcdb")
 	)
+	(no_connect (at 72.39 49.53) (uuid "ccabe4bb-5b1f-51d5-a95e-16b6191acfc2"))
+	(no_connect (at 72.39 52.07) (uuid "0568c748-c5e2-53db-b104-295f2503cc1b"))
+	(no_connect (at 72.39 57.15) (uuid "e99b30dc-96c8-5c6d-a4d1-7c9985c3f1c3"))
+	(no_connect (at 72.39 39.37) (uuid "ddde5d72-e393-5bc4-bc92-a73f28765287"))
+	(no_connect (at 72.39 44.45) (uuid "897b492d-2d64-5983-b3f8-768c0d29fc71"))
+	(no_connect (at 72.39 59.69) (uuid "d94f5ad0-1a34-5ead-ae03-5cc49bc137dc"))
+	(no_connect (at 72.39 62.23) (uuid "715fe6c3-7304-595e-a9f4-ad0ec256172e"))
+	(no_connect (at 72.39 46.99) (uuid "9c02b5ba-e144-5119-b2bc-055849246ba8"))
+	(no_connect (at 41.91 39.37) (uuid "8c12de1b-47f2-5d9f-a629-a1ffc9acbbe4"))
+	(no_connect (at 41.91 41.91) (uuid "7f11bc3b-4374-5234-a17a-56ac115ede3a"))
+	(no_connect (at 72.39 92.71) (uuid "3b7a6f85-4d61-5549-90c9-36c2c176268d"))
+	(no_connect (at 72.39 87.63) (uuid "23116b08-4867-5ed8-b339-5a26e00fdc8d"))
+	(no_connect (at 167.64 105.41) (uuid "f4b0ebb9-ba0f-5beb-8e3a-31ce10be2b30"))
+	(no_connect (at 167.64 102.87) (uuid "e72845e3-9f61-5e5d-b31b-2aaca2ef9b3a"))
+	(no_connect (at 167.64 130.81) (uuid "88980b06-c44a-5219-8267-9b722d279b9e"))
+	(no_connect (at 167.64 135.89) (uuid "1f767a93-26ce-5a28-bf71-0bca61be1ae3"))
+	(no_connect (at 167.64 133.35) (uuid "b0c93abd-7126-54b2-9c83-2454db91f0aa"))
+	(no_connect (at 167.64 118.11) (uuid "b0a26f91-96e7-52ab-9eda-f0b5078b0de8"))
+	(no_connect (at 167.64 115.57) (uuid "1f877765-2849-53a1-ab3e-489430599784"))
+	(no_connect (at 167.64 113.03) (uuid "c1715e1e-167d-597d-841a-3dcfcbfc8184"))
+	(no_connect (at 167.64 110.49) (uuid "b69c6c12-84c1-50fb-bac5-61764f644f72"))
+	(no_connect (at 167.64 125.73) (uuid "408d144a-623a-51d4-b302-4309741807e7"))
+	(no_connect (at 167.64 123.19) (uuid "d0bc1c37-62fb-5d72-972b-cdc58831d018"))
+	(no_connect (at 167.64 120.65) (uuid "8705cf1d-3163-5708-a4ba-0145325db536"))
+	(no_connect (at 311.15 96.52) (uuid "89dc5667-136c-5885-a084-fad5c21c7598"))
+	(no_connect (at 290.83 101.6) (uuid "6d4a7ad1-3e09-5c31-9b9d-a15d16d2f520"))
 	(no_connect
 		(at 72.39 167.64)
 		(uuid "269dc06b-b668-42d3-8263-c1b40416b2cd")
@@ -12260,7 +12286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 137.4648 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12271,6 +12297,8 @@
 				)
 			)
 		)
+		(property "Fabricante" "Murata" (at 138.43 66.04 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "GRM188R71H104KA93D" (at 138.43 66.04 0) (effects (font (size 1 1)) (hide yes)))
 		(property "Datasheet" ""
 			(at 138.43 66.04 0)
 			(hide yes)
@@ -12341,7 +12369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 80.01 90)
 			(hide yes)
 			(show_name no)
@@ -12352,6 +12380,8 @@
 				)
 			)
 		)
+		(property "Fabricante" "Vishay" (at 129.54 80.01 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "CRCW060347K5FKEA" (at 129.54 80.01 0) (effects (font (size 1 1)) (hide yes)))
 		(property "Datasheet" ""
 			(at 129.54 80.01 0)
 			(hide yes)
@@ -13783,7 +13813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -13794,6 +13824,8 @@
 				)
 			)
 		)
+		(property "Fabricante" "Vishay" (at 88.9 144.78 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "CRCW06035K10FKEA" (at 88.9 144.78 0) (effects (font (size 1 1)) (hide yes)))
 		(property "Datasheet" ""
 			(at 88.9 144.78 0)
 			(hide yes)
@@ -14237,7 +14269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 144.018 90)
 			(hide yes)
 			(show_name no)
@@ -14248,6 +14280,8 @@
 				)
 			)
 		)
+		(property "Fabricante" "Vishay" (at 80.01 142.24 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "CRCW06035K10FKEA" (at 80.01 142.24 0) (effects (font (size 1 1)) (hide yes)))
 		(property "Datasheet" ""
 			(at 80.01 142.24 0)
 			(hide yes)
@@ -15812,7 +15846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.922 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -15823,6 +15857,8 @@
 				)
 			)
 		)
+		(property "Fabricante" "Vishay" (at 139.7 74.93 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "CRCW06031K00FKEA" (at 139.7 74.93 0) (effects (font (size 1 1)) (hide yes)))
 		(property "Datasheet" ""
 			(at 139.7 74.93 0)
 			(hide yes)
@@ -15972,7 +16008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 66.04 90)
 			(hide yes)
 			(show_name no)
@@ -15983,6 +16019,8 @@
 				)
 			)
 		)
+		(property "Fabricante" "Vishay" (at 129.54 66.04 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "CRCW060322K1FKEA" (at 129.54 66.04 0) (effects (font (size 1 1)) (hide yes)))
 		(property "Datasheet" ""
 			(at 129.54 66.04 0)
 			(hide yes)
@@ -20594,7 +20632,9 @@
 	(symbol (lib_id "Device:C") (at 421.64 378.46 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "3dd4bb51-ad00-4aff-b53f-0e447f808494")
 		(property "Reference" "C49" (at 424.18 377.19 0) (effects (font (size 1 1)) (justify left)))
 		(property "Value" "100nF" (at 424.18 379.73 0) (effects (font (size 1 1)) (justify left)))
-		(property "Footprint" "" (at 421.64 378.46 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 421.64 378.46 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(property "Fabricante" "Murata" (at 421.64 378.46 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "GRM188R71H104KA93D" (at 421.64 378.46 0) (effects (font (size 1 1)) (hide yes)))
 		(pin "1" (uuid "ce6928f5-1cf5-4277-9247-5e2d7600a910"))
 		(pin "2" (uuid "63761990-651a-4e49-8870-151948dc2b5b"))
 		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "C49") (unit 1))))
@@ -20666,7 +20706,9 @@
 	(symbol (lib_id "Device:C") (at 264.16 378.46 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "d676b8fa-f993-4e90-aa49-7e600d4e05f2")
 		(property "Reference" "C50" (at 266.7 377.19 0) (effects (font (size 1 1)) (justify left)))
 		(property "Value" "100nF" (at 266.7 379.73 0) (effects (font (size 1 1)) (justify left)))
-		(property "Footprint" "" (at 264.16 378.46 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 264.16 378.46 0) (hide yes) (effects (font (size 1 1)) (justify left)))
+		(property "Fabricante" "Murata" (at 264.16 378.46 0) (effects (font (size 1 1)) (hide yes)))
+		(property "MPN" "GRM188R71H104KA93D" (at 264.16 378.46 0) (effects (font (size 1 1)) (hide yes)))
 		(pin "1" (uuid "f70945e9-278b-4a78-8b4f-f7d230a6f273"))
 		(pin "2" (uuid "736a9946-85c8-4d29-9909-b9fed6f607e9"))
 		(instances (project "BalanceBot" (path "/45906b3a-9ead-42a6-b076-ec5a0673d815" (reference "C50") (unit 1))))

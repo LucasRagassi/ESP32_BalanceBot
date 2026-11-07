@@ -1,0 +1,9 @@
+Ref	Valor	DNP	Fabricante	MPN	Footprint	Decisão
+J201	Chicote J7 (TBD)	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J202	E-stop NC A/B (TBD)	Não				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J204	5V_AUX protegido	Sim				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J205	QUAL / J10.2	Sim				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J206	REARME SPDT	Sim				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+J207	DIAGNOSTICO	Sim				Selecionar conector/chicote, corrente, trava, polarização e encaixe
+K201	G5LE-1 DC5	Sim				Dimensionar corte/fusível/regeneração e selecionar peça
+R228	R_DUMP TBD	Sim				Dimensionar corte/fusível/regeneração e selecionar peça

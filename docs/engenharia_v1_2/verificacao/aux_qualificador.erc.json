@@ -1,0 +1,82 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-07T10:51:45",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/69edda1a-aa98-5ef0-91db-4e580fd235f6",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U304 Pin 39 [VSYS, Power input, Line]",
+                            "pos": {
+                                "x": 97.79,
+                                "y": 191.77
+                            },
+                            "uuid": "fa90400d-d0d3-5191-98c6-a096af9dcd52"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 2 [VIN, Power input, Line]",
+                            "pos": {
+                                "x": 127.0,
+                                "y": 54.61
+                            },
+                            "uuid": "57927106-fe78-5fcf-a22d-d01e93379a3d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin GND not connected to ground net",
+                    "items": [
+                        {
+                            "description": "Symbol U304 Pin 3 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 102.87,
+                                "y": 265.43
+                            },
+                            "uuid": "2cdb1a03-b246-5066-b794-c9c79cf745ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "ground_pin_not_ground"
+                }
+            ]
+        }
+    ],
+    "source": "BalanceBot_Aux_Qualificador.kicad_sch"
+}
