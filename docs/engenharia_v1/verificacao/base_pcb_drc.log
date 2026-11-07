@@ -1,0 +1,5 @@
+09:13:25: Error: schema file '/usr/share/kicad/schemas/api.v1.schema.json' not found
+09:13:25: Error: Failed to load shared library '/workspace/scratch/10b2961dc697/fase6/runtime/kicad/usr/bin/_pcbnew.kiface': libTKBO.so.7: cannot open shared object file: No such file or directory
+09:13:25: Error: Failed to load kiface library '/workspace/scratch/10b2961dc697/fase6/runtime/kicad/usr/bin/_pcbnew.kiface'.
+
+Código de saída KiCad: 255

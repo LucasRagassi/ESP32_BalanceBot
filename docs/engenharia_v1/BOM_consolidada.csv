@@ -1,0 +1,279 @@
+﻿Projeto;Referência;Valor / candidato;Qtd;Footprint;DNP CAD;Montagem PCB;BOM CAD;Posicionamento CAD;Estado de pads;Finalidade DNP ou restrição;Fabricante;MPN ou família;Ficha técnica
+pcb;C1;1uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C10;47nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C11;47nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C12;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C13;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C14;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C15;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C16;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C17;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C18;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C19;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C2;10uF 25V;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C20;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C21;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C22;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C23;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C24;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C25;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C26;220nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C27;220nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C28;220nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C29;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C3;22uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C30;1uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C31;2.2uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C32;2.2uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C33;470pF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C34;1nF 50V;1;Capacitor_SMD:C_0402_1005Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;C35;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C36;22uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C37;100uF low ESR;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C38;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C39;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C4;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C40;2.2uF 6.3V+;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C41;22nF 50V;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C42;100nF 16V;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C43;100uF low ESR;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C44;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C45;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C46;2.2uF 6.3V+;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C47;22nF 50V;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C48;100nF 16V;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C49;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C5;4,7uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C50;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C51;100nF;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;C6;100nF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C7;4,7uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C8;4,7uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;C9;10uF;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;D1;BAS40W,115;1;Package_TO_SOT_SMD:SOT-323_SC-70;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;D2;BAS40W,115;1;Package_TO_SOT_SMD:SOT-323_SC-70;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;D3;TVS TBD DNP;1;;Sim;Sim;Sim;Sim;Sem footprint;TVS VM a dimensionar;;;
+pcb;F1;FUSIVEL TBD DNP;1;;Sim;Sim;Sim;Sim;Sem footprint;Corrente, I²t e interrupção DC;;;
+pcb;J1;USB_C_Receptacle_USB2.0_16P;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J10;MONITOR_ARM_VIO;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J11;IMU_3V3_GH;1;Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal;Não;Sim;Sim;Sim;Pads extra: MP;;;;
+pcb;J12;NTC 103AT-2;1;;Sim;Sim;Sim;Sim;Sem footprint;Sensor dedicado do carregador;;;
+pcb;J13;I2C SERVICO U4;1;;Sim;Sim;Sim;Sim;Sem footprint;Interface de fixture para U4;;;
+pcb;J2;Conn_01x03;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J3;BMS_I2C;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J4;NTC_103AT-2;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J5;MOTOR_A;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J6;MOTOR_B;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J7;CORTE_VM_4P;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J8;SUPERVISAO;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;J9;DISSIPADOR_VM;1;;Sim;Sim;Sim;Sim;Sem footprint;Dissipador externo, interface bloqueada;;;
+pcb;L1;2,2uH;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;L2;1uH;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;Q1;MMBT3904;1;Package_TO_SOT_SMD:SOT-23;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;Q2;MMBT3904;1;Package_TO_SOT_SMD:SOT-23;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;Q3;CSD18540Q5B;1;BalanceBot:DNK0008A;Não;Sim;Sim;Sim;Numeração OK;;TI;CSD18540Q5B;https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf
+pcb;Q4;CSD18540Q5B;1;BalanceBot:DNK0008A;Não;Sim;Sim;Sim;Numeração OK;;TI;CSD18540Q5B;https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf
+pcb;R1;5,1 kΩ;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R10;10K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R11;160K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R12;6,04K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R13;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R14;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R15;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R16;R_SHUNT_TBD;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R17;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R18;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R19;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R2;5,1 kΩ;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R20;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R21;10M;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R22;10M;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R23;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R24;10R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R25;10k;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R26;10k;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R27;100R;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R28;10k;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R29;0.47R 1% 0.5W;1;Resistor_SMD:R_1206_3216Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R3;10K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R30;0.47R 1% 0.5W;1;Resistor_SMD:R_1206_3216Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R31;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R32;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R33;15k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R34;10k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R35;0.47R 1% 0.5W;1;Resistor_SMD:R_1206_3216Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R36;0.47R 1% 0.5W;1;Resistor_SMD:R_1206_3216Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R37;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R38;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R39;15k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R4;10K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R40;10k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R41;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R42;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R43;0R DNP;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Intertravamento ENN permanece aberto;;;
+pcb;R44;4.7k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R45;47k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R46;1k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R47;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R48;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R49;2.2k 1% DNP;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Pull-up I²C alternativo;;;
+pcb;R5;22.1K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R50;2.2k 1% DNP;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Pull-up I²C alternativo;;;
+pcb;R51;100k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R52;5.23k 1% DNP;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Polarização TS, validar janela térmica antes de montar;;;
+pcb;R53;30.1k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;R6;47,5K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R7;499K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R8;1K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;R9;10K;1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+pcb;SW1;RESET;1;Button_Switch_SMD:SW_SPST_TL3342;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;SW2;BOOT;1;Button_Switch_SMD:SW_SPST_TL3342;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;U1;ESP32-WROOM-32E;1;RF_Module:ESP32-WROOM-32E;Não;Sim;Sim;Sim;Numeração OK;;Espressif;ESP32-WROOM-32E, sufixo de flash pendente;https://documentation.espressif.com/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.html
+pcb;U2;TPS62160DGK;1;Package_SO:MSOP-8_3x3mm_P0.65mm;Não;Sim;Sim;Sim;Numeração OK;;TI;TPS62160DGK;https://www.ti.com/lit/ds/symlink/tps62160.pdf
+pcb;U3;CP2102N-Axx-xQFN28;1;Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm;Não;Sim;Sim;Sim;Numeração OK;;Silicon Labs;CP2102N QFN28, revisão/sufixo pendente;https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+pcb;U4;BQ25798;1;Package_DFN_QFN:Texas_RQM0029A_VQFN-29_4x4mm_P0.4mm;Não;Sim;Sim;Sim;Numeração OK;;TI;BQ25798;https://www.ti.com/lit/ds/symlink/bq25798.pdf
+pcb;U5;BQ76905RGRR;1;BalanceBot:VQFN20_RGR_TEX;Não;Sim;Sim;Sim;Numeração OK;;TI;BQ76905RGRR;https://www.ti.com/lit/ds/symlink/bq76905.pdf
+pcb;U6;TMC2209-LA;1;Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias;Não;Sim;Sim;Sim;Numeração OK;;Analog Devices;TMC2209-LA;https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf
+pcb;U7;TMC2209-LA;1;Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm_ThermalVias;Não;Sim;Sim;Sim;Numeração OK;;Analog Devices;TMC2209-LA;https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf
+pcb;U8;74LVC1G10;1;Package_TO_SOT_SMD:SOT-23-6;Não;Sim;Sim;Sim;Numeração OK;;;;
+pcb;U9;TPS3808DBV;1;Package_TO_SOT_SMD:SOT-23-6;Não;Sim;Sim;Sim;Numeração OK;;TI;TPS3808G33DBVR;https://www.ti.com/lit/ds/symlink/tps3808.pdf
+seguranca_hibrida;C201;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C202;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C203;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C204;33n X7R;1;Capacitor_SMD:C_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Rampa HGATE a validar;;;
+seguranca_hibrida;C205;2.2u X7R;1;Capacitor_SMD:C_0805_2012Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C206;2.2u X7R;1;Capacitor_SMD:C_0805_2012Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C207;10n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C208;220n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C209;10u 50V X7R;1;Capacitor_SMD:C_1206_3216Metric;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;C210;10u X7R;1;Capacitor_SMD:C_0805_2012Metric;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;C211;100n;1;Capacitor_SMD:C_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;C212;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C213;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C214;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C215;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C216;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C217;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C218;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C219;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C220;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C221;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C222;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C223;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C224;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C225;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C226;220n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;C227;100n X7R;1;Capacitor_SMD:C_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;D201;TVS bidir. TBD;1;Diode_SMD:D_SMB;Sim;Sim;Sim;Sim;Numeração OK;Clamp de bobina a dimensionar;;;
+seguranca_hibrida;D202;BAT54H,115;1;Diode_SMD:D_SOD-123F;Não;Sim;Sim;Sim;Numeração OK;;Nexperia;BAT54H,115;https://assets.nexperia.com/documents/data-sheet/BAT54H.pdf
+seguranca_hibrida;J201;Chicote J7 (TBD);1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+seguranca_hibrida;J202;E-stop NC A/B (TBD);1;;Não;Sim;Sim;Sim;Sem footprint;;;;
+seguranca_hibrida;J204;5V_AUX protegido;1;;Sim;Sim;Sim;Sim;Sem footprint;Fonte auxiliar 5 V pré-contato, chicote pendente;;;
+seguranca_hibrida;J205;QUAL / J10.2;1;;Sim;Sim;Sim;Sim;Sem footprint;Qualificador e sense, compatibilidade parcial pendente;;;
+seguranca_hibrida;J206;REARME SPDT;1;;Sim;Sim;Sim;Sim;Sem footprint;Rearme com contatos complementares, botão/chicote a validar;;;
+seguranca_hibrida;J207;DIAGNOSTICO;1;;Sim;Sim;Sim;Sim;Sem footprint;Diagnóstico de alta impedância;;;
+seguranca_hibrida;K201;G5LE-1 DC5;1;;Sim;Sim;Sim;Sim;Sem footprint;Interrupção DC e pinagem física a validar;Omron;G5LE-1 DC5;https://components.omron.com/sites/default/files/datasheet_pdf/K100-E1.pdf
+seguranca_hibrida;Q201;CSD18540Q5B;1;BalanceBot:DNK0008A;Sim;Sim;Sim;Sim;Numeração OK;Bloqueio reverso, perdas e SOA pendentes;TI;CSD18540Q5B;https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf
+seguranca_hibrida;Q202;CSD18540Q5B;1;BalanceBot:DNK0008A;Sim;Sim;Sim;Sim;Numeração OK;Corte de alta lateral, SOA pendente;TI;CSD18540Q5B;https://www.ti.com/lit/ds/symlink/csd18540q5b.pdf
+seguranca_hibrida;Q203;AO3400A;1;Package_TO_SOT_SMD:SOT-23;Sim;Sim;Sim;Sim;Numeração OK;Comando da bobina, clamp e tempos pendentes;Alpha & Omega;AO3400A;https://www.aosmd.com/res/data_sheets/AO3400A.pdf
+seguranca_hibrida;Q204;AO3401A;1;Package_TO_SOT_SMD:SOT-23;Sim;Sim;Sim;Sim;Numeração OK;Comando EN por PMOS, brownout a validar;Alpha & Omega;AO3401A;https://www.aosmd.com/res/data_sheets/AO3401A.pdf
+seguranca_hibrida;Q205;AO3400A;1;Package_TO_SOT_SMD:SOT-23;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;Alpha & Omega;AO3400A;https://www.aosmd.com/res/data_sheets/AO3400A.pdf
+seguranca_hibrida;R201;75k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R202;10k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R203;47k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R204;100R;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Rampa HGATE a validar;;;
+seguranca_hibrida;R205;10k;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Bleed residual a validar;;;
+seguranca_hibrida;R206;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R207;1M;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R208;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R209;47k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R210;100R;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R211;47k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R212;100R;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R213;47k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R214;39k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R215;10k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R216;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R217;91k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R218;10k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R219;36.5k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R220;10k 1%;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R221;100k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R222;22k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R223;82k 1%;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;R224;11k 1%;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;R225;330k 1%;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;R226;100R;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;R227;100k;1;Resistor_SMD:R_0603_1608Metric;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;R228;R_DUMP TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Dissipador autônomo candidato. Não montar.;;;
+seguranca_hibrida;R229;47k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R230;47k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R231;47k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R232;10k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R233;47k;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;R234;1M;1;Resistor_SMD:R_0603_1608Metric;Não;Sim;Sim;Sim;Numeração OK;;;;
+seguranca_hibrida;U201;LM74800MDRRR;1;BalanceBot_Hibrida:DRR0012E;Sim;Sim;Sim;Sim;Numeração OK;Controle de alta lateral provisório;TI;LM74800MDRRR;https://www.ti.com/lit/ds/symlink/lm7480.pdf
+seguranca_hibrida;U202;TPS7A2033PDBVR;1;Package_TO_SOT_SMD:SOT-23-5;Não;Sim;Sim;Sim;Numeração OK;;TI;TPS7A2033PDBVR;https://www.ti.com/lit/ds/symlink/tps7a20.pdf
+seguranca_hibrida;U203;TPS3808G33DBVR;1;Package_TO_SOT_SMD:SOT-23-6;Não;Sim;Sim;Sim;Numeração OK;;TI;TPS3808G33DBVR;https://www.ti.com/lit/ds/symlink/tps3808.pdf
+seguranca_hibrida;U204;TPS3808G33DBVR;1;Package_TO_SOT_SMD:SOT-23-6;Não;Sim;Sim;Sim;Numeração OK;;TI;TPS3808G33DBVR;https://www.ti.com/lit/ds/symlink/tps3808.pdf
+seguranca_hibrida;U205;SN74LVC1G17DBVR;1;Package_TO_SOT_SMD:SOT-23-5;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC1G17DBVR;https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+seguranca_hibrida;U206;SN74LVC1G17DBVR;1;Package_TO_SOT_SMD:SOT-23-5;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC1G17DBVR;https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+seguranca_hibrida;U207;TPS3435CAEBJDDFR;1;Package_TO_SOT_SMD:TSOT-23-8;Não;Sim;Sim;Sim;Numeração OK;;TI;TPS3435CAEBJDDFR;https://www.ti.com/lit/ds/symlink/tps3435.pdf
+seguranca_hibrida;U208;SN74LVC1G17DBVR;1;Package_TO_SOT_SMD:SOT-23-5;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC1G17DBVR;https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+seguranca_hibrida;U209;SN74LVC1G17DBVR;1;Package_TO_SOT_SMD:SOT-23-5;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC1G17DBVR;https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+seguranca_hibrida;U210;SN74LVC2G74DCUR;1;Package_SO:VSSOP-8_2.3x2mm_P0.5mm;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC2G74DCUR;https://www.ti.com/lit/ds/symlink/sn74lvc2g74.pdf
+seguranca_hibrida;U211;SN74LVC2G74DCUR;1;Package_SO:VSSOP-8_2.3x2mm_P0.5mm;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC2G74DCUR;https://www.ti.com/lit/ds/symlink/sn74lvc2g74.pdf
+seguranca_hibrida;U212;SN74LVC1G07DBVR;1;Package_TO_SOT_SMD:SOT-23-5;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC1G07DBVR;https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf
+seguranca_hibrida;U213;TPS3808G01DBVR;1;Package_TO_SOT_SMD:SOT-23-6;Não;Sim;Sim;Sim;Numeração OK;;TI;TPS3808G01DBVR;https://www.ti.com/lit/ds/symlink/tps3808.pdf
+seguranca_hibrida;U214;TLV3011BIDBVR;1;Package_TO_SOT_SMD:SOT-23-6;Não;Sim;Sim;Sim;Numeração OK;;TI;TLV3011BIDBVR;https://www.ti.com/lit/ds/symlink/tlv3012b.pdf
+seguranca_hibrida;U215;TLV3012BIDBVR;1;Package_TO_SOT_SMD:SOT-23-6;Não;Sim;Sim;Sim;Numeração OK;;TI;TLV3012BIDBVR;https://www.ti.com/lit/ds/symlink/tlv3012b.pdf
+seguranca_hibrida;U216;SN74LVC1G08DBVR;1;Package_TO_SOT_SMD:SOT-23-5;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC1G08DBVR;https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+seguranca_hibrida;U217;TPS7A1633DGNR;1;Package_SO:Texas_DGN0008B_VSSOP-8-1EP_3x3mm_P0.65mm_EP2x3mm_Mask1.88x1.98mm;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;TI;TPS7A1633DGNR;https://www.ti.com/lit/ds/symlink/tps7a16.pdf
+seguranca_hibrida;U218;TLV3012BIDBVR;1;Package_TO_SOT_SMD:SOT-23-6;Sim;Sim;Sim;Sim;Numeração OK;Dissipador autônomo candidato. Não montar.;TI;TLV3012BIDBVR;https://www.ti.com/lit/ds/symlink/tlv3012b.pdf
+seguranca_hibrida;U219;SN74LVC1G07DBVR;1;Package_TO_SOT_SMD:SOT-23-5;Não;Sim;Sim;Sim;Numeração OK;;TI;SN74LVC1G07DBVR;https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf
+seguranca_vm;C101;100nF;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;C102;100nF;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;C103;100nF / tensao TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;D101;Schottky reverso TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;D102;TVS bobina TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;D103;TVS bobina TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;D104;Zener VGS TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J101;CHICOTE J7;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J102;CHICOTE J8;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J103;CHICOTE J9;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J104;CHICOTE J10;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J105;FONTE AUXILIAR EXTERNA;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J106;E-STOP NC CH1 + CH2;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J107;PERMISSOES SECAS NA;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J109;LOGICA EXTERNA;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J110;BOTAO REARME NA;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;J111;AQUISICAO / DUMP STATUS;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;K101;K1 TBD NA + espelho NC;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;K102;K2 TBD NA + espelho NC;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;Q101;NMOS dissipador TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R101;1k provis.;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R102;1k provis.;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R103;limiar TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R104;limiar TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R105;limiar TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R106;10k;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R107;limiar TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R108;limiar TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R109;limiar TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R110;10k;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R111;22k provis.;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R112;limiar TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R113;limiar TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R114;histerese TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R115;pull-up TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R116;gate TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R117;100k provis.;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R118;pulso TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;R119;descarga TBD;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;SW101;E-STOP 2NC externo;1;;Sim;Não;Não;Não;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;SW102;Rearme NA externo;1;;Sim;Não;Não;Não;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;U101;PNOZ s4 24V / candidato;1;;Sim;Sim;Sim;Sim;Sem footprint;Referência histórica, sem montagem;;;
+seguranca_vm;U102;TPS3700DDC / DNP;1;Package_TO_SOT_SMD:SOT-23-6;Sim;Sim;Sim;Sim;Numeração OK;Referência histórica, sem montagem;;;
+seguranca_vm;U103;TPS3700DDC / DNP;1;Package_TO_SOT_SMD:SOT-23-6;Sim;Sim;Sim;Sim;Numeração OK;Referência histórica, sem montagem;;;
+seguranca_vm;U104;TLV1701DBV / DNP;1;Package_TO_SOT_SMD:SOT-23-5;Sim;Sim;Sim;Sim;Numeração OK;Referência histórica, sem montagem;;;
+seguranca_vm;U105;LM4040-N 2.5V / DNP;1;Package_TO_SOT_SMD:SOT-23;Sim;Sim;Sim;Sim;Numeração OK;Referência histórica, sem montagem;;;

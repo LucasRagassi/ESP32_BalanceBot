@@ -1,0 +1,2 @@
+24 combinações digitais e quatro sequências passam. Sobreposição de bordas não modelada.
+Piloto nominal: 0.576 V. Sem validação física.
