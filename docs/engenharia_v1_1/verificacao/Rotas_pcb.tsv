@@ -1,0 +1,101 @@
+Rede	Estado
+/BMS_KN	completa no CAD
+/BMS_KP	completa no CAD
+/BMS_SRN	completa no CAD
+/BMS_SRP	completa no CAD
+/FRAME_USED_TX	completa no CAD
+/IMU_DRDY	completa no CAD
+/IMU_SCL	completa no CAD
+/IMU_SDA	completa no CAD
+/M_A_CPI	completa no CAD
+/M_A_CPO	completa no CAD
+/M_A_VREF	completa no CAD
+/M_B_CPI	completa no CAD
+/M_B_CPO	completa no CAD
+/M_B_VREF	completa no CAD
++3V3	sem cobre
+/ARM_SENSE	sem cobre
+/B+	sem cobre
+/B-	sem cobre
+/BM	sem cobre
+/BMS_BAT	sem cobre
+/BMS_CHG_DRV	sem cobre
+/BMS_DRAIN_COMMON	sem cobre
+/BMS_DSG_DRV	sem cobre
+/BMS_REGOUT	sem cobre
+/BMS_REGSRC	sem cobre
+/BMS_SCL	sem cobre
+/BMS_SDA	sem cobre
+/BMS_TS	sem cobre
+/CELL0_SENSE	sem cobre
+/CELL1_SENSE	sem cobre
+/CELL2_SENSE	sem cobre
+/CHG_CE_N	sem cobre
+/CHG_TS	sem cobre
+/CP2102_3V3	sem cobre
+/CP2102_DTR	sem cobre
+/CP2102_RTS	sem cobre
+/ENN_LOGIC	sem cobre
+/ESP32_EN	sem cobre
+/GPIO0	sem cobre
+/I2C_SCL	sem cobre
+/I2C_SDA	sem cobre
+/IMU_OK	sem cobre
+/M_ARM_GPIO	sem cobre
+/M_ARM_OK	sem cobre
+/M_A_5VOUT	sem cobre
+/M_A_A1	sem cobre
+/M_A_A2	sem cobre
+/M_A_B1	sem cobre
+/M_A_B2	sem cobre
+/M_A_BRA	sem cobre
+/M_A_BRB	sem cobre
+/M_A_DIR	sem cobre
+/M_A_STEP	sem cobre
+/M_A_VCP	sem cobre
+/M_B_5VOUT	sem cobre
+/M_B_A1	sem cobre
+/M_B_A2	sem cobre
+/M_B_B1	sem cobre
+/M_B_B2	sem cobre
+/M_B_BRA	sem cobre
+/M_B_BRB	sem cobre
+/M_B_DIR	sem cobre
+/M_B_STEP	sem cobre
+/M_B_VCP	sem cobre
+/M_ENN	sem cobre
+/PWR_OK	sem cobre
+/REGN	sem cobre
+/RXD0/GPIO3	sem cobre
+/SHUNT_OUT	sem cobre
+/SYS_PWR	sem cobre
+/TMC_TX	sem cobre
+/TMC_UART	sem cobre
+/TXD0/GPIO1	sem cobre
+/USBC_D+	sem cobre
+/USBC_D-	sem cobre
+/USB_5V	sem cobre
+/VIO_SENSE	sem cobre
+/VM_FUSED	sem cobre
+/VM_MOTOR	sem cobre
+GND	sem cobre
+Net-(D1-A)	sem cobre
+Net-(D2-A)	sem cobre
+Net-(J1-CC1)	sem cobre
+Net-(J1-CC2)	sem cobre
+Net-(Q1-B)	sem cobre
+Net-(Q2-B)	sem cobre
+Net-(Q3-Gate)	sem cobre
+Net-(Q4-Gate)	sem cobre
+Net-(U2-FB)	sem cobre
+Net-(U2-SW)	sem cobre
+Net-(U3-VBUS)	sem cobre
+Net-(U3-~{RST})	sem cobre
+Net-(U4-BATP)	sem cobre
+Net-(U4-BTST1)	sem cobre
+Net-(U4-BTST2)	sem cobre
+Net-(U4-PMID)	sem cobre
+Net-(U4-PROG)	sem cobre
+Net-(U4-SDRV)	sem cobre
+Net-(U4-SW1)	sem cobre
+Net-(U4-SW2)	sem cobre

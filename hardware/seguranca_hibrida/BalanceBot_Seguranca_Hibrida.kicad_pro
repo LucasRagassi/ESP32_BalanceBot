@@ -1,1 +1,275 @@
-{}
+{
+  "net_settings": {
+    "meta": {
+      "version": 4
+    },
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 2147483647
+      },
+      {
+        "name": "Sinal_Engenharia",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 1
+      },
+      {
+        "name": "Kelvin",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 2
+      },
+      {
+        "name": "Auxiliar_250mA_Estudo",
+        "clearance": 0.2,
+        "track_width": 0.45,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 3
+      },
+      {
+        "name": "Potencia_Pendente",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 4
+      },
+      {
+        "name": "USB_Impedancia_Pendente",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 5
+      }
+    ],
+    "netclass_assignments": {
+      "/ARM_BAR": [
+        "Sinal_Engenharia"
+      ],
+      "/ARM_LATCH": [
+        "Sinal_Engenharia"
+      ],
+      "/ARM_SAMPLE": [
+        "Sinal_Engenharia"
+      ],
+      "/CHECK_REF": [
+        "Sinal_Engenharia"
+      ],
+      "/CHECK_REF_SRC": [
+        "Sinal_Engenharia"
+      ],
+      "/COIL_5V": [
+        "Sinal_Engenharia"
+      ],
+      "/COIL_GATE": [
+        "Sinal_Engenharia"
+      ],
+      "/COIL_N": [
+        "Sinal_Engenharia"
+      ],
+      "/COIL_P": [
+        "Sinal_Engenharia"
+      ],
+      "/COIL_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/CT_VIO": [
+        "Sinal_Engenharia"
+      ],
+      "/DGATE": [
+        "Sinal_Engenharia"
+      ],
+      "/DUMP_3V3": [
+        "Sinal_Engenharia"
+      ],
+      "/DUMP_CMD": [
+        "Sinal_Engenharia"
+      ],
+      "/DUMP_GATE": [
+        "Sinal_Engenharia"
+      ],
+      "/DUMP_LOW": [
+        "Sinal_Engenharia"
+      ],
+      "/DUMP_REF": [
+        "Sinal_Engenharia"
+      ],
+      "/DUMP_S": [
+        "Sinal_Engenharia"
+      ],
+      "/EN_HW": [
+        "Sinal_Engenharia"
+      ],
+      "/FAULT_N": [
+        "Sinal_Engenharia"
+      ],
+      "/HGATE": [
+        "Sinal_Engenharia"
+      ],
+      "/HOST_ARM_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/HOST_VIO_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/OV_POST_K": [
+        "Sinal_Engenharia"
+      ],
+      "/PACK_RTN": [
+        "Sinal_Engenharia"
+      ],
+      "/PB_FILT": [
+        "Sinal_Engenharia"
+      ],
+      "/PB_NC_FILT": [
+        "Sinal_Engenharia"
+      ],
+      "/PB_NC_SW": [
+        "Sinal_Engenharia"
+      ],
+      "/PB_PRESS": [
+        "Sinal_Engenharia"
+      ],
+      "/PB_RELEASE": [
+        "Sinal_Engenharia"
+      ],
+      "/PB_SW": [
+        "Sinal_Engenharia"
+      ],
+      "/PERMIT_HW": [
+        "Sinal_Engenharia"
+      ],
+      "/PM_GATE": [
+        "Sinal_Engenharia"
+      ],
+      "/PRECHECK_OK": [
+        "Sinal_Engenharia"
+      ],
+      "/PRESS_SEEN": [
+        "Sinal_Engenharia"
+      ],
+      "/QUAL_BUF": [
+        "Sinal_Engenharia"
+      ],
+      "/QUAL_READY_IN": [
+        "Sinal_Engenharia"
+      ],
+      "/QUAL_WDI": [
+        "Sinal_Engenharia"
+      ],
+      "/QUAL_WDI_IN": [
+        "Sinal_Engenharia"
+      ],
+      "/RAMP": [
+        "Sinal_Engenharia"
+      ],
+      "/REF_OV": [
+        "Sinal_Engenharia"
+      ],
+      "/REF_UV": [
+        "Sinal_Engenharia"
+      ],
+      "/SAFE_3V3": [
+        "Sinal_Engenharia"
+      ],
+      "/VCAP": [
+        "Sinal_Engenharia"
+      ],
+      "/VM_FUSED": [
+        "Potencia_Pendente"
+      ],
+      "/VM_K": [
+        "Potencia_Pendente"
+      ],
+      "/VM_K_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/VM_MID": [
+        "Potencia_Pendente"
+      ],
+      "/VM_MOTOR": [
+        "Potencia_Pendente"
+      ],
+      "/VM_OV_S": [
+        "Sinal_Engenharia"
+      ],
+      "/VM_PRESENT": [
+        "Sinal_Engenharia"
+      ],
+      "/VM_READY_TEST": [
+        "Sinal_Engenharia"
+      ],
+      "/VM_RESID_S": [
+        "Sinal_Engenharia"
+      ],
+      "/VM_UV_S": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(J201-Pin_2-Pad2)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(K201-Pad4)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U201-RTN_(NC)-Pad13)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U202-NC-Pad4)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U203-CT-Pad4)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U205-NC-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U206-NC-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U208-NC-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U209-NC-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U210-Q_N-Pad3)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U212-NC-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U213-CT-Pad4)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U217-DELAY-Pad7)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U217-DNC-Pad2)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U217-NC-Pad6)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U217-PG-Pad3)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U219-NC-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U221-REF-Pad5)": [
+        "Sinal_Engenharia"
+      ]
+    }
+  }
+}

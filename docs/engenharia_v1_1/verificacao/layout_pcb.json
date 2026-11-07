@@ -1,0 +1,378 @@
+{
+  "placed": 73,
+  "missing": [
+    [
+      "C6",
+      "sem footprint"
+    ],
+    [
+      "C7",
+      "sem footprint"
+    ],
+    [
+      "C8",
+      "sem footprint"
+    ],
+    [
+      "C9",
+      "sem footprint"
+    ],
+    [
+      "C10",
+      "sem footprint"
+    ],
+    [
+      "C11",
+      "sem footprint"
+    ],
+    [
+      "C12",
+      "sem footprint"
+    ],
+    [
+      "C13",
+      "sem footprint"
+    ],
+    [
+      "C14",
+      "sem footprint"
+    ],
+    [
+      "C15",
+      "sem footprint"
+    ],
+    [
+      "C16",
+      "sem footprint"
+    ],
+    [
+      "C17",
+      "sem footprint"
+    ],
+    [
+      "C18",
+      "sem footprint"
+    ],
+    [
+      "C19",
+      "sem footprint"
+    ],
+    [
+      "C20",
+      "sem footprint"
+    ],
+    [
+      "C21",
+      "sem footprint"
+    ],
+    [
+      "C22",
+      "sem footprint"
+    ],
+    [
+      "C23",
+      "sem footprint"
+    ],
+    [
+      "C24",
+      "sem footprint"
+    ],
+    [
+      "C25",
+      "sem footprint"
+    ],
+    [
+      "C26",
+      "sem footprint"
+    ],
+    [
+      "C27",
+      "sem footprint"
+    ],
+    [
+      "C28",
+      "sem footprint"
+    ],
+    [
+      "C30",
+      "sem footprint"
+    ],
+    [
+      "C31",
+      "sem footprint"
+    ],
+    [
+      "C32",
+      "sem footprint"
+    ],
+    [
+      "C33",
+      "sem footprint"
+    ],
+    [
+      "C37",
+      "sem footprint"
+    ],
+    [
+      "C40",
+      "sem footprint"
+    ],
+    [
+      "C43",
+      "sem footprint"
+    ],
+    [
+      "C46",
+      "sem footprint"
+    ],
+    [
+      "C49",
+      "sem footprint"
+    ],
+    [
+      "C50",
+      "sem footprint"
+    ],
+    [
+      "F1",
+      "sem footprint"
+    ],
+    [
+      "J2",
+      "sem footprint"
+    ],
+    [
+      "J3",
+      "sem footprint"
+    ],
+    [
+      "J4",
+      "sem footprint"
+    ],
+    [
+      "J5",
+      "sem footprint"
+    ],
+    [
+      "J6",
+      "sem footprint"
+    ],
+    [
+      "J7",
+      "sem footprint"
+    ],
+    [
+      "J8",
+      "sem footprint"
+    ],
+    [
+      "J9",
+      "sem footprint"
+    ],
+    [
+      "J10",
+      "sem footprint"
+    ],
+    [
+      "J12",
+      "sem footprint"
+    ],
+    [
+      "J13",
+      "sem footprint"
+    ],
+    [
+      "L1",
+      "sem footprint"
+    ],
+    [
+      "L2",
+      "sem footprint"
+    ],
+    [
+      "R1",
+      "sem footprint"
+    ],
+    [
+      "R2",
+      "sem footprint"
+    ],
+    [
+      "R5",
+      "sem footprint"
+    ],
+    [
+      "R6",
+      "sem footprint"
+    ],
+    [
+      "R8",
+      "sem footprint"
+    ],
+    [
+      "R12",
+      "sem footprint"
+    ],
+    [
+      "R13",
+      "sem footprint"
+    ],
+    [
+      "R14",
+      "sem footprint"
+    ],
+    [
+      "R15",
+      "sem footprint"
+    ],
+    [
+      "R19",
+      "sem footprint"
+    ],
+    [
+      "R20",
+      "sem footprint"
+    ],
+    [
+      "R21",
+      "sem footprint"
+    ],
+    [
+      "R22",
+      "sem footprint"
+    ],
+    [
+      "R23",
+      "sem footprint"
+    ],
+    [
+      "R24",
+      "sem footprint"
+    ],
+    [
+      "R25",
+      "sem footprint"
+    ],
+    [
+      "R26",
+      "sem footprint"
+    ],
+    [
+      "R27",
+      "sem footprint"
+    ],
+    [
+      "R28",
+      "sem footprint"
+    ]
+  ],
+  "segments": 239,
+  "route_pairs": [
+    [
+      "/BMS_KP",
+      "R16.2",
+      "R18.1"
+    ],
+    [
+      "/BMS_KN",
+      "R16.3",
+      "R17.1"
+    ],
+    [
+      "/BMS_SRN",
+      "C29.1",
+      "U5.7"
+    ],
+    [
+      "/BMS_SRN",
+      "C29.1",
+      "R17.2"
+    ],
+    [
+      "/BMS_SRP",
+      "C29.2",
+      "U5.6"
+    ],
+    [
+      "/BMS_SRP",
+      "C29.2",
+      "R18.2"
+    ],
+    [
+      "/M_A_CPI",
+      "C41.2",
+      "U6.5"
+    ],
+    [
+      "/M_A_CPO",
+      "C41.1",
+      "U6.4"
+    ],
+    [
+      "/M_A_VREF",
+      "R33.2",
+      "R34.1"
+    ],
+    [
+      "/M_A_VREF",
+      "R33.2",
+      "U6.17"
+    ],
+    [
+      "/M_B_CPI",
+      "C47.2",
+      "U7.5"
+    ],
+    [
+      "/M_B_CPO",
+      "C47.1",
+      "U7.4"
+    ],
+    [
+      "/M_B_VREF",
+      "R39.2",
+      "R40.1"
+    ],
+    [
+      "/M_B_VREF",
+      "R40.1",
+      "U7.17"
+    ],
+    [
+      "/IMU_DRDY",
+      "J11.5",
+      "R51.1"
+    ],
+    [
+      "/IMU_DRDY",
+      "R51.1",
+      "U1.6"
+    ],
+    [
+      "/IMU_SDA",
+      "J11.3",
+      "R49.2"
+    ],
+    [
+      "/IMU_SDA",
+      "R49.2",
+      "U1.33"
+    ],
+    [
+      "/IMU_SCL",
+      "J11.4",
+      "R50.2"
+    ],
+    [
+      "/IMU_SCL",
+      "J11.4",
+      "U1.36"
+    ],
+    [
+      "/FRAME_USED_TX",
+      "J14.1",
+      "U1.8"
+    ]
+  ],
+  "outline": false
+}

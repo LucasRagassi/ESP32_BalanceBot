@@ -1,0 +1,24 @@
+Rede	Estado
+/AUX_FB	completa no CAD
+/AUX_SENSE	completa no CAD
+/AUX_SW	completa no CAD
+/OBS_SCL	completa no CAD
+/OBS_SDA	completa no CAD
+/OBS_UART	completa no CAD
+/PACK_FUSED_AUX	completa no CAD
+/PICO_VSYS	completa no CAD
+/QUAL_READY	completa no CAD
+/QUAL_WDI	completa no CAD
+/READY_RAW	completa no CAD
+/TAP_SCL	completa no CAD
+/TAP_SDA	completa no CAD
+/AUX_5V	parcial
+/PACK_RTN	parcial
+/HOST_DRDY	sem cobre
+/HOST_FRAME_TX	sem cobre
+/HOST_SCL	sem cobre
+/HOST_SDA	sem cobre
+/OBS_DRDY	sem cobre
+/QUAL_3V3	sem cobre
+/TAP_DRDY	sem cobre
+/TAP_FRAME_TX	sem cobre

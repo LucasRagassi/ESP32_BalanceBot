@@ -1,0 +1,126 @@
+{
+  "placed": 97,
+  "missing": [
+    [
+      "J201",
+      "sem footprint"
+    ],
+    [
+      "J202",
+      "sem footprint"
+    ],
+    [
+      "J204",
+      "sem footprint"
+    ],
+    [
+      "J205",
+      "sem footprint"
+    ],
+    [
+      "J206",
+      "sem footprint"
+    ],
+    [
+      "J207",
+      "sem footprint"
+    ],
+    [
+      "K201",
+      "sem footprint"
+    ],
+    [
+      "R228",
+      "sem footprint"
+    ]
+  ],
+  "segments": 183,
+  "route_pairs": [
+    [
+      "/PB_PRESS",
+      "U208.4",
+      "U210.1"
+    ],
+    [
+      "/PB_RELEASE",
+      "U209.4",
+      "U211.1"
+    ],
+    [
+      "/PRESS_SEEN",
+      "U210.5",
+      "U222.2"
+    ],
+    [
+      "/PB_FILT",
+      "C208.1",
+      "R209.2"
+    ],
+    [
+      "/PB_FILT",
+      "R209.2",
+      "U208.2"
+    ],
+    [
+      "/PB_NC_FILT",
+      "C226.1",
+      "R233.2"
+    ],
+    [
+      "/PB_NC_FILT",
+      "R233.2",
+      "U209.2"
+    ],
+    [
+      "/PB_SW",
+      "R208.1",
+      "R209.1"
+    ],
+    [
+      "/PB_NC_SW",
+      "R232.1",
+      "R233.1"
+    ],
+    [
+      "/COIL_GATE",
+      "Q203.1",
+      "R210.2"
+    ],
+    [
+      "/COIL_GATE",
+      "R210.2",
+      "R211.1"
+    ],
+    [
+      "/PM_GATE",
+      "Q204.1",
+      "R212.2"
+    ],
+    [
+      "/PM_GATE",
+      "R212.2",
+      "R213.2"
+    ],
+    [
+      "/CHECK_REF_SRC",
+      "R235.1",
+      "U220.5"
+    ],
+    [
+      "/CHECK_REF",
+      "R235.2",
+      "R236.1"
+    ],
+    [
+      "/CHECK_REF",
+      "R236.1",
+      "U220.3"
+    ],
+    [
+      "/CHECK_REF",
+      "U220.3",
+      "U221.3"
+    ]
+  ],
+  "outline": false
+}

@@ -1,0 +1,55 @@
+Rede	Estado
+/CHECK_REF	completa no CAD
+/CHECK_REF_SRC	completa no CAD
+/COIL_GATE	completa no CAD
+/PB_FILT	completa no CAD
+/PB_NC_FILT	completa no CAD
+/PB_PRESS	completa no CAD
+/PB_RELEASE	completa no CAD
+/PM_GATE	completa no CAD
+/PRESS_SEEN	completa no CAD
+/PB_NC_SW	parcial
+/PB_SW	parcial
+/ARM_BAR	sem cobre
+/ARM_LATCH	sem cobre
+/ARM_SAMPLE	sem cobre
+/COIL_5V	sem cobre
+/COIL_N	sem cobre
+/COIL_P	sem cobre
+/COIL_SENSE	sem cobre
+/CT_VIO	sem cobre
+/DGATE	sem cobre
+/DUMP_3V3	sem cobre
+/DUMP_CMD	sem cobre
+/DUMP_GATE	sem cobre
+/DUMP_LOW	sem cobre
+/DUMP_REF	sem cobre
+/DUMP_S	sem cobre
+/EN_HW	sem cobre
+/FAULT_N	sem cobre
+/HGATE	sem cobre
+/HOST_ARM_SENSE	sem cobre
+/HOST_VIO_SENSE	sem cobre
+/OV_POST_K	sem cobre
+/PACK_RTN	sem cobre
+/PERMIT_HW	sem cobre
+/PRECHECK_OK	sem cobre
+/QUAL_BUF	sem cobre
+/QUAL_READY_IN	sem cobre
+/QUAL_WDI	sem cobre
+/QUAL_WDI_IN	sem cobre
+/RAMP	sem cobre
+/REF_OV	sem cobre
+/REF_UV	sem cobre
+/SAFE_3V3	sem cobre
+/VCAP	sem cobre
+/VM_FUSED	sem cobre
+/VM_K	sem cobre
+/VM_K_SENSE	sem cobre
+/VM_MID	sem cobre
+/VM_MOTOR	sem cobre
+/VM_OV_S	sem cobre
+/VM_PRESENT	sem cobre
+/VM_READY_TEST	sem cobre
+/VM_RESID_S	sem cobre
+/VM_UV_S	sem cobre

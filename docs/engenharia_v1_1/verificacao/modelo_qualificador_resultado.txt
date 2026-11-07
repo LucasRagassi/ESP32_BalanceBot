@@ -1,0 +1,3 @@
+Qualificador: quadros novos, conteúdo repetido com evento novo, sessão, CRC, idade, ordem, DRDY, I²C preso e truncado verificados.
+Rearme: pré-teste nas duas bordas, limpeza assíncrona e ausência de rearme por retorno verificadas no modelo.
+Sem ensaio físico, firmware de produção, simulação SPICE ou validação dos limites de tempo.

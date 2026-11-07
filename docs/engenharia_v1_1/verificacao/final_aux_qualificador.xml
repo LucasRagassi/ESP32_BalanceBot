@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/scratch/10b2961dc697/v11/rev/hardware/aux_qualificador/BalanceBot_Aux_Qualificador.kicad_sch</source>
+    <date>2026-11-07T09:46:33</date>
+    <tool>Eeschema 10.0.8-10.0.8~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BalanceBot - Auxiliar e qualificador</title>
+        <company/>
+        <rev>1.1 Engenharia</rev>
+        <date/>
+        <source>BalanceBot_Aux_Qualificador.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C301">
+      <value>10u 25V X7R</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f5ec20b-1aa4-5c68-9bcf-b433d4027e8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C302">
+      <value>100n 25V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d83ad05f-4332-52bb-a67c-8ca17b59ef51</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C303">
+      <value>22u 16V X7R</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cabad2b-9785-5fcf-b60b-4e7956bf88ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C304">
+      <value>4.7u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6359216b-9164-5d80-84e8-f000a841b135</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C305">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7850c844-fd49-5b84-a462-d3e798645662</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C306">
+      <value>100n X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>209f4786-6b14-5346-9ab7-c6a15bf46cfd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D301">
+      <value>SS14-E3/61T</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dedc7dc-e4fc-54a7-8c9d-64743468ee9f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J301">
+      <value>OBS: SCL/SDA/DRDY/TX</value>
+      <footprint>Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5eeafc9-25c7-5453-8b47-dd7b573324b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J302">
+      <value>PARA J204/J205</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc9f7325-cb9e-5965-89ae-d830772d6f60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J303">
+      <value>PACK FUSED / PACK-</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fbb1f7e-d21b-548e-819b-919d87d8a03c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L301">
+      <value>2.2u XAL4020-222MEC</value>
+      <footprint>Inductor_SMD:L_Coilcraft_XAL4020-XXX</footprint>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_Coilcraft_XAL4020-XXX</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1520a591-d7c1-5235-af5b-c6dcbfa50250</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R301">
+      <value>523k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>529c8a7f-c39e-5c36-8daf-f09a8b0c44ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R302">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a19cd8d-2453-5b64-80fe-fd9889523ddb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R303">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20678e14-0112-5e41-9566-d533a9f39913</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R304">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e6160d4-24fc-5d90-996b-ae5787ab502d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R305">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b33460a6-316a-5f04-8716-1bd953802681</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R306">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0be3e59-da3d-54cd-bd42-642ff1aebaad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R307">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c993d6f-416f-5186-bad4-2bb55909887a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R308">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>727e9ed0-0baa-5aee-b834-1983a5d4ddf8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R309">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>568b966f-0f78-5690-861c-3278ceadc6bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R310">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>889b2e49-22f6-5823-8dfd-2bdc7df4b535</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R311">
+      <value>105k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed16ce49-3355-5e6a-9fe2-65adc71f3bf7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R312">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82eee914-684e-52e5-b423-2b68d6e56208</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R313">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c0d442d-f26a-5116-9bd3-489d980dd983</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R314">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b64923e-5a69-5a15-89e7-3194b6aa5ef1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R315">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19c4b86f-3d39-516e-b19f-05e0dfade607</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U301">
+      <value>TPS62160DGKR</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS62160DGK" description="1A Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, VSSOP-8"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="ki_keywords" value="step-down dc-dc buck regulator"/>
+      <property name="ki_fp_filters" value="MSOP*3x3mm*P0.65mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2ff1404-45e7-5882-8229-5edce09166ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U302">
+      <value>SN74LVC125APWR</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Aux" part="SN74LVC125APW" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a15afef6-9343-5675-b1da-3962909a76ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="9"/>
+            <pin num="12"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="10"/>
+            <pin num="13"/>
+            <pin num="7"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="11"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U303">
+      <value>TPS3808G01DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="BalanceBot_Aux" part="TPS3808G01DBV" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>358bf2d4-b823-55ee-9ae1-ac566f63e1c5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U304">
+      <value>Raspberry Pi Pico (RP2040)</value>
+      <footprint>Module:RaspberryPi_Pico_Common_THT</footprint>
+      <fields>
+        <field name="Footprint">Module:RaspberryPi_Pico_Common_THT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU_Module" part="RaspberryPi_Pico" description="Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="BalanceBot_Aux_Qualificador.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="RP2350A M33 RISC-V Hazard3 usb"/>
+      <property name="ki_fp_filters" value="RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>567f9f33-e44d-5eb1-aa3a-2063016c8c15</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="30"/>
+            <pin num="37"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="23"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="38"/>
+            <pin num="13"/>
+            <pin num="28"/>
+            <pin num="18"/>
+            <pin num="36"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="35"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="33"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BalanceBot_Aux" part="SN74LVC125APW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC125APW</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE_N" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1Y" type="tri_state"/>
+        <pin num="4" name="2OE_N" type="input"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="2Y" type="tri_state"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="3Y" type="tri_state"/>
+        <pin num="9" name="3A" type="input"/>
+        <pin num="10" name="3OE_N" type="input"/>
+        <pin num="11" name="4Y" type="tri_state"/>
+        <pin num="12" name="4A" type="input"/>
+        <pin num="13" name="4OE_N" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BalanceBot_Aux" part="TPS3808G01DBV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3808G01DBV</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET_N" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="MR_N" type="input"/>
+        <pin num="4" name="CT" type="passive"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="RaspberryPi_Pico">
+      <description>Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2</description>
+      <docs>https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf</docs>
+      <footprints>
+        <fp>RaspberryPi?Pico?Common*</fp>
+        <fp>RaspberryPi?Pico?SMD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">RaspberryPi_Pico</field>
+        <field name="Footprint">Module:RaspberryPi_Pico_Common_Unspecified</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf</field>
+        <field name="Description">Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="passive"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_out"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_out"/>
+        <pin num="37" name="3V3_EN" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS62160DGK">
+      <description>1A Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps62160.pdf</docs>
+      <footprints>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62160DGK</field>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps62160.pdf</field>
+        <field name="Description">1A Step-Down Converter with DCS-Control, adjustable output, 3-17V input voltage, VSSOP-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="AGND" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="VOS" type="input"/>
+        <pin num="7" name="SW" type="output"/>
+        <pin num="8" name="PG" type="open_collector"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BalanceBot_Aux">
+      <uri>${KIPRJMOD}/BalanceBot_Aux.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>${KICAD10_SYMBOL_DIR}/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AUX_5V" class="Default">
+      <node ref="C303" pin="1" pintype="passive"/>
+      <node ref="D301" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J302" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="L301" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R301" pin="1" pintype="passive"/>
+      <node ref="R311" pin="1" pintype="passive"/>
+      <node ref="U301" pin="6" pinfunction="VOS_6" pintype="input"/>
+    </net>
+    <net code="2" name="/AUX_FB" class="Default">
+      <node ref="R301" pin="2" pintype="passive"/>
+      <node ref="R302" pin="1" pintype="passive"/>
+      <node ref="U301" pin="5" pinfunction="FB_5" pintype="input"/>
+    </net>
+    <net code="3" name="/AUX_SENSE" class="Default">
+      <node ref="R311" pin="2" pintype="passive"/>
+      <node ref="R312" pin="1" pintype="passive"/>
+      <node ref="U303" pin="5" pinfunction="SENSE_5" pintype="input"/>
+    </net>
+    <net code="4" name="/AUX_SW" class="Default">
+      <node ref="L301" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U301" pin="7" pinfunction="SW_7" pintype="output"/>
+    </net>
+    <net code="5" name="/HOST_DRDY" class="Default">
+      <node ref="J301" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R305" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/HOST_FRAME_TX" class="Default">
+      <node ref="J301" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="R306" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/HOST_SCL" class="Default">
+      <node ref="J301" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R303" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/HOST_SDA" class="Default">
+      <node ref="J301" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R304" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/OBS_DRDY" class="Default">
+      <node ref="U302" pin="8" pinfunction="3Y_8" pintype="tri_state"/>
+      <node ref="U304" pin="6" pinfunction="GPIO4_6" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/OBS_SCL" class="Default">
+      <node ref="U302" pin="3" pinfunction="1Y_3" pintype="tri_state"/>
+      <node ref="U304" pin="4" pinfunction="GPIO2_4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/OBS_SDA" class="Default">
+      <node ref="U302" pin="6" pinfunction="2Y_6" pintype="tri_state"/>
+      <node ref="U304" pin="5" pinfunction="GPIO3_5" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/OBS_UART" class="Default">
+      <node ref="U302" pin="11" pinfunction="4Y_11" pintype="tri_state"/>
+      <node ref="U304" pin="2" pinfunction="GPIO1_2" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/PACK_FUSED_AUX" class="Default">
+      <node ref="C301" pin="1" pintype="passive"/>
+      <node ref="C302" pin="1" pintype="passive"/>
+      <node ref="J303" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U301" pin="2" pinfunction="VIN_2" pintype="power_in"/>
+      <node ref="U301" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="14" name="/PACK_RTN" class="Default">
+      <node ref="C301" pin="2" pintype="passive"/>
+      <node ref="C302" pin="2" pintype="passive"/>
+      <node ref="C303" pin="2" pintype="passive"/>
+      <node ref="C304" pin="2" pintype="passive"/>
+      <node ref="C305" pin="2" pintype="passive"/>
+      <node ref="C306" pin="2" pintype="passive"/>
+      <node ref="J301" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J302" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J303" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R302" pin="2" pintype="passive"/>
+      <node ref="R307" pin="2" pintype="passive"/>
+      <node ref="R308" pin="2" pintype="passive"/>
+      <node ref="R309" pin="2" pintype="passive"/>
+      <node ref="R310" pin="2" pintype="passive"/>
+      <node ref="R312" pin="2" pintype="passive"/>
+      <node ref="R314" pin="2" pintype="passive"/>
+      <node ref="R315" pin="2" pintype="passive"/>
+      <node ref="U301" pin="1" pinfunction="PGND_1" pintype="power_in"/>
+      <node ref="U301" pin="4" pinfunction="AGND_4" pintype="power_in"/>
+      <node ref="U302" pin="1" pinfunction="1OE_N_1" pintype="input"/>
+      <node ref="U302" pin="10" pinfunction="3OE_N_10" pintype="input"/>
+      <node ref="U302" pin="13" pinfunction="4OE_N_13" pintype="input"/>
+      <node ref="U302" pin="4" pinfunction="2OE_N_4" pintype="input"/>
+      <node ref="U302" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U303" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U304" pin="13" pinfunction="GND_13" pintype="passive"/>
+      <node ref="U304" pin="18" pinfunction="GND_18" pintype="passive"/>
+      <node ref="U304" pin="23" pinfunction="GND_23" pintype="passive"/>
+      <node ref="U304" pin="28" pinfunction="GND_28" pintype="passive"/>
+      <node ref="U304" pin="3" pinfunction="GND_3" pintype="power_out"/>
+      <node ref="U304" pin="38" pinfunction="GND_38" pintype="passive"/>
+      <node ref="U304" pin="8" pinfunction="GND_8" pintype="passive"/>
+    </net>
+    <net code="15" name="/PICO_VSYS" class="Default">
+      <node ref="C304" pin="1" pintype="passive"/>
+      <node ref="D301" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U304" pin="39" pinfunction="VSYS_39" pintype="power_in"/>
+    </net>
+    <net code="16" name="/QUAL_3V3" class="Default">
+      <node ref="C305" pin="1" pintype="passive"/>
+      <node ref="C306" pin="1" pintype="passive"/>
+      <node ref="U302" pin="14" pinfunction="VCC_14" pintype="power_in"/>
+      <node ref="U303" pin="3" pinfunction="MR_N_3" pintype="input"/>
+      <node ref="U303" pin="6" pinfunction="VDD_6" pintype="power_in"/>
+      <node ref="U304" pin="36" pinfunction="3V3_36" pintype="power_out"/>
+    </net>
+    <net code="17" name="/QUAL_READY" class="Default">
+      <node ref="J302" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R313" pin="2" pintype="passive"/>
+      <node ref="R314" pin="1" pintype="passive"/>
+      <node ref="U303" pin="1" pinfunction="RESET_N_1" pintype="open_collector"/>
+    </net>
+    <net code="18" name="/QUAL_WDI" class="Default">
+      <node ref="J302" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R315" pin="1" pintype="passive"/>
+      <node ref="U304" pin="22" pinfunction="GPIO17_22" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/READY_RAW" class="Default">
+      <node ref="R313" pin="1" pintype="passive"/>
+      <node ref="U304" pin="21" pinfunction="GPIO16_21" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/TAP_DRDY" class="Default">
+      <node ref="R305" pin="2" pintype="passive"/>
+      <node ref="R309" pin="1" pintype="passive"/>
+      <node ref="U302" pin="9" pinfunction="3A_9" pintype="input"/>
+    </net>
+    <net code="21" name="/TAP_FRAME_TX" class="Default">
+      <node ref="R306" pin="2" pintype="passive"/>
+      <node ref="R310" pin="1" pintype="passive"/>
+      <node ref="U302" pin="12" pinfunction="4A_12" pintype="input"/>
+    </net>
+    <net code="22" name="/TAP_SCL" class="Default">
+      <node ref="R303" pin="2" pintype="passive"/>
+      <node ref="R307" pin="1" pintype="passive"/>
+      <node ref="U302" pin="2" pinfunction="1A_2" pintype="input"/>
+    </net>
+    <net code="23" name="/TAP_SDA" class="Default">
+      <node ref="R304" pin="2" pintype="passive"/>
+      <node ref="R308" pin="1" pintype="passive"/>
+      <node ref="U302" pin="5" pinfunction="2A_5" pintype="input"/>
+    </net>
+    <net code="24" name="unconnected-(U301-PG-Pad8)" class="Default">
+      <node ref="U301" pin="8" pinfunction="PG_8" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U303-CT-Pad4)" class="Default">
+      <node ref="U303" pin="4" pinfunction="CT_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U304-3V3_EN-Pad37)" class="Default">
+      <node ref="U304" pin="37" pinfunction="3V3_EN_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U304-ADC_VREF-Pad35)" class="Default">
+      <node ref="U304" pin="35" pinfunction="ADC_VREF_35" pintype="power_in+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U304-AGND-Pad33)" class="Default">
+      <node ref="U304" pin="33" pinfunction="AGND_33" pintype="power_out+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U304-GPIO0-Pad1)" class="Default">
+      <node ref="U304" pin="1" pinfunction="GPIO0_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U304-GPIO5-Pad7)" class="Default">
+      <node ref="U304" pin="7" pinfunction="GPIO5_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U304-GPIO6-Pad9)" class="Default">
+      <node ref="U304" pin="9" pinfunction="GPIO6_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U304-GPIO7-Pad10)" class="Default">
+      <node ref="U304" pin="10" pinfunction="GPIO7_10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U304-GPIO8-Pad11)" class="Default">
+      <node ref="U304" pin="11" pinfunction="GPIO8_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U304-GPIO9-Pad12)" class="Default">
+      <node ref="U304" pin="12" pinfunction="GPIO9_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U304-GPIO10-Pad14)" class="Default">
+      <node ref="U304" pin="14" pinfunction="GPIO10_14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U304-GPIO11-Pad15)" class="Default">
+      <node ref="U304" pin="15" pinfunction="GPIO11_15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U304-GPIO12-Pad16)" class="Default">
+      <node ref="U304" pin="16" pinfunction="GPIO12_16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U304-GPIO13-Pad17)" class="Default">
+      <node ref="U304" pin="17" pinfunction="GPIO13_17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U304-GPIO14-Pad19)" class="Default">
+      <node ref="U304" pin="19" pinfunction="GPIO14_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U304-GPIO15-Pad20)" class="Default">
+      <node ref="U304" pin="20" pinfunction="GPIO15_20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U304-GPIO18-Pad24)" class="Default">
+      <node ref="U304" pin="24" pinfunction="GPIO18_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U304-GPIO19-Pad25)" class="Default">
+      <node ref="U304" pin="25" pinfunction="GPIO19_25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U304-GPIO20-Pad26)" class="Default">
+      <node ref="U304" pin="26" pinfunction="GPIO20_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U304-GPIO21-Pad27)" class="Default">
+      <node ref="U304" pin="27" pinfunction="GPIO21_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U304-GPIO22-Pad29)" class="Default">
+      <node ref="U304" pin="29" pinfunction="GPIO22_29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U304-GPIO26_ADC0-Pad31)" class="Default">
+      <node ref="U304" pin="31" pinfunction="GPIO26_ADC0_31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U304-GPIO27_ADC1-Pad32)" class="Default">
+      <node ref="U304" pin="32" pinfunction="GPIO27_ADC1_32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U304-GPIO28_ADC2-Pad34)" class="Default">
+      <node ref="U304" pin="34" pinfunction="GPIO28_ADC2_34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U304-RUN-Pad30)" class="Default">
+      <node ref="U304" pin="30" pinfunction="RUN_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U304-VBUS-Pad40)" class="Default">
+      <node ref="U304" pin="40" pinfunction="VBUS_40" pintype="power_out+no_connect"/>
+    </net>
+  </nets>
+</export>

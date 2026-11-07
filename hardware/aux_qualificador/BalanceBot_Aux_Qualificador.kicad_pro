@@ -1,0 +1,209 @@
+{
+  "net_settings": {
+    "meta": {
+      "version": 4
+    },
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 2147483647
+      },
+      {
+        "name": "Sinal_Engenharia",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 1
+      },
+      {
+        "name": "Kelvin",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 2
+      },
+      {
+        "name": "Auxiliar_250mA_Estudo",
+        "clearance": 0.2,
+        "track_width": 0.45,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 3
+      },
+      {
+        "name": "Potencia_Pendente",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 4
+      },
+      {
+        "name": "USB_Impedancia_Pendente",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 5
+      }
+    ],
+    "netclass_assignments": {
+      "/AUX_5V": [
+        "Auxiliar_250mA_Estudo"
+      ],
+      "/AUX_FB": [
+        "Sinal_Engenharia"
+      ],
+      "/AUX_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/AUX_SW": [
+        "Auxiliar_250mA_Estudo"
+      ],
+      "/HOST_DRDY": [
+        "Sinal_Engenharia"
+      ],
+      "/HOST_FRAME_TX": [
+        "Sinal_Engenharia"
+      ],
+      "/HOST_SCL": [
+        "Sinal_Engenharia"
+      ],
+      "/HOST_SDA": [
+        "Sinal_Engenharia"
+      ],
+      "/OBS_DRDY": [
+        "Sinal_Engenharia"
+      ],
+      "/OBS_SCL": [
+        "Sinal_Engenharia"
+      ],
+      "/OBS_SDA": [
+        "Sinal_Engenharia"
+      ],
+      "/OBS_UART": [
+        "Sinal_Engenharia"
+      ],
+      "/PACK_FUSED_AUX": [
+        "Auxiliar_250mA_Estudo"
+      ],
+      "/PACK_RTN": [
+        "Sinal_Engenharia"
+      ],
+      "/PICO_VSYS": [
+        "Auxiliar_250mA_Estudo"
+      ],
+      "/QUAL_3V3": [
+        "Sinal_Engenharia"
+      ],
+      "/QUAL_READY": [
+        "Sinal_Engenharia"
+      ],
+      "/QUAL_WDI": [
+        "Sinal_Engenharia"
+      ],
+      "/READY_RAW": [
+        "Sinal_Engenharia"
+      ],
+      "/TAP_DRDY": [
+        "Sinal_Engenharia"
+      ],
+      "/TAP_FRAME_TX": [
+        "Sinal_Engenharia"
+      ],
+      "/TAP_SCL": [
+        "Sinal_Engenharia"
+      ],
+      "/TAP_SDA": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U301-PG-Pad8)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U303-CT-Pad4)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-3V3_EN-Pad37)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-ADC_VREF-Pad35)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-AGND-Pad33)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO0-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO5-Pad7)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO6-Pad9)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO7-Pad10)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO8-Pad11)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO9-Pad12)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO10-Pad14)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO11-Pad15)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO12-Pad16)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO13-Pad17)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO14-Pad19)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO15-Pad20)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO18-Pad24)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO19-Pad25)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO20-Pad26)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO21-Pad27)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO22-Pad29)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO26_ADC0-Pad31)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO27_ADC1-Pad32)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-GPIO28_ADC2-Pad34)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-RUN-Pad30)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U304-VBUS-Pad40)": [
+        "Sinal_Engenharia"
+      ]
+    }
+  }
+}

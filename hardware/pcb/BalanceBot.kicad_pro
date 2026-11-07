@@ -515,13 +515,537 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Sinal_Engenharia",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 1
+      },
+      {
+        "name": "Kelvin",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 2
+      },
+      {
+        "name": "Auxiliar_250mA_Estudo",
+        "clearance": 0.2,
+        "track_width": 0.45,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 3
+      },
+      {
+        "name": "Potencia_Pendente",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 4
+      },
+      {
+        "name": "USB_Impedancia_Pendente",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "priority": 5
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {},
+    "netclass_assignments": {
+      "+3V3": [
+        "Sinal_Engenharia"
+      ],
+      "/ARM_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/B+": [
+        "Potencia_Pendente"
+      ],
+      "/B-": [
+        "Potencia_Pendente"
+      ],
+      "/BM": [
+        "Sinal_Engenharia"
+      ],
+      "/BMS_BAT": [
+        "Sinal_Engenharia"
+      ],
+      "/BMS_CHG_DRV": [
+        "Sinal_Engenharia"
+      ],
+      "/BMS_DRAIN_COMMON": [
+        "Potencia_Pendente"
+      ],
+      "/BMS_DSG_DRV": [
+        "Sinal_Engenharia"
+      ],
+      "/BMS_KN": [
+        "Kelvin"
+      ],
+      "/BMS_KP": [
+        "Kelvin"
+      ],
+      "/BMS_REGOUT": [
+        "Sinal_Engenharia"
+      ],
+      "/BMS_REGSRC": [
+        "Sinal_Engenharia"
+      ],
+      "/BMS_SCL": [
+        "Sinal_Engenharia"
+      ],
+      "/BMS_SDA": [
+        "Sinal_Engenharia"
+      ],
+      "/BMS_SRN": [
+        "Kelvin"
+      ],
+      "/BMS_SRP": [
+        "Kelvin"
+      ],
+      "/BMS_TS": [
+        "Sinal_Engenharia"
+      ],
+      "/CELL0_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/CELL1_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/CELL2_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/CHG_CE_N": [
+        "Sinal_Engenharia"
+      ],
+      "/CHG_TS": [
+        "Sinal_Engenharia"
+      ],
+      "/CP2102_3V3": [
+        "Sinal_Engenharia"
+      ],
+      "/CP2102_DTR": [
+        "Sinal_Engenharia"
+      ],
+      "/CP2102_RTS": [
+        "Sinal_Engenharia"
+      ],
+      "/ENN_LOGIC": [
+        "Sinal_Engenharia"
+      ],
+      "/ESP32_EN": [
+        "Sinal_Engenharia"
+      ],
+      "/FRAME_USED_TX": [
+        "Sinal_Engenharia"
+      ],
+      "/GPIO0": [
+        "Sinal_Engenharia"
+      ],
+      "/I2C_SCL": [
+        "Sinal_Engenharia"
+      ],
+      "/I2C_SDA": [
+        "Sinal_Engenharia"
+      ],
+      "/IMU_DRDY": [
+        "Sinal_Engenharia"
+      ],
+      "/IMU_OK": [
+        "Sinal_Engenharia"
+      ],
+      "/IMU_SCL": [
+        "Sinal_Engenharia"
+      ],
+      "/IMU_SDA": [
+        "Sinal_Engenharia"
+      ],
+      "/M_ARM_GPIO": [
+        "Sinal_Engenharia"
+      ],
+      "/M_ARM_OK": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_5VOUT": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_A1": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_A2": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_B1": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_B2": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_BRA": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_BRB": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_CPI": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_CPO": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_DIR": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_STEP": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_VCP": [
+        "Sinal_Engenharia"
+      ],
+      "/M_A_VREF": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_5VOUT": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_A1": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_A2": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_B1": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_B2": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_BRA": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_BRB": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_CPI": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_CPO": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_DIR": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_STEP": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_VCP": [
+        "Sinal_Engenharia"
+      ],
+      "/M_B_VREF": [
+        "Sinal_Engenharia"
+      ],
+      "/M_ENN": [
+        "Sinal_Engenharia"
+      ],
+      "/PWR_OK": [
+        "Sinal_Engenharia"
+      ],
+      "/REGN": [
+        "Sinal_Engenharia"
+      ],
+      "/RXD0/GPIO3": [
+        "Sinal_Engenharia"
+      ],
+      "/SHUNT_OUT": [
+        "Potencia_Pendente"
+      ],
+      "/SYS_PWR": [
+        "Potencia_Pendente"
+      ],
+      "/TMC_TX": [
+        "Sinal_Engenharia"
+      ],
+      "/TMC_UART": [
+        "Sinal_Engenharia"
+      ],
+      "/TXD0/GPIO1": [
+        "Sinal_Engenharia"
+      ],
+      "/USBC_D+": [
+        "USB_Impedancia_Pendente"
+      ],
+      "/USBC_D-": [
+        "USB_Impedancia_Pendente"
+      ],
+      "/USB_5V": [
+        "Sinal_Engenharia"
+      ],
+      "/VIO_SENSE": [
+        "Sinal_Engenharia"
+      ],
+      "/VM_FUSED": [
+        "Potencia_Pendente"
+      ],
+      "/VM_MOTOR": [
+        "Potencia_Pendente"
+      ],
+      "Earth": [
+        "Sinal_Engenharia"
+      ],
+      "GND": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(D1-A)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(D2-A)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(J1-CC1)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(J1-CC2)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(Q1-B)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(Q2-B)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(Q3-Gate)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(Q4-Gate)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U2-FB)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U2-SW)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U3-VBUS)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U3-~{RST})": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U4-BATP)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U4-BTST1)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U4-BTST2)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U4-PMID)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U4-PROG)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U4-SDRV)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U4-SW1)": [
+        "Sinal_Engenharia"
+      ],
+      "Net-(U4-SW2)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(D1-NC-Pad2)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(D2-NC-Pad2)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(J1-SBU1-PadA8)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(J1-SBU2-PadB8)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(J7-Pin_2-Pad2)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO2-Pad24)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO4-Pad26)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO5-Pad29)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO12-Pad14)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO13-Pad16)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO15-Pad23)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO16-Pad27)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO17-Pad28)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO33-Pad9)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-IO35-Pad7)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-NC-Pad17)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-NC-Pad18)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-NC-Pad19)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-NC-Pad20)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-NC-Pad21)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-NC-Pad22)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-NC-Pad32)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-SENSOR_VN-Pad5)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U1-SENSOR_VP-Pad4)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U2-PG-Pad8)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-CHR0-Pad15)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-CHR1-Pad14)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-CHREN-Pad13)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-GPIO.4-Pad22)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-GPIO.5-Pad21)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-GPIO.6-Pad20)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-NC-Pad10)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-RS485/GPIO.2-Pad17)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-SUSPEND-Pad12)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{CTS}-Pad23)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{DCD}-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{DSR}-Pad27)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{RI}/CLK-Pad2)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{RXT}/GPIO.1-Pad18)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{SUSPEND}-Pad11)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{TXT}/GPIO.0-Pad19)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{WAKEUP}/GPIO.3-Pad16)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U4-D+-Pad6)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U4-D--Pad7)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U4-STAT-Pad1)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U4-~{INT}-Pad21)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U4-~{QON}-Pad12)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U5-ALERT-Pad14)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U6-DIAG-Pad11)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U6-INDEX-Pad12)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U7-DIAG-Pad11)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U7-INDEX-Pad12)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U9-CT-Pad4)": [
+        "Sinal_Engenharia"
+      ],
+      "/RXD0{slash}GPIO3": [
+        "Sinal_Engenharia"
+      ],
+      "/TXD0{slash}GPIO1": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-RS485{slash}GPIO.2-Pad17)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{RI}{slash}CLK-Pad2)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{RXT}{slash}GPIO.1-Pad18)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{TXT}{slash}GPIO.0-Pad19)": [
+        "Sinal_Engenharia"
+      ],
+      "unconnected-(U3-~{WAKEUP}{slash}GPIO.3-Pad16)": [
+        "Sinal_Engenharia"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
